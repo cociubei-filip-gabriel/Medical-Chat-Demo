@@ -1,0 +1,349 @@
+﻿<!-- ============================= -->
+<!-- PATIENT DASHBOARD - FINAL -->
+<!-- ============================= -->
+
+<Page
+    x:Class="ChatMEDICAL.Views.PatientDashboard"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Background="#F4FAFF">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- HEADER -->
+        <Border
+    Grid.Row="0"
+    Background="#DFF4FF"
+    Padding="40,45,40,45">
+
+            <StackPanel VerticalAlignment="Center">
+                <Button x:ConnectionId='12'
+    Content="← Back"
+    Width="100"
+    Height="40"
+    HorizontalAlignment="Left"
+    Background="#BFE9FF"
+    Foreground="#123B5D"
+    FontWeight="Bold"
+    Margin="0,0,0,15"
+                      />
+
+                <TextBlock
+                    Text="Welcome, Patient 👋"
+                    FontSize="38"
+                    FontWeight="Bold"
+                    Foreground="#123B5D"
+                    Margin="0,0,0,8"/>
+
+                <TextBlock
+                    Text="Choose your specialty, doctor and schedule your appointment easily"
+                    FontSize="17"
+                    Foreground="Gray"
+                    TextWrapping="Wrap"/>
+
+            </StackPanel>
+        </Border>
+
+        <!-- MAIN CONTENT -->
+        <ScrollViewer Grid.Row="1">
+
+            <StackPanel Padding="30" Spacing="25">
+
+                <!-- Specialty -->
+                <Border
+                    Background="White"
+                    CornerRadius="18"
+                    Padding="25"
+                    BorderBrush="#DCEEFF"
+                    BorderThickness="2">
+
+                    <StackPanel Spacing="15">
+
+                        <TextBlock
+                            Text="Choose Medical Specialty"
+                            FontSize="22"
+                            FontWeight="Bold"
+                            Foreground="#123B5D"/>
+
+                        <ComboBox x:ConnectionId='11'
+    x:Name="SpecialtyComboBox"
+    PlaceholderText="Select Specialty"
+                                                         >
+
+                            <ComboBoxItem Content="Cardiology"/>
+                            <ComboBoxItem Content="Dermatology"/>
+                            <ComboBoxItem Content="Orthopedics"/>
+                            <ComboBoxItem Content="Neurology"/>
+                            <ComboBoxItem Content="Pediatrics"/>
+                            <ComboBoxItem Content="Gynecology"/>
+                            <ComboBoxItem Content="Ophthalmology"/>
+                            <ComboBoxItem Content="ENT"/>
+                            <ComboBoxItem Content="Urology"/>
+                            <ComboBoxItem Content="Gastroenterology"/>
+                            <ComboBoxItem Content="Endocrinology"/>
+                            <ComboBoxItem Content="Pulmonology"/>
+                            <ComboBoxItem Content="Psychiatry"/>
+                            <ComboBoxItem Content="Oncology"/>
+                            <ComboBoxItem Content="General Surgery"/>
+                            <ComboBoxItem Content="Plastic Surgery"/>
+                            <ComboBoxItem Content="Rheumatology"/>
+                            <ComboBoxItem Content="Nephrology"/>
+                            <ComboBoxItem Content="Infectious Diseases"/>
+                            <ComboBoxItem Content="Diabetology"/>
+                            <ComboBoxItem Content="Family Medicine"/>
+
+                        </ComboBox>
+
+                    </StackPanel>
+                </Border>
+                <!-- Available Doctors -->
+                <Border
+    Background="White"
+    CornerRadius="18"
+    Padding="25"
+    BorderBrush="#DCEEFF"
+    BorderThickness="2">
+
+                    <StackPanel Spacing="15">
+
+                        <TextBlock
+            Text="Choose Your Doctor"
+            FontSize="22"
+            FontWeight="Bold"
+            Foreground="#123B5D"/>
+
+                        <ComboBox x:ConnectionId='10'
+            x:Name="DoctorComboBox"
+            PlaceholderText="Select Doctor"/>
+
+                    </StackPanel>
+                </Border>
+
+                <!-- Chief Nurses -->
+                <Border
+    Background="White"
+    CornerRadius="18"
+    Padding="25"
+    BorderBrush="#DCEEFF"
+    BorderThickness="2">
+
+                    <StackPanel Spacing="15">
+
+                        <TextBlock
+            Text="Chief Nurses by Department"
+            FontSize="22"
+            FontWeight="Bold"
+            Foreground="#123B5D"/>
+
+                        <ComboBox PlaceholderText="Choose Chief Nurse">
+
+                            <!-- Cardiology -->
+                            <ComboBoxItem Content="Asist. Șefă Elena Popa — Cardiology"/>
+
+                            <!-- Dermatology -->
+                            <ComboBoxItem Content="Asist. Șefă Mihaela Radu — Dermatology"/>
+
+                            <!-- Orthopedics -->
+                            <ComboBoxItem Content="Asist. Șefă Cristina Luca — Orthopedics"/>
+
+                            <!-- Neurology -->
+                            <ComboBoxItem Content="Asist. Șefă Adriana Pavel — Neurology"/>
+
+                            <!-- Pediatrics -->
+                            <ComboBoxItem Content="Asist. Șefă Florina Iancu — Pediatrics"/>
+
+                            <!-- Gynecology -->
+                            <ComboBoxItem Content="Asist. Șefă Ramona Tudor — Gynecology"/>
+
+                            <!-- Ophthalmology -->
+                            <ComboBoxItem Content="Asist. Șefă Silvia Matei — Ophthalmology"/>
+
+                            <!-- ENT -->
+                            <ComboBoxItem Content="Asist. Șefă Gabriela Dinu — ENT"/>
+
+                            <!-- Urology -->
+                            <ComboBoxItem Content="Asist. Șefă Monica Rusu — Urology"/>
+
+                            <!-- Gastroenterology -->
+                            <ComboBoxItem Content="Asist. Șefă Claudia Pavel — Gastroenterology"/>
+
+                            <!-- Endocrinology -->
+                            <ComboBoxItem Content="Asist. Șefă Raluca Neagu — Endocrinology"/>
+
+                            <!-- Pulmonology -->
+                            <ComboBoxItem Content="Asist. Șefă Larisa Popa — Pulmonology"/>
+
+                            <!-- Psychiatry -->
+                            <ComboBoxItem Content="Asist. Șefă Sorina Matei — Psychiatry"/>
+
+                            <!-- Oncology -->
+                            <ComboBoxItem Content="Asist. Șefă Andrada Marinescu — Oncology"/>
+
+                            <!-- General Surgery -->
+                            <ComboBoxItem Content="Asist. Șefă Daniela Ionescu — General Surgery"/>
+
+                            <!-- Plastic Surgery -->
+                            <ComboBoxItem Content="Asist. Șefă Ioana Stan — Plastic Surgery"/>
+
+                            <!-- Rheumatology -->
+                            <ComboBoxItem Content="Asist. Șefă Carmen Dobre — Rheumatology"/>
+
+                            <!-- Nephrology -->
+                            <ComboBoxItem Content="Asist. Șefă Monica Tudor — Nephrology"/>
+
+                            <!-- Infectious Diseases -->
+                            <ComboBoxItem Content="Asist. Șefă Andreea Pop — Infectious Diseases"/>
+
+                            <!-- Diabetology -->
+                            <ComboBoxItem Content="Asist. Șefă Bianca Luca — Diabetology"/>
+
+                            <!-- Family Medicine -->
+                            <ComboBoxItem Content="Asist. Șefă Cristina Dinu — Family Medicine"/>
+
+                        </ComboBox>
+
+                    </StackPanel>
+                </Border>
+
+                <!-- Appointment -->
+                <Border
+    Background="White"
+    CornerRadius="18"
+    Padding="25"
+    BorderBrush="#DCEEFF"
+    BorderThickness="2">
+
+                    <StackPanel Spacing="15">
+
+                        <TextBlock
+            Text="Request Appointment"
+            FontSize="22"
+            FontWeight="Bold"
+            Foreground="#123B5D"/>
+
+                        <DatePicker x:ConnectionId='7'
+            x:Name="AppointmentDatePicker"
+            Header="Choose Appointment Date"/>
+
+                        <TimePicker x:ConnectionId='8'
+            x:Name="AppointmentTimePicker"
+            Header="Choose Time"/>
+
+                        <Button x:ConnectionId='9'
+            Content="Book Appointment"
+            Height="52"
+            Background="#BFE9FF"
+            Foreground="#123B5D"
+            FontWeight="Bold"
+                                         />
+
+                    </StackPanel>
+                </Border>
+
+                <!-- Chat Access -->
+                <Border
+    Background="#F8FCFF"
+    CornerRadius="18"
+    Padding="25"
+    BorderBrush="#DCEEFF"
+    BorderThickness="2">
+
+                    <StackPanel Spacing="10">
+
+                        <TextBlock
+            Text="Chat Access"
+            FontSize="22"
+            FontWeight="Bold"
+            Foreground="#123B5D"/>
+
+                        <TextBlock
+            Text="After your appointment is confirmed, your private doctor chat will be activated here."
+            FontSize="15"
+            Foreground="Gray"
+            TextWrapping="Wrap"/>
+
+                    </StackPanel>
+                </Border>
+
+
+                <!-- QUICK ACCESS -->
+                <Border
+    Background="White"
+    CornerRadius="18"
+    Padding="25"
+    BorderBrush="#DCEEFF"
+    BorderThickness="2">
+
+                    <StackPanel Spacing="15">
+
+                        <TextBlock
+            Text="Quick Access"
+            FontSize="22"
+            FontWeight="Bold"
+            Foreground="#123B5D"/>
+
+                        <StackPanel Orientation="Horizontal" Spacing="15">
+
+                            <Button x:ConnectionId='2'
+                Content="My Profile"
+                Height="50"
+                Width="180"
+                Background="#BFE9FF"
+                Foreground="#123B5D"
+                FontWeight="Bold"
+                                     />
+
+                            <Button x:ConnectionId='3'
+                Content="My Prescriptions"
+                Height="50"
+                Width="180"
+                Background="#BFE9FF"
+                Foreground="#123B5D"
+                FontWeight="Bold"
+                                          />
+
+                            <Button x:ConnectionId='4'
+                Content="Appointment History"
+                Height="50"
+                Width="180"
+                Background="#BFE9FF"
+                Foreground="#123B5D"
+                FontWeight="Bold"
+                                     />
+
+                            <Button x:ConnectionId='5'
+                Content="Upload Medical Files"
+                Height="50"
+                Width="180"
+                Background="#BFE9FF"
+                Foreground="#123B5D"
+                FontWeight="Bold"
+                                         />
+
+                            <Button x:ConnectionId='6'
+                Content="Open Chat"
+                Height="50"
+                Width="180"
+                Background="#BFE9FF"
+                Foreground="#123B5D"
+                FontWeight="Bold"
+                                      />
+
+                        </StackPanel>
+
+                    </StackPanel>
+
+                </Border>
+
+            </StackPanel>
+
+        </ScrollViewer>
+
+    </Grid>
+
+</Page>
+

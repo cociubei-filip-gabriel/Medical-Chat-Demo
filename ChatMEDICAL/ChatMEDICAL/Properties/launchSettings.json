@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ChatMEDICAL (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ChatMEDICAL (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

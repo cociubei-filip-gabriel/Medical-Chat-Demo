@@ -1,0 +1,624 @@
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.exe
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.deps.json
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.runtimeconfig.json
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.pdb
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Web.WebView2.Core.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Graphics.Imaging.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.ContentSafety.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.Foundation.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.Imaging.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.Text.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Security.Authentication.OAuth.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppLifecycle.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppNotifications.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.Background.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.BadgeNotifications.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Foundation.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Management.Deployment.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Media.Capture.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.PushNotifications.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Security.AccessControl.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Storage.Pickers.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Storage.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.System.Power.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.System.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.InteractiveExperiences.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.ML.OnnxRuntime.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.MachineLearning.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Widgets.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WinUI.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Numerics.Tensors.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WebView2Loader.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.CSharp.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.VisualBasic.Core.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.VisualBasic.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Win32.Primitives.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Win32.Registry.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.AppContext.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Buffers.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Concurrent.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Immutable.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.NonGeneric.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Specialized.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.Annotations.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.DataAnnotations.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.EventBasedAsync.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.Primitives.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.TypeConverter.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Configuration.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Console.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Core.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.Common.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.DataSetExtensions.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Contracts.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Debug.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.DiagnosticSource.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.FileVersionInfo.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Process.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.StackTrace.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.TextWriterTraceListener.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Tools.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.TraceSource.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Tracing.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Drawing.Primitives.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Drawing.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Dynamic.Runtime.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Formats.Asn1.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Formats.Tar.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.Calendars.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.Extensions.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.Brotli.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.FileSystem.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.ZipFile.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.AccessControl.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.DriveInfo.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.Primitives.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.Watcher.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.IsolatedStorage.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.MemoryMappedFiles.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Pipes.AccessControl.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Pipes.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.UnmanagedMemoryStream.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Expressions.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Parallel.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Queryable.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Memory.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Http.Json.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Http.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.HttpListener.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Mail.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.NameResolution.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.NetworkInformation.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Ping.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Primitives.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Quic.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Requests.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Security.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.ServicePoint.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Sockets.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebClient.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebHeaderCollection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebProxy.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebSockets.Client.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebSockets.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Numerics.Vectors.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Numerics.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ObjectModel.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.CoreLib.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.DataContractSerialization.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Uri.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Xml.Linq.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Xml.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.DispatchProxy.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.ILGeneration.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.Lightweight.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Extensions.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Metadata.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Primitives.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.TypeExtensions.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.Reader.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.ResourceManager.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.Writer.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.CompilerServices.Unsafe.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.CompilerServices.VisualC.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Extensions.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Handles.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.JavaScript.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Intrinsics.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Loader.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Numerics.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Formatters.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Json.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Primitives.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Xml.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.AccessControl.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Claims.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Algorithms.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Cng.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Csp.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Encoding.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.OpenSsl.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Primitives.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.X509Certificates.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Principal.Windows.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Principal.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.SecureString.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ServiceModel.Web.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ServiceProcess.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.CodePages.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.Extensions.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encodings.Web.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Json.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.RegularExpressions.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Channels.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Overlapped.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Dataflow.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Extensions.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Parallel.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Thread.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.ThreadPool.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Timer.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Transactions.Local.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Transactions.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ValueTuple.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Web.HttpUtility.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Web.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Windows.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.Linq.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.ReaderWriter.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.Serialization.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XDocument.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XPath.XDocument.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XPath.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XmlDocument.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XmlSerializer.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WindowsBase.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscorlib.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\netstandard.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.DiaSymReader.Native.amd64.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.Native.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clretwrc.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clrgc.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clrjit.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\coreclr.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\createdump.exe
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\hostfxr.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\hostpolicy.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordaccore.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordaccore_amd64_amd64_8.0.2626.16921.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordbi.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscorrc.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\msquic.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.SDK.NET.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WinRT.Runtime.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Web.WebView2.Core.Projection.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.csproj.AssemblyReference.cache
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.i.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.i.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\XamlTypeInfo.g.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xaml
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xaml
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\XamlSaveStateFile.xml
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.AssemblyInfoInputs.cache
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.AssemblyInfo.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.csproj.CoreCompileInputs.cache
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDI.85395DDC.Up2Date
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\refint\ChatMEDICAL.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.pdb
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.genruntimeconfig.cache
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ref\ChatMEDICAL.dll
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\priconfig.xml
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\priconfig.xml.intermediate
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\unfiltered.layout.resfiles
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\unfiltered.layout.resfiles.intermediate
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\filtered.layout.resfiles
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\filtered.layout.resfiles.intermediate
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\excluded.layout.resfiles
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\excluded.layout.resfiles.intermediate
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.resfiles
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.resfiles.intermediate
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pri.resfiles
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pri.resfiles.intermediate
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ProjectArchitectures.txt
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_638789222360000000.json
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\LoginPage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\LoginPage.g.i.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\LoginPage.g.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\LoginPage.xaml
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\LoginPage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PatientDashboard.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PatientDashboard.g.i.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PatientDashboard.g.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PatientDashboard.xaml
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PatientDashboard.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\RequestAccessPage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\RequestAccessPage.g.i.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\RequestAccessPage.g.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\RequestAccessPage.xaml
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\RequestAccessPage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ChatPage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ChatPage.g.i.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ChatPage.g.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ChatPage.xaml
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ChatPage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\DoctorChatPage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PrescriptionPage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ProfilePage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\DoctorChatPage.g.i.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\DoctorChatPage.g.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PrescriptionPage.g.i.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PrescriptionPage.g.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ProfilePage.g.i.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ProfilePage.g.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\DoctorChatPage.xaml
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PrescriptionPage.xaml
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ProfilePage.xaml
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\DoctorChatPage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PrescriptionPage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ProfilePage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\AppointmentHistoryPage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\UploadMedicalFilesPage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\AppointmentHistoryPage.g.i.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\AppointmentHistoryPage.g.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\UploadMedicalFilesPage.g.i.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\UploadMedicalFilesPage.g.cs
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\AppointmentHistoryPage.xaml
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\UploadMedicalFilesPage.xaml
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\AppointmentHistoryPage.xbf
+D:\An3\Semestru 2\II\Proiect II\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\UploadMedicalFilesPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.exe
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\AppointmentHistoryPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ChatPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\DoctorChatPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\LoginPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PatientDashboard.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PrescriptionPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ProfilePage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\RequestAccessPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\UploadMedicalFilesPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.deps.json
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.runtimeconfig.json
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.pdb
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Web.WebView2.Core.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Graphics.Imaging.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.ContentSafety.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.Foundation.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.Imaging.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.Text.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Security.Authentication.OAuth.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppLifecycle.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppNotifications.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.Background.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.BadgeNotifications.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Foundation.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Management.Deployment.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Media.Capture.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.PushNotifications.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Security.AccessControl.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Storage.Pickers.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Storage.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.System.Power.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.System.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.InteractiveExperiences.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.ML.OnnxRuntime.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.MachineLearning.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Widgets.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WinUI.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Numerics.Tensors.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WebView2Loader.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.CSharp.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.VisualBasic.Core.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.VisualBasic.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Win32.Primitives.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Win32.Registry.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.AppContext.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Buffers.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Concurrent.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Immutable.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.NonGeneric.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Specialized.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.Annotations.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.DataAnnotations.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.EventBasedAsync.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.Primitives.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.TypeConverter.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Configuration.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Console.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Core.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.Common.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.DataSetExtensions.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Contracts.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Debug.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.DiagnosticSource.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.FileVersionInfo.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Process.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.StackTrace.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.TextWriterTraceListener.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Tools.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.TraceSource.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Tracing.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Drawing.Primitives.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Drawing.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Dynamic.Runtime.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Formats.Asn1.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Formats.Tar.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.Calendars.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.Extensions.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.Brotli.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.FileSystem.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.ZipFile.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.AccessControl.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.DriveInfo.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.Primitives.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.Watcher.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.IsolatedStorage.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.MemoryMappedFiles.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Pipes.AccessControl.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Pipes.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.UnmanagedMemoryStream.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Expressions.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Parallel.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Queryable.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Memory.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Http.Json.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Http.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.HttpListener.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Mail.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.NameResolution.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.NetworkInformation.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Ping.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Primitives.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Quic.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Requests.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Security.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.ServicePoint.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Sockets.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebClient.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebHeaderCollection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebProxy.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebSockets.Client.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebSockets.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Numerics.Vectors.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Numerics.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ObjectModel.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.CoreLib.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.DataContractSerialization.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Uri.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Xml.Linq.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Xml.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.DispatchProxy.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.ILGeneration.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.Lightweight.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Extensions.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Metadata.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Primitives.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.TypeExtensions.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.Reader.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.ResourceManager.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.Writer.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.CompilerServices.Unsafe.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.CompilerServices.VisualC.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Extensions.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Handles.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.JavaScript.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Intrinsics.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Loader.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Numerics.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Formatters.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Json.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Primitives.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Xml.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.AccessControl.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Claims.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Algorithms.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Cng.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Csp.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Encoding.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.OpenSsl.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Primitives.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.X509Certificates.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Principal.Windows.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Principal.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.SecureString.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ServiceModel.Web.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ServiceProcess.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.CodePages.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.Extensions.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encodings.Web.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Json.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.RegularExpressions.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Channels.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Overlapped.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Dataflow.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Extensions.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Parallel.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Thread.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.ThreadPool.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Timer.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Transactions.Local.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Transactions.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ValueTuple.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Web.HttpUtility.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Web.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Windows.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.Linq.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.ReaderWriter.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.Serialization.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XDocument.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XPath.XDocument.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XPath.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XmlDocument.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XmlSerializer.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WindowsBase.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscorlib.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\netstandard.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.Native.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clretwrc.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clrgc.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clrjit.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\coreclr.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\createdump.exe
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\hostfxr.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\hostpolicy.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordaccore.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordaccore_amd64_amd64_8.0.2626.16921.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordbi.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscorrc.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\msquic.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.SDK.NET.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WinRT.Runtime.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Web.WebView2.Core.Projection.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.csproj.AssemblyReference.cache
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.i.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.i.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\AppointmentHistoryPage.g.i.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\AppointmentHistoryPage.g.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ChatPage.g.i.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ChatPage.g.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\DoctorChatPage.g.i.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\DoctorChatPage.g.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\LoginPage.g.i.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\LoginPage.g.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PatientDashboard.g.i.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PatientDashboard.g.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PrescriptionPage.g.i.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PrescriptionPage.g.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ProfilePage.g.i.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ProfilePage.g.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\RequestAccessPage.g.i.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\RequestAccessPage.g.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\UploadMedicalFilesPage.g.i.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\UploadMedicalFilesPage.g.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\XamlTypeInfo.g.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xaml
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xaml
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\AppointmentHistoryPage.xaml
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ChatPage.xaml
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\DoctorChatPage.xaml
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\LoginPage.xaml
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PatientDashboard.xaml
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PrescriptionPage.xaml
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ProfilePage.xaml
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\RequestAccessPage.xaml
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\UploadMedicalFilesPage.xaml
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\AppointmentHistoryPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ChatPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\DoctorChatPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\LoginPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PatientDashboard.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\PrescriptionPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\ProfilePage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\RequestAccessPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Views\UploadMedicalFilesPage.xbf
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\XamlSaveStateFile.xml
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.AssemblyInfoInputs.cache
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.AssemblyInfo.cs
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.csproj.CoreCompileInputs.cache
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDI.85395DDC.Up2Date
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\refint\ChatMEDICAL.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.pdb
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ChatMEDICAL.genruntimeconfig.cache
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ref\ChatMEDICAL.dll
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\priconfig.xml
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\priconfig.xml.intermediate
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\unfiltered.layout.resfiles
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\unfiltered.layout.resfiles.intermediate
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\filtered.layout.resfiles
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\filtered.layout.resfiles.intermediate
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\excluded.layout.resfiles
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\excluded.layout.resfiles.intermediate
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.resfiles
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.resfiles.intermediate
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pri.resfiles
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pri.resfiles.intermediate
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ProjectArchitectures.txt
+D:\Repos\ChatMEDICAL\ChatMEDICAL\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\.winmd_cache\$Microsoft.Web.WebView2.Core.winmd_638789222360000000.json

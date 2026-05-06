@@ -1,0 +1,99 @@
+<Page
+    x:Class="ChatMEDICAL.Views.PrescriptionPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Background="#F4FAFF">
+
+        <ScrollViewer>
+            <StackPanel Padding="30" Spacing="20">
+
+                <!-- Title -->
+                <TextBlock
+                    Text="Doctor Prescription"
+                    FontSize="32"
+                    FontWeight="Bold"
+                    Foreground="#123B5D"/>
+
+                <!-- Prescription Card -->
+                <Border
+                    Background="White"
+                    CornerRadius="18"
+                    Padding="25"
+                    BorderBrush="#DCEEFF"
+                    BorderThickness="2">
+
+                    <StackPanel Spacing="14">
+
+                        <TextBlock
+                            Text="Patient Information"
+                            FontSize="22"
+                            FontWeight="Bold"
+                            Foreground="#123B5D"/>
+
+                        <TextBlock
+                            x:Name="PatientNameText"
+                            Text="Patient Name"
+                            FontSize="16"/>
+
+                        <TextBlock
+                            x:Name="DoctorNameText"
+                            Text="Doctor Name"
+                            FontSize="16"/>
+
+                        <TextBlock
+                            x:Name="SpecialtyText"
+                            Text="Specialty"
+                            FontSize="16"/>
+
+                        <TextBlock
+                            x:Name="DateText"
+                            Text="Date"
+                            FontSize="16"/>
+
+                        <TextBlock
+                            Text="Prescription"
+                            FontSize="22"
+                            FontWeight="Bold"
+                            Foreground="#123B5D"
+                            Margin="0,15,0,0"/>
+
+                        <TextBlock
+                            x:Name="PrescriptionText"
+                            Text="Prescription Details"
+                            FontSize="16"
+                            TextWrapping="Wrap"/>
+
+                        <TextBlock
+                            Text="Doctor Notes"
+                            FontSize="22"
+                            FontWeight="Bold"
+                            Foreground="#123B5D"
+                            Margin="0,15,0,0"/>
+
+                        <TextBlock
+                            x:Name="DoctorNotesText"
+                            Text="Doctor Notes"
+                            FontSize="15"
+                            Foreground="Gray"
+                            TextWrapping="Wrap"/>
+
+                    </StackPanel>
+
+                </Border>
+
+                <!-- Back Button -->
+                <Button
+                    Content="← Back"
+                    Width="140"
+                    Height="50"
+                    Background="#BFE9FF"
+                    Foreground="#123B5D"
+                    FontWeight="Bold"
+                    Click="Back_Click"/>
+
+            </StackPanel>
+        </ScrollViewer>
+
+    </Grid>
+</Page>

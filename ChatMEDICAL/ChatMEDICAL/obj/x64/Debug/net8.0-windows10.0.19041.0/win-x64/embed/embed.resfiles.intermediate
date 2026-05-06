@@ -1,0 +1,11 @@
+App.xbf
+MainWindow.xbf
+Views\AppointmentHistoryPage.xbf
+Views\ChatPage.xbf
+Views\DoctorChatPage.xbf
+Views\LoginPage.xbf
+Views\PatientDashboard.xbf
+Views\PrescriptionPage.xbf
+Views\ProfilePage.xbf
+Views\RequestAccessPage.xbf
+Views\UploadMedicalFilesPage.xbf
