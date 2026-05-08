@@ -1,86 +1,114 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Repos\\ChatMEDICAL\\",
+  "WorkspaceRootPath": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\requestaccesspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\requestaccesspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\patientdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\patientdashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\obj\\ARM64\\Release\\net8.0-windows10.0.19041.0\\win-arm64\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\obj\\ARM64\\Release\\net8.0-windows10.0.19041.0\\win-arm64\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\uploadmedicalfilespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\uploadmedicalfilespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\obj\\ARM64\\Release\\net8.0-windows10.0.19041.0\\win-arm64\\Views\\PatientDashboard.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\obj\\ARM64\\Release\\net8.0-windows10.0.19041.0\\win-arm64\\Views\\PatientDashboard.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\uploadmedicalfilespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\uploadmedicalfilespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\appointmenthistorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\appointmenthistorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\ChatMEDICAL.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\ChatMEDICAL.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\appointmenthistorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\appointmenthistorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\ChatMEDICAL.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\ChatMEDICAL.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\patientdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\patientdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\DoctorChatPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\DoctorChatPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\RequestAccessPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\RequestAccessPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\chatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\chatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\DoctorChatPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\DoctorChatPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\doctorchatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\doctorchatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\doctorchatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\doctorchatpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL.Api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\chatpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\ProfilePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\ProfilePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\prescriptionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\prescriptionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\PrescriptionPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\PrescriptionPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\prescriptionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\prescriptionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\ProfilePage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\ProfilePage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\requestaccesspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\requestaccesspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\PrescriptionPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\PrescriptionPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\ChatPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\ChatPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|d:\\repos\\chatmedical\\chatmedical\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{60855011-D3AA-7499-6A48-05B2C1C934A1}|ChatMEDICAL\\ChatMEDICAL.csproj|solutionrelative:chatmedical\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\ChatPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\ChatPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\RequestAccessPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\RequestAccessPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\PatientDashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\PatientDashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\PatientDashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\PatientDashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\LoginPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\LoginPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\LoginPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChatMEDICAL\\Views\\LoginPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,39 +118,113 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppointmentHistoryPage.xaml.cs",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml.cs",
-              "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml.cs",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml.cs",
-              "RelativeToolTip": "ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T18:23:23.834Z"
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\App.xaml",
+              "RelativeDocumentMoniker": "ChatMEDICAL\\App.xaml",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\App.xaml",
+              "RelativeToolTip": "ChatMEDICAL\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-08T20:08:59.471Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ChatMEDICAL\\App.xaml.cs",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\App.xaml.cs",
+              "RelativeToolTip": "ChatMEDICAL\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T20:09:01.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\obj\\ARM64\\Release\\net8.0-windows10.0.19041.0\\win-arm64\\App.xaml",
+              "RelativeDocumentMoniker": "ChatMEDICAL\\obj\\ARM64\\Release\\net8.0-windows10.0.19041.0\\win-arm64\\App.xaml",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\obj\\ARM64\\Release\\net8.0-windows10.0.19041.0\\win-arm64\\App.xaml",
+              "RelativeToolTip": "ChatMEDICAL\\obj\\ARM64\\Release\\net8.0-windows10.0.19041.0\\win-arm64\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-08T20:08:56.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientDashboard.xaml",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\obj\\ARM64\\Release\\net8.0-windows10.0.19041.0\\win-arm64\\Views\\PatientDashboard.xaml",
+              "RelativeDocumentMoniker": "ChatMEDICAL\\obj\\ARM64\\Release\\net8.0-windows10.0.19041.0\\win-arm64\\Views\\PatientDashboard.xaml",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\obj\\ARM64\\Release\\net8.0-windows10.0.19041.0\\win-arm64\\Views\\PatientDashboard.xaml",
+              "RelativeToolTip": "ChatMEDICAL\\obj\\ARM64\\Release\\net8.0-windows10.0.19041.0\\win-arm64\\Views\\PatientDashboard.xaml",
+              "ViewState": "AgIAAA4BAAAAAAAAAAAuwCgBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-08T20:03:52.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatMEDICAL.csproj",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\ChatMEDICAL.csproj",
+              "RelativeDocumentMoniker": "ChatMEDICAL\\ChatMEDICAL.csproj",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\ChatMEDICAL.csproj",
+              "RelativeToolTip": "ChatMEDICAL\\ChatMEDICAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-08T18:44:17.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatMEDICAL.csproj.user",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\ChatMEDICAL.csproj.user",
+              "RelativeDocumentMoniker": "ChatMEDICAL\\ChatMEDICAL.csproj.user",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\ChatMEDICAL.csproj.user",
+              "RelativeToolTip": "ChatMEDICAL\\ChatMEDICAL.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2026-05-08T18:44:13.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL.Api\\Program.cs",
+              "RelativeDocumentMoniker": "ChatMEDICAL.Api\\Program.cs",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL.Api\\Program.cs",
+              "RelativeToolTip": "ChatMEDICAL.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:33:49.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UploadMedicalFilesPage.xaml",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml",
               "RelativeToolTip": "ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAmwDYAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwBUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-23T18:22:44.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AppointmentHistoryPage.xaml",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml",
               "RelativeToolTip": "ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml",
               "ViewState": "AgIAAA0AAAAAAAAAAAAmwC8AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -130,11 +232,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "DoctorChatPage.xaml.cs",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\DoctorChatPage.xaml.cs",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\DoctorChatPage.xaml.cs",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\DoctorChatPage.xaml.cs",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\DoctorChatPage.xaml.cs",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\DoctorChatPage.xaml.cs",
               "RelativeToolTip": "ChatMEDICAL\\Views\\DoctorChatPage.xaml.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAmwEIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -142,11 +244,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "DoctorChatPage.xaml",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\DoctorChatPage.xaml",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\DoctorChatPage.xaml",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\DoctorChatPage.xaml",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\DoctorChatPage.xaml",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\DoctorChatPage.xaml",
               "RelativeToolTip": "ChatMEDICAL\\Views\\DoctorChatPage.xaml",
               "ViewState": "AgIAAF8AAAAAAAAAAAAmwIEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -154,11 +256,35 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RequestAccessPage.xaml",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\RequestAccessPage.xaml",
+              "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\RequestAccessPage.xaml",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\RequestAccessPage.xaml",
+              "RelativeToolTip": "ChatMEDICAL\\Views\\RequestAccessPage.xaml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-23T11:09:28.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppointmentHistoryPage.xaml.cs",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml.cs",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml.cs",
+              "RelativeToolTip": "ChatMEDICAL\\Views\\AppointmentHistoryPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T18:23:23.834Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
               "Title": "ProfilePage.xaml.cs",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\ProfilePage.xaml.cs",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\ProfilePage.xaml.cs",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\ProfilePage.xaml.cs",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\ProfilePage.xaml.cs",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\ProfilePage.xaml.cs",
               "RelativeToolTip": "ChatMEDICAL\\Views\\ProfilePage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -166,24 +292,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RequestAccessPage.xaml",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\RequestAccessPage.xaml",
-              "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\RequestAccessPage.xaml",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\RequestAccessPage.xaml",
-              "RelativeToolTip": "ChatMEDICAL\\Views\\RequestAccessPage.xaml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-23T11:09:28.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "UploadMedicalFilesPage.xaml.cs",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml.cs",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml.cs",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml.cs",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml.cs",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml.cs",
               "RelativeToolTip": "ChatMEDICAL\\Views\\UploadMedicalFilesPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -193,9 +306,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "PrescriptionPage.xaml.cs",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\PrescriptionPage.xaml.cs",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\PrescriptionPage.xaml.cs",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\PrescriptionPage.xaml.cs",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\PrescriptionPage.xaml.cs",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\PrescriptionPage.xaml.cs",
               "RelativeToolTip": "ChatMEDICAL\\Views\\PrescriptionPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -203,11 +316,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ProfilePage.xaml",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\ProfilePage.xaml",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\ProfilePage.xaml",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\ProfilePage.xaml",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\ProfilePage.xaml",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\ProfilePage.xaml",
               "RelativeToolTip": "ChatMEDICAL\\Views\\ProfilePage.xaml",
               "ViewState": "AgIAACoAAAAAAAAAAAAmwEwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -215,11 +328,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "PrescriptionPage.xaml",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\PrescriptionPage.xaml",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\PrescriptionPage.xaml",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\PrescriptionPage.xaml",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\PrescriptionPage.xaml",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\PrescriptionPage.xaml",
               "RelativeToolTip": "ChatMEDICAL\\Views\\PrescriptionPage.xaml",
               "ViewState": "AgIAAEAAAAAAAAAAAAAmwGIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -227,11 +340,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "ChatPage.xaml.cs",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\ChatPage.xaml.cs",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\ChatPage.xaml.cs",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\ChatPage.xaml.cs",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\ChatPage.xaml.cs",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\ChatPage.xaml.cs",
               "RelativeToolTip": "ChatMEDICAL\\Views\\ChatPage.xaml.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAmwEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -239,11 +352,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "ChatPage.xaml",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\ChatPage.xaml",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\ChatPage.xaml",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\ChatPage.xaml",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\ChatPage.xaml",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\ChatPage.xaml",
               "RelativeToolTip": "ChatMEDICAL\\Views\\ChatPage.xaml",
               "ViewState": "AgIAAGgAAAAAAAAAAAAmwIoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -251,11 +364,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "RequestAccessPage.xaml.cs",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\RequestAccessPage.xaml.cs",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\RequestAccessPage.xaml.cs",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\RequestAccessPage.xaml.cs",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\RequestAccessPage.xaml.cs",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\RequestAccessPage.xaml.cs",
               "RelativeToolTip": "ChatMEDICAL\\Views\\RequestAccessPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -263,11 +376,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "PatientDashboard.xaml.cs",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\PatientDashboard.xaml.cs",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\PatientDashboard.xaml.cs",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\PatientDashboard.xaml.cs",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\PatientDashboard.xaml.cs",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\PatientDashboard.xaml.cs",
               "RelativeToolTip": "ChatMEDICAL\\Views\\PatientDashboard.xaml.cs",
               "ViewState": "AgIAADoBAAAAAAAAAAAIwEgBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -275,11 +388,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 22,
               "Title": "PatientDashboard.xaml",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\PatientDashboard.xaml",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\PatientDashboard.xaml",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\PatientDashboard.xaml",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\PatientDashboard.xaml",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\PatientDashboard.xaml",
               "RelativeToolTip": "ChatMEDICAL\\Views\\PatientDashboard.xaml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAFIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -287,11 +400,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 23,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ChatMEDICAL\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\MainWindow.xaml.cs",
               "RelativeToolTip": "ChatMEDICAL\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -299,11 +412,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 24,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ChatMEDICAL\\MainWindow.xaml",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\MainWindow.xaml",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\MainWindow.xaml",
               "RelativeToolTip": "ChatMEDICAL\\MainWindow.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -311,11 +424,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\LoginPage.xaml.cs",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\LoginPage.xaml.cs",
               "RelativeToolTip": "ChatMEDICAL\\Views\\LoginPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -323,11 +436,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "LoginPage.xaml",
-              "DocumentMoniker": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\LoginPage.xaml",
+              "DocumentMoniker": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "ChatMEDICAL\\Views\\LoginPage.xaml",
-              "ToolTip": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\Views\\LoginPage.xaml",
+              "ToolTip": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\Views\\LoginPage.xaml",
               "RelativeToolTip": "ChatMEDICAL\\Views\\LoginPage.xaml",
               "ViewState": "AgIAADAAAAAAAAAAAAAAAEwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",

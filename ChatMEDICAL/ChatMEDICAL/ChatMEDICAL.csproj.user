@@ -4,7 +4,7 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>ChatMEDICAL (Unpackaged)</ActiveDebugProfile>
+    <ActiveDebugProfile>ChatMEDICAL (Package)</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
     <None Update="App.xaml">

@@ -35,6 +35,24 @@ namespace ChatMEDICAL
         public App()
         {
             InitializeComponent();
+            UnhandledException += App_UnhandledException;
+        }
+
+        private void App_UnhandledException(object sender, Microsoft.UI.Xaml.UnhandledExceptionEventArgs e)
+        {
+            try
+            {
+                string logPath = System.IO.Path.Combine(
+                    Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+                    "ChatMEDICAL",
+                    "startup-error.log");
+
+                Directory.CreateDirectory(System.IO.Path.GetDirectoryName(logPath)!);
+                File.WriteAllText(logPath, e.Exception.ToString());
+            }
+            catch
+            {
+            }
         }
 
         /// <summary>

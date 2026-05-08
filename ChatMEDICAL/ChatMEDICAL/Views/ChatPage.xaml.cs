@@ -4,12 +4,15 @@
 
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
+using ChatMEDICAL.Services;
 using System;
 
 namespace ChatMEDICAL.Views
 {
     public sealed partial class ChatPage : Page
     {
+        private string _doctorName = "Assigned Doctor";
+
         public ChatPage()
         {
             this.InitializeComponent();
@@ -21,6 +24,7 @@ namespace ChatMEDICAL.Views
 
             if (e.Parameter is string doctorName)
             {
+                _doctorName = doctorName;
                 DoctorNameText.Text = doctorName;
             }
         }
@@ -30,10 +34,21 @@ namespace ChatMEDICAL.Views
             Frame.Navigate(typeof(PatientDashboard));
         }
 
-        private void Send_Click(object sender, RoutedEventArgs e)
+        private async void Send_Click(object sender, RoutedEventArgs e)
         {
             if (string.IsNullOrWhiteSpace(MessageBox.Text))
                 return;
+
+            string messageText = MessageBox.Text;
+
+            try
+            {
+                await MedicalApiClient.Shared.SendMessageAsync(_doctorName, AppSession.PatientEmail, messageText);
+            }
+            catch
+            {
+                // The chat remains usable locally while the API is being started during development.
+            }
 
             Border patientMessage = new Border
             {
@@ -50,7 +65,7 @@ namespace ChatMEDICAL.Views
 
             TextBlock patientText = new TextBlock
             {
-                Text = MessageBox.Text,
+                Text = messageText,
                 FontSize = 15,
                 TextWrapping = TextWrapping.Wrap
             };

@@ -1,5 +1,6 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
+using ChatMEDICAL.Services;
 using System;
 
 namespace ChatMEDICAL.Views
@@ -28,7 +29,24 @@ namespace ChatMEDICAL.Views
                 return;
             }
 
-            Frame.Navigate(typeof(PatientDashboard));
+            try
+            {
+                var login = await MedicalApiClient.Shared.LoginAsync(EmailBox.Text, PasswordBox.Password);
+                AppSession.PatientEmail = login?.Email ?? EmailBox.Text.Trim();
+                Frame.Navigate(typeof(PatientDashboard));
+            }
+            catch (Exception ex)
+            {
+                ContentDialog dialog = new ContentDialog
+                {
+                    Title = "Login Error",
+                    Content = $"Could not connect to the medical API. {ex.Message}",
+                    CloseButtonText = "OK",
+                    XamlRoot = this.XamlRoot
+                };
+
+                await dialog.ShowAsync();
+            }
         }
         private void RequestAccess_Click(object sender, RoutedEventArgs e)
         {

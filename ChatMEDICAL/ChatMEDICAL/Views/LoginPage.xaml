@@ -119,8 +119,8 @@
         Content="Login"
         Width="220"
         Height="52"
-        Background="#BFE9FF"
-        Foreground="#123B5D"
+        Background="#0078D7"
+        Foreground="White"
         FontWeight="Bold"
         FontSize="15"
         Click="Login_Click"/>
@@ -130,8 +130,8 @@
         Content="Request Access"
         Width="220"
         Height="52"
-        Background="#BFE9FF"
-        Foreground="#123B5D"
+        Background="#0078D7"
+        Foreground="White"
         FontWeight="Bold"
         FontSize="15"
         Click="RequestAccess_Click"/>

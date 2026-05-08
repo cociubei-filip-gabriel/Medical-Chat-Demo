@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\ChatMEDICAL.csproj": {}
+    "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\ChatMEDICAL.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\ChatMEDICAL.csproj": {
+    "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\ChatMEDICAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\ChatMEDICAL.csproj",
+        "projectUniqueName": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\ChatMEDICAL.csproj",
         "projectName": "ChatMEDICAL",
-        "projectPath": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\ChatMEDICAL.csproj",
+        "projectPath": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\ChatMEDICAL.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\ChatMEDICAL\\ChatMEDICAL\\obj\\",
+        "outputPath": "D:\\Medical-Chat-Demo\\ChatMEDICAL\\ChatMEDICAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -29,8 +29,7 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows10.0.19041.0": {
-            "framework": "net8.0-windows10.0.19041",
+          "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
             "projectReferences": {}
           }
@@ -48,8 +47,7 @@
         "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
-        "net8.0-windows10.0.19041.0": {
-          "framework": "net8.0-windows10.0.19041",
+        "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
             "Microsoft.Windows.SDK.BuildTools": {

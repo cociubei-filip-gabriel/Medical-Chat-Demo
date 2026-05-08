@@ -226,51 +226,47 @@ namespace ChatMEDICAL.ChatMEDICAL_XamlTypeInfo
         
         private void InitTypeTables()
         {
-            _typeNameTable = new string[21];
-            _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
-            _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
-            _typeNameTable[2] = "Object";
-            _typeNameTable[3] = "Boolean";
-            _typeNameTable[4] = "ChatMEDICAL.MainWindow";
-            _typeNameTable[5] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[6] = "ChatMEDICAL.Views.AppointmentHistoryPage";
-            _typeNameTable[7] = "Microsoft.UI.Xaml.Controls.Page";
-            _typeNameTable[8] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[9] = "ChatMEDICAL.Views.ChatPage";
-            _typeNameTable[10] = "ChatMEDICAL.Views.DoctorChatPage";
-            _typeNameTable[11] = "ChatMEDICAL.Views.LoginPage";
-            _typeNameTable[12] = "ChatMEDICAL.Views.PatientDashboard";
-            _typeNameTable[13] = "ChatMEDICAL.Views.PrescriptionPage";
-            _typeNameTable[14] = "ChatMEDICAL.Views.ProfilePage";
-            _typeNameTable[15] = "ChatMEDICAL.Views.RequestAccessPage";
-            _typeNameTable[16] = "ChatMEDICAL.Views.UploadMedicalFilesPage";
-            _typeNameTable[17] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[18] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[19] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[20] = "Int32";
+            _typeNameTable = new string[19];
+            _typeNameTable[0] = "ChatMEDICAL.MainWindow";
+            _typeNameTable[1] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[2] = "ChatMEDICAL.Views.AppointmentHistoryPage";
+            _typeNameTable[3] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[4] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[5] = "ChatMEDICAL.Views.ChatPage";
+            _typeNameTable[6] = "ChatMEDICAL.Views.DoctorChatPage";
+            _typeNameTable[7] = "ChatMEDICAL.Views.LoginPage";
+            _typeNameTable[8] = "ChatMEDICAL.Views.PatientDashboard";
+            _typeNameTable[9] = "ChatMEDICAL.Views.PrescriptionPage";
+            _typeNameTable[10] = "ChatMEDICAL.Views.ProfilePage";
+            _typeNameTable[11] = "ChatMEDICAL.Views.RequestAccessPage";
+            _typeNameTable[12] = "ChatMEDICAL.Views.UploadMedicalFilesPage";
+            _typeNameTable[13] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[14] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[15] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[16] = "Object";
+            _typeNameTable[17] = "Int32";
+            _typeNameTable[18] = "Boolean";
 
-            _typeTable = new global::System.Type[21];
-            _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
-            _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
-            _typeTable[2] = typeof(global::System.Object);
-            _typeTable[3] = typeof(global::System.Boolean);
-            _typeTable[4] = typeof(global::ChatMEDICAL.MainWindow);
-            _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[6] = typeof(global::ChatMEDICAL.Views.AppointmentHistoryPage);
-            _typeTable[7] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
-            _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[9] = typeof(global::ChatMEDICAL.Views.ChatPage);
-            _typeTable[10] = typeof(global::ChatMEDICAL.Views.DoctorChatPage);
-            _typeTable[11] = typeof(global::ChatMEDICAL.Views.LoginPage);
-            _typeTable[12] = typeof(global::ChatMEDICAL.Views.PatientDashboard);
-            _typeTable[13] = typeof(global::ChatMEDICAL.Views.PrescriptionPage);
-            _typeTable[14] = typeof(global::ChatMEDICAL.Views.ProfilePage);
-            _typeTable[15] = typeof(global::ChatMEDICAL.Views.RequestAccessPage);
-            _typeTable[16] = typeof(global::ChatMEDICAL.Views.UploadMedicalFilesPage);
-            _typeTable[17] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[18] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[19] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[20] = typeof(global::System.Int32);
+            _typeTable = new global::System.Type[19];
+            _typeTable[0] = typeof(global::ChatMEDICAL.MainWindow);
+            _typeTable[1] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[2] = typeof(global::ChatMEDICAL.Views.AppointmentHistoryPage);
+            _typeTable[3] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[4] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[5] = typeof(global::ChatMEDICAL.Views.ChatPage);
+            _typeTable[6] = typeof(global::ChatMEDICAL.Views.DoctorChatPage);
+            _typeTable[7] = typeof(global::ChatMEDICAL.Views.LoginPage);
+            _typeTable[8] = typeof(global::ChatMEDICAL.Views.PatientDashboard);
+            _typeTable[9] = typeof(global::ChatMEDICAL.Views.PrescriptionPage);
+            _typeTable[10] = typeof(global::ChatMEDICAL.Views.ProfilePage);
+            _typeTable[11] = typeof(global::ChatMEDICAL.Views.RequestAccessPage);
+            _typeTable[12] = typeof(global::ChatMEDICAL.Views.UploadMedicalFilesPage);
+            _typeTable[13] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[14] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[15] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[16] = typeof(global::System.Object);
+            _typeTable[17] = typeof(global::System.Int32);
+            _typeTable[18] = typeof(global::System.Boolean);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -305,39 +301,30 @@ namespace ChatMEDICAL.ChatMEDICAL_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
-        private object Activate_4_MainWindow() { return new global::ChatMEDICAL.MainWindow(); }
-        private object Activate_6_AppointmentHistoryPage() { return new global::ChatMEDICAL.Views.AppointmentHistoryPage(); }
-        private object Activate_9_ChatPage() { return new global::ChatMEDICAL.Views.ChatPage(); }
-        private object Activate_10_DoctorChatPage() { return new global::ChatMEDICAL.Views.DoctorChatPage(); }
-        private object Activate_11_LoginPage() { return new global::ChatMEDICAL.Views.LoginPage(); }
-        private object Activate_12_PatientDashboard() { return new global::ChatMEDICAL.Views.PatientDashboard(); }
-        private object Activate_13_PrescriptionPage() { return new global::ChatMEDICAL.Views.PrescriptionPage(); }
-        private object Activate_14_ProfilePage() { return new global::ChatMEDICAL.Views.ProfilePage(); }
-        private object Activate_15_RequestAccessPage() { return new global::ChatMEDICAL.Views.RequestAccessPage(); }
-        private object Activate_16_UploadMedicalFilesPage() { return new global::ChatMEDICAL.Views.UploadMedicalFilesPage(); }
-        private object Activate_17_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
-        private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
-        private void StaticInitializer_4_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.MainWindow).TypeHandle);
-        private void StaticInitializer_6_AppointmentHistoryPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.AppointmentHistoryPage).TypeHandle);
-        private void StaticInitializer_9_ChatPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.ChatPage).TypeHandle);
-        private void StaticInitializer_10_DoctorChatPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.DoctorChatPage).TypeHandle);
-        private void StaticInitializer_11_LoginPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.LoginPage).TypeHandle);
-        private void StaticInitializer_12_PatientDashboard() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.PatientDashboard).TypeHandle);
-        private void StaticInitializer_13_PrescriptionPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.PrescriptionPage).TypeHandle);
-        private void StaticInitializer_14_ProfilePage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.ProfilePage).TypeHandle);
-        private void StaticInitializer_15_RequestAccessPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.RequestAccessPage).TypeHandle);
-        private void StaticInitializer_16_UploadMedicalFilesPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.UploadMedicalFilesPage).TypeHandle);
-        private void StaticInitializer_17_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
-        private void StaticInitializer_19_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
-        private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
-        {
-            var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
-            var newKey = (global::System.Object)key;
-            var newItem = (global::System.Object)item;
-            collection.Add(newKey, newItem);
-        }
-        private void VectorAdd_19_IList(object instance, object item)
+        private object Activate_0_MainWindow() { return new global::ChatMEDICAL.MainWindow(); }
+        private object Activate_2_AppointmentHistoryPage() { return new global::ChatMEDICAL.Views.AppointmentHistoryPage(); }
+        private object Activate_5_ChatPage() { return new global::ChatMEDICAL.Views.ChatPage(); }
+        private object Activate_6_DoctorChatPage() { return new global::ChatMEDICAL.Views.DoctorChatPage(); }
+        private object Activate_7_LoginPage() { return new global::ChatMEDICAL.Views.LoginPage(); }
+        private object Activate_8_PatientDashboard() { return new global::ChatMEDICAL.Views.PatientDashboard(); }
+        private object Activate_9_PrescriptionPage() { return new global::ChatMEDICAL.Views.PrescriptionPage(); }
+        private object Activate_10_ProfilePage() { return new global::ChatMEDICAL.Views.ProfilePage(); }
+        private object Activate_11_RequestAccessPage() { return new global::ChatMEDICAL.Views.RequestAccessPage(); }
+        private object Activate_12_UploadMedicalFilesPage() { return new global::ChatMEDICAL.Views.UploadMedicalFilesPage(); }
+        private object Activate_13_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private void StaticInitializer_0_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.MainWindow).TypeHandle);
+        private void StaticInitializer_2_AppointmentHistoryPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.AppointmentHistoryPage).TypeHandle);
+        private void StaticInitializer_5_ChatPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.ChatPage).TypeHandle);
+        private void StaticInitializer_6_DoctorChatPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.DoctorChatPage).TypeHandle);
+        private void StaticInitializer_7_LoginPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.LoginPage).TypeHandle);
+        private void StaticInitializer_8_PatientDashboard() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.PatientDashboard).TypeHandle);
+        private void StaticInitializer_9_PrescriptionPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.PrescriptionPage).TypeHandle);
+        private void StaticInitializer_10_ProfilePage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.ProfilePage).TypeHandle);
+        private void StaticInitializer_11_RequestAccessPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.RequestAccessPage).TypeHandle);
+        private void StaticInitializer_12_UploadMedicalFilesPage() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::ChatMEDICAL.Views.UploadMedicalFilesPage).TypeHandle);
+        private void StaticInitializer_13_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_15_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+        private void VectorAdd_15_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -354,123 +341,102 @@ namespace ChatMEDICAL.ChatMEDICAL_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Microsoft.UI.Xaml.Controls.XamlControlsResources
-                userType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.ResourceDictionary"));
-                userType.Activator = Activate_0_XamlControlsResources;
-                userType.StaticInitializer = StaticInitializer_0_XamlControlsResources;
-                userType.DictionaryAdd = MapAdd_0_XamlControlsResources;
-                userType.AddMemberName("UseCompactResources");
-                xamlType = userType;
-                break;
-
-            case 1:   //  Microsoft.UI.Xaml.ResourceDictionary
-                xamlType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 2:   //  Object
-                xamlType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 3:   //  Boolean
-                xamlType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 4:   //  ChatMEDICAL.MainWindow
+            case 0:   //  ChatMEDICAL.MainWindow
                 userType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_4_MainWindow;
-                userType.StaticInitializer = StaticInitializer_4_MainWindow;
+                userType.Activator = Activate_0_MainWindow;
+                userType.StaticInitializer = StaticInitializer_0_MainWindow;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  Microsoft.UI.Xaml.Window
+            case 1:   //  Microsoft.UI.Xaml.Window
                 xamlType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  ChatMEDICAL.Views.AppointmentHistoryPage
+            case 2:   //  ChatMEDICAL.Views.AppointmentHistoryPage
                 userType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_AppointmentHistoryPage;
-                userType.StaticInitializer = StaticInitializer_6_AppointmentHistoryPage;
+                userType.Activator = Activate_2_AppointmentHistoryPage;
+                userType.StaticInitializer = StaticInitializer_2_AppointmentHistoryPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  Microsoft.UI.Xaml.Controls.Page
+            case 3:   //  Microsoft.UI.Xaml.Controls.Page
                 xamlType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  Microsoft.UI.Xaml.Controls.UserControl
+            case 4:   //  Microsoft.UI.Xaml.Controls.UserControl
                 xamlType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 9:   //  ChatMEDICAL.Views.ChatPage
+            case 5:   //  ChatMEDICAL.Views.ChatPage
                 userType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_ChatPage;
-                userType.StaticInitializer = StaticInitializer_9_ChatPage;
+                userType.Activator = Activate_5_ChatPage;
+                userType.StaticInitializer = StaticInitializer_5_ChatPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 10:   //  ChatMEDICAL.Views.DoctorChatPage
+            case 6:   //  ChatMEDICAL.Views.DoctorChatPage
                 userType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_DoctorChatPage;
-                userType.StaticInitializer = StaticInitializer_10_DoctorChatPage;
+                userType.Activator = Activate_6_DoctorChatPage;
+                userType.StaticInitializer = StaticInitializer_6_DoctorChatPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 11:   //  ChatMEDICAL.Views.LoginPage
+            case 7:   //  ChatMEDICAL.Views.LoginPage
                 userType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_11_LoginPage;
-                userType.StaticInitializer = StaticInitializer_11_LoginPage;
+                userType.Activator = Activate_7_LoginPage;
+                userType.StaticInitializer = StaticInitializer_7_LoginPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  ChatMEDICAL.Views.PatientDashboard
+            case 8:   //  ChatMEDICAL.Views.PatientDashboard
                 userType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_PatientDashboard;
-                userType.StaticInitializer = StaticInitializer_12_PatientDashboard;
+                userType.Activator = Activate_8_PatientDashboard;
+                userType.StaticInitializer = StaticInitializer_8_PatientDashboard;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  ChatMEDICAL.Views.PrescriptionPage
+            case 9:   //  ChatMEDICAL.Views.PrescriptionPage
                 userType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_PrescriptionPage;
-                userType.StaticInitializer = StaticInitializer_13_PrescriptionPage;
+                userType.Activator = Activate_9_PrescriptionPage;
+                userType.StaticInitializer = StaticInitializer_9_PrescriptionPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 14:   //  ChatMEDICAL.Views.ProfilePage
+            case 10:   //  ChatMEDICAL.Views.ProfilePage
                 userType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_ProfilePage;
-                userType.StaticInitializer = StaticInitializer_14_ProfilePage;
+                userType.Activator = Activate_10_ProfilePage;
+                userType.StaticInitializer = StaticInitializer_10_ProfilePage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  ChatMEDICAL.Views.RequestAccessPage
+            case 11:   //  ChatMEDICAL.Views.RequestAccessPage
                 userType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_15_RequestAccessPage;
-                userType.StaticInitializer = StaticInitializer_15_RequestAccessPage;
+                userType.Activator = Activate_11_RequestAccessPage;
+                userType.StaticInitializer = StaticInitializer_11_RequestAccessPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 16:   //  ChatMEDICAL.Views.UploadMedicalFilesPage
+            case 12:   //  ChatMEDICAL.Views.UploadMedicalFilesPage
                 userType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_16_UploadMedicalFilesPage;
-                userType.StaticInitializer = StaticInitializer_16_UploadMedicalFilesPage;
+                userType.Activator = Activate_12_UploadMedicalFilesPage;
+                userType.StaticInitializer = StaticInitializer_12_UploadMedicalFilesPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 17:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 13:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_17_TreeViewNode;
-                userType.StaticInitializer = StaticInitializer_17_TreeViewNode;
+                userType.Activator = Activate_13_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_13_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -482,19 +448,27 @@ namespace ChatMEDICAL.ChatMEDICAL_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 18:   //  Microsoft.UI.Xaml.DependencyObject
+            case 14:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 19:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 15:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.StaticInitializer = StaticInitializer_19_IList;
-                userType.CollectionAdd = VectorAdd_19_IList;
+                userType.StaticInitializer = StaticInitializer_15_IList;
+                userType.CollectionAdd = VectorAdd_15_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 20:   //  Int32
+            case 16:   //  Object
+                xamlType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 17:   //  Int32
+                xamlType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 18:   //  Boolean
                 xamlType = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -556,62 +530,52 @@ namespace ChatMEDICAL.ChatMEDICAL_XamlTypeInfo
             return foundXamlType;
         }
 
-        private object get_0_XamlControlsResources_UseCompactResources(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.XamlControlsResources)instance;
-            return that.UseCompactResources;
-        }
-        private void set_0_XamlControlsResources_UseCompactResources(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.XamlControlsResources)instance;
-            that.UseCompactResources = (global::System.Boolean)Value;
-        }
-        private object get_1_TreeViewNode_Children(object instance)
+        private object get_0_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_2_TreeViewNode_Content(object instance)
+        private object get_1_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_2_TreeViewNode_Content(object instance, object Value)
+        private void set_1_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_3_TreeViewNode_Depth(object instance)
+        private object get_2_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_4_TreeViewNode_HasChildren(object instance)
+        private object get_3_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_5_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_4_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_5_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_4_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_6_TreeViewNode_IsExpanded(object instance)
+        private object get_5_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_6_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_5_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_7_TreeViewNode_Parent(object instance)
+        private object get_6_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -624,57 +588,50 @@ namespace ChatMEDICAL.ChatMEDICAL_XamlTypeInfo
 
             switch (longMemberName)
             {
-            case "Microsoft.UI.Xaml.Controls.XamlControlsResources.UseCompactResources":
-                userType = (global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.XamlControlsResources");
-                xamlMember = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlMember(this, "UseCompactResources", "Boolean");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_0_XamlControlsResources_UseCompactResources;
-                xamlMember.Setter = set_0_XamlControlsResources_UseCompactResources;
-                break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_1_TreeViewNode_Children;
+                xamlMember.Getter = get_0_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_2_TreeViewNode_Content;
-                xamlMember.Setter = set_2_TreeViewNode_Content;
+                xamlMember.Getter = get_1_TreeViewNode_Content;
+                xamlMember.Setter = set_1_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_3_TreeViewNode_Depth;
+                xamlMember.Getter = get_2_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_4_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_3_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_5_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_5_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_4_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_4_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_6_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_6_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_5_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_5_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::ChatMEDICAL.ChatMEDICAL_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_7_TreeViewNode_Parent;
+                xamlMember.Getter = get_6_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }

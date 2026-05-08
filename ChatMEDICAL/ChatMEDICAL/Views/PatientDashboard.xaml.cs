@@ -1,7 +1,9 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
+using ChatMEDICAL.Services;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace ChatMEDICAL.Views
@@ -225,6 +227,59 @@ namespace ChatMEDICAL.Views
         public PatientDashboard()
         {
             this.InitializeComponent();
+            InitializeLocalSpecialties();
+            Loaded += PatientDashboard_Loaded;
+        }
+
+        private void InitializeLocalSpecialties()
+        {
+            SpecialtyComboBox.Items.Clear();
+
+            foreach (var specialty in doctorsBySpecialty.Keys.OrderBy(specialty => specialty))
+            {
+                SpecialtyComboBox.Items.Add(specialty);
+            }
+
+            if (SpecialtyComboBox.Items.Count > 0)
+            {
+                SpecialtyComboBox.SelectedIndex = 0;
+                PopulateDoctorsFromLocalSpecialty(GetSelectedSpecialty());
+            }
+        }
+
+        private async void PatientDashboard_Loaded(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var specialties = await MedicalApiClient.Shared.GetSpecialtiesAsync();
+
+                if (specialties.Count == 0)
+                    return;
+
+                SpecialtyComboBox.Items.Clear();
+
+                foreach (var specialty in specialties)
+                {
+                    SpecialtyComboBox.Items.Add(specialty);
+                }
+
+                if (SpecialtyComboBox.Items.Count > 0 && SpecialtyComboBox.SelectedItem == null)
+                {
+                    SpecialtyComboBox.SelectedIndex = 0;
+                }
+
+                await PopulateDoctorsAsync(GetSelectedSpecialty());
+            }
+            catch
+            {
+                // Keep the existing local list available when the API is not running.
+                if (SpecialtyComboBox.Items.Count > 0 && SpecialtyComboBox.SelectedItem == null)
+                {
+                    SpecialtyComboBox.SelectedIndex = 0;
+                }
+
+                PopulateDoctorsFromLocalSpecialty(GetSelectedSpecialty());
+            }
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)
@@ -232,28 +287,69 @@ namespace ChatMEDICAL.Views
             Frame.Navigate(typeof(LoginPage));
         }
 
-        private void SpecialtyComboBox_SelectionChanged(
+        private async void SpecialtyComboBox_SelectionChanged(
             object sender,
             SelectionChangedEventArgs e)
         {
+            await PopulateDoctorsAsync(GetSelectedSpecialty());
+        }
+
+        private string GetSelectedSpecialty()
+        {
+            return SpecialtyComboBox.SelectedItem is ComboBoxItem selectedItem
+                ? selectedItem.Content?.ToString() ?? ""
+                : SpecialtyComboBox.SelectedItem?.ToString() ?? "";
+        }
+
+        private async Task PopulateDoctorsAsync(string specialty)
+        {
             DoctorComboBox.Items.Clear();
 
-            if (SpecialtyComboBox.SelectedItem is ComboBoxItem selectedItem)
-            {
-                string specialty = selectedItem.Content?.ToString() ?? "";
+            if (string.IsNullOrWhiteSpace(specialty))
+                return;
 
-                if (doctorsBySpecialty.ContainsKey(specialty))
+            try
+            {
+                var doctors = await MedicalApiClient.Shared.GetDoctorsAsync(specialty);
+
+                if (doctors.Count > 0)
                 {
-                    foreach (var doctor in doctorsBySpecialty[specialty])
+                    foreach (var doctor in doctors)
                     {
-                        DoctorComboBox.Items.Add(
-                            new ComboBoxItem
-                            {
-                                Content = doctor
-                            });
+                        DoctorComboBox.Items.Add(doctor.Name);
                     }
+
+                    DoctorComboBox.SelectedIndex = 0;
+                    DoctorStatusText.Text = $"{DoctorComboBox.Items.Count} doctors loaded from API.";
+                    return;
                 }
             }
+            catch
+            {
+                // Fall back to the local demo list if the API is not reachable.
+            }
+
+            PopulateDoctorsFromLocalSpecialty(specialty);
+        }
+
+        private void PopulateDoctorsFromLocalSpecialty(string specialty)
+        {
+            DoctorComboBox.Items.Clear();
+            DoctorStatusText.Text = "";
+
+            if (!doctorsBySpecialty.TryGetValue(specialty, out var doctors))
+            {
+                DoctorStatusText.Text = $"No local doctors found for '{specialty}'.";
+                return;
+            }
+
+            foreach (var doctor in doctors)
+            {
+                DoctorComboBox.Items.Add(doctor);
+            }
+
+            DoctorComboBox.SelectedIndex = 0;
+            DoctorStatusText.Text = $"{DoctorComboBox.Items.Count} doctors loaded.";
         }
 
         private async void BookAppointment_Click(object sender, RoutedEventArgs e)
@@ -286,11 +382,26 @@ namespace ChatMEDICAL.Views
                 XamlRoot = this.XamlRoot
             };
 
-            await dialog.ShowAsync();
-
-            if (DoctorComboBox.SelectedItem is ComboBoxItem selectedDoctor)
+            if (DoctorComboBox.SelectedItem != null)
             {
-                string doctorName = selectedDoctor.Content?.ToString() ?? "Assigned Doctor";
+                string doctorName = DoctorComboBox.SelectedItem.ToString() ?? "Assigned Doctor";
+                string specialty = GetSelectedSpecialty();
+
+                try
+                {
+                    await MedicalApiClient.Shared.CreateAppointmentAsync(
+                        AppSession.PatientEmail,
+                        doctorName,
+                        specialty,
+                        DateOnly.FromDateTime(selectedDate));
+                }
+                catch (Exception ex)
+                {
+                    await ShowError($"Could not book the appointment through the API. {ex.Message}");
+                    return;
+                }
+
+                await dialog.ShowAsync();
 
                 Frame.Navigate(typeof(ChatPage), doctorName);
             }
@@ -330,9 +441,9 @@ namespace ChatMEDICAL.Views
 
         private void OpenChat_Click(object sender, RoutedEventArgs e)
         {
-            if (DoctorComboBox.SelectedItem is ComboBoxItem selectedDoctor)
+            if (DoctorComboBox.SelectedItem != null)
             {
-                string doctorName = selectedDoctor.Content?.ToString() ?? "Assigned Doctor";
+                string doctorName = DoctorComboBox.SelectedItem.ToString() ?? "Assigned Doctor";
                 Frame.Navigate(typeof(ChatPage), doctorName);
             }
             else

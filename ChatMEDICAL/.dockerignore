@@ -1,0 +1,11 @@
+**/.vs
+**/.git
+**/bin
+**/obj
+**/TestResults
+**/*.user
+**/*.suo
+**/*.rsuser
+Dockerfile
+docker-compose*
+README.md
