@@ -1,0 +1,21 @@
+Pagina logare
+Te poti loga fara date de intrare
+Lipsa restrictie de format numar de telefon
+Lipsa validare (aplicatia nu verifica daca textul contine @ sau un domeniu valid).
+Lipsa limita maxima de caractere.
+Lipsa validare (aplicatia accepta orice text, oricat de scurt, fara a cere litere mari, cifre sau caractere speciale).
+
+Pagina acces
+Poti da submit la cerere chiar fara a introduce date.
+Lipsa validare (pot fi introduse cifre sau caractere speciale).
+Lipsa validare format si unicitate.
+Lipsa limita maxima de caractere 
+
+Pagina Chat
+Lipsa limita maxima de caractere pe mesaj 
+Lipsa reincarcare vizuala a istoricului la reaccesarea paginii (mesajele apar cand sunt trimise, dar dispar de pe ecran la reintrare in chat nu e legat la baza de date).
+
+Upload fisiere
+Optiunea de incarcare efectiva a fisierelor nu este implementata (butonul/sistemul de upload lipseste din UI si indica "backend upload file will be connected later").
+
+Lipsa restrictie pentru a bloca selectarea unei date din trecut in interfata.
