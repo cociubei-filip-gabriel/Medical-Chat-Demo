@@ -1,0 +1,132 @@
+<Page
+    x:Class="ChatMEDICAL.Views.AdminDashboardPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Background="#F4FAFF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="#1B1B1B" Padding="30">
+            <StackPanel Spacing="10" VerticalAlignment="Center">
+                <Button
+                    Content="Logout"
+                    Width="100"
+                    Height="38"
+                    Background="#FFFFFF"
+                    Foreground="#1B1B1B"
+                    FontWeight="Bold"
+                    Click="Logout_Click"/>
+
+                <TextBlock
+                    Text="Admin Dashboard"
+                    FontSize="34"
+                    FontWeight="Bold"
+                    Foreground="White"/>
+
+                <TextBlock
+                    x:Name="AdminInfoText"
+                    FontSize="16"
+                    Foreground="#DCEEFF"/>
+            </StackPanel>
+        </Border>
+
+        <StackPanel Grid.Row="1" Padding="28" Spacing="16">
+            <StackPanel Orientation="Horizontal" Spacing="12">
+                <Button
+                    Content="Refresh"
+                    Width="120"
+                    Height="42"
+                    Background="#0078D7"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    Click="Refresh_Click"/>
+
+                <TextBlock
+                    x:Name="StatusText"
+                    VerticalAlignment="Center"
+                    FontSize="15"
+                    Foreground="#333333"/>
+            </StackPanel>
+
+            <TextBlock
+                Text="Admin can view all appointments from the database and can confirm or cancel them."
+                FontSize="15"
+                Foreground="#333333"/>
+
+            <Border Background="White" CornerRadius="16" Padding="16" BorderBrush="#DCEEFF" BorderThickness="2">
+                <StackPanel Spacing="10">
+                    <Grid Padding="10" Background="#E6F2FF">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1.1*"/>
+                            <ColumnDefinition Width="1.1*"/>
+                            <ColumnDefinition Width="1.1*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="0.8*"/>
+                            <ColumnDefinition Width="0.8*"/>
+                            <ColumnDefinition Width="0.8*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Patient" FontWeight="Bold" Foreground="#123B5D"/>
+                        <TextBlock Grid.Column="1" Text="Patient Email" FontWeight="Bold" Foreground="#123B5D"/>
+                        <TextBlock Grid.Column="2" Text="Doctor" FontWeight="Bold" Foreground="#123B5D"/>
+                        <TextBlock Grid.Column="3" Text="Specialty" FontWeight="Bold" Foreground="#123B5D"/>
+                        <TextBlock Grid.Column="4" Text="Date" FontWeight="Bold" Foreground="#123B5D"/>
+                        <TextBlock Grid.Column="5" Text="Time" FontWeight="Bold" Foreground="#123B5D"/>
+                        <TextBlock Grid.Column="6" Text="Status" FontWeight="Bold" Foreground="#123B5D"/>
+                        <TextBlock Grid.Column="7" Text="Confirm" FontWeight="Bold" Foreground="#123B5D" Margin="12,0"/>
+                        <TextBlock Grid.Column="8" Text="Cancel" FontWeight="Bold" Foreground="#123B5D" Margin="12,0"/>
+                    </Grid>
+
+                    <ListView x:Name="AppointmentsListView" MinHeight="340">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Padding="10" ColumnSpacing="12">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1.1*"/>
+                                        <ColumnDefinition Width="1.1*"/>
+                                        <ColumnDefinition Width="1.1*"/>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="0.8*"/>
+                                        <ColumnDefinition Width="0.8*"/>
+                                        <ColumnDefinition Width="0.8*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock Text="{Binding PatientName}" TextWrapping="Wrap" Foreground="#333333"/>
+                                    <TextBlock Grid.Column="1" Text="{Binding PatientEmail}" TextWrapping="Wrap" Foreground="#333333"/>
+                                    <TextBlock Grid.Column="2" Text="{Binding DoctorName}" TextWrapping="Wrap" Foreground="#333333"/>
+                                    <TextBlock Grid.Column="3" Text="{Binding Specialty}" TextWrapping="Wrap" Foreground="#333333"/>
+                                    <TextBlock Grid.Column="4" Text="{Binding Date}" Foreground="#333333"/>
+                                    <TextBlock Grid.Column="5" Text="{Binding Time}" Foreground="#333333"/>
+                                    <TextBlock Grid.Column="6" Text="{Binding Status}" FontWeight="Bold" Foreground="#333333"/>
+
+                                    <Button
+                                        Grid.Column="7"
+                                        Content="Confirm"
+                                        Tag="{Binding Id}"
+                                        Background="#1F8F4D"
+                                        Foreground="White"
+                                        Click="Confirm_Click"/>
+
+                                    <Button
+                                        Grid.Column="8"
+                                        Content="Cancel"
+                                        Tag="{Binding Id}"
+                                        Background="#B3261E"
+                                        Foreground="White"
+                                        Click="Cancel_Click"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Page>

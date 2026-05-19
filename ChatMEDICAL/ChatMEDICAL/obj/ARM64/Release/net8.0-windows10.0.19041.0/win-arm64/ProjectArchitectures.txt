@@ -1,1 +1,0 @@
-D:\Medical-Chat-Demo\ChatMEDICAL\ChatMEDICAL\ChatMEDICAL.csproj;arm64
