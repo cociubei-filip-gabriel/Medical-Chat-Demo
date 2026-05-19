@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Medical Chat - Web</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">Medical Chat</p>
+      <h1>Aplicație web pentru pacient, doctor și admin</h1>
+      <p>Varianta aceasta rulează direct în browser, din același backend ASP.NET Core.</p>
+    </div>
+    <a class="swagger-link" href="/swagger" target="_blank">Deschide Swagger</a>
+  </header>
+
+  <main class="shell">
+    <section id="authSection" class="grid two-cols">
+      <div class="card">
+        <h2>Login</h2>
+        <p class="muted">Conturi demo: <b>admin@admin</b>, <b>demo.patient@pacient</b>, <b>andrei.popescu@doctor</b>. Parola este <b>1234</b>.</p>
+        <label>Email</label>
+        <input id="loginEmail" value="demo.patient@pacient" placeholder="nume.prenume@pacient / nume.prenume@doctor / admin@admin" />
+        <label>Parolă</label>
+        <input id="loginPassword" type="password" value="1234" />
+        <button id="loginBtn">Login</button>
+      </div>
+
+      <div class="card">
+        <h2>Înregistrare pacient</h2>
+        <p class="muted">Emailul pacientului trebuie să fie de forma <b>nume.prenume@pacient</b>.</p>
+        <label>Nume complet</label>
+        <input id="registerFullName" value="Ion Test" />
+        <label>CNP</label>
+        <input id="registerCnp" value="5050101123456" />
+        <label>Email pacient</label>
+        <input id="registerEmail" value="ion.test@pacient" />
+        <label>Telefon</label>
+        <input id="registerPhone" value="0722333444" />
+        <label>Parolă</label>
+        <input id="registerPassword" type="password" value="1234" />
+        <button id="registerBtn" class="secondary">Creează pacient</button>
+      </div>
+    </section>
+
+    <section id="dashboardSection" class="hidden">
+      <div class="topbar card">
+        <div>
+          <h2 id="welcomeTitle">Dashboard</h2>
+          <p id="roleInfo" class="muted"></p>
+        </div>
+        <button id="logoutBtn" class="danger">Logout</button>
+      </div>
+
+      <div id="patientPanel" class="card hidden">
+        <h3>Fă o programare</h3>
+        <div class="grid form-grid">
+          <div>
+            <label>Specialitate</label>
+            <select id="specialtySelect"></select>
+          </div>
+          <div>
+            <label>Doctor</label>
+            <select id="doctorSelect"></select>
+          </div>
+          <div>
+            <label>Data</label>
+            <input id="appointmentDate" type="date" />
+          </div>
+          <div>
+            <label>Ora</label>
+            <input id="appointmentTime" type="time" value="10:30" />
+          </div>
+          <div class="wide">
+            <label>Motiv</label>
+            <input id="appointmentReason" value="Consultație de test" />
+          </div>
+        </div>
+        <button id="bookBtn">Trimite programarea</button>
+      </div>
+
+      <div class="card">
+        <div class="table-head">
+          <h3 id="tableTitle">Programări</h3>
+          <button id="refreshBtn" class="secondary">Refresh</button>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Pacient</th>
+                <th>Email pacient</th>
+                <th>Doctor</th>
+                <th>Specialitate</th>
+                <th>Data</th>
+                <th>Ora</th>
+                <th>Status</th>
+                <th>Acțiuni</th>
+              </tr>
+            </thead>
+            <tbody id="appointmentsBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <div id="message" class="message hidden"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
