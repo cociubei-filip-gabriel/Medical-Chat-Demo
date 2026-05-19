@@ -19,7 +19,7 @@ export default function Dashboard() {
     }
     setUser(JSON.parse(userData));
 
-    fetch('http://localhost:5000/api/specialties')
+    fetch('https://chatmedical-api.jollystone-9c72cad8.swedencentral.azurecontainerapps.io/api/specialties')
       .then(res => res.json())
       .then(data => setSpecialties(data))
       .catch(err => console.error(err));
@@ -27,7 +27,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     if (selectedSpecialty) {
-      fetch(`http://localhost:5000/api/doctors?specialty=${selectedSpecialty}`)
+      fetch(`https://chatmedical-api.jollystone-9c72cad8.swedencentral.azurecontainerapps.io/api/doctors?specialty=${selectedSpecialty}`)
         .then(res => res.json())
         .then(data => setDoctors(data))
         .catch(err => console.error(err));
@@ -43,7 +43,7 @@ export default function Dashboard() {
     }
 
     try {
-      const res = await fetch('http://localhost:5000/api/appointments', {
+      const res = await fetch('https://chatmedical-api.jollystone-9c72cad8.swedencentral.azurecontainerapps.io/api/appointments', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

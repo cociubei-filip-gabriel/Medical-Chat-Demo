@@ -14,7 +14,7 @@ export default function RequestAccess() {
     }
 
     try {
-      const res = await fetch('http://localhost:5000/api/access-requests', {
+      const res = await fetch('https://chatmedical-api.jollystone-9c72cad8.swedencentral.azurecontainerapps.io/api/access-requests', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ fullName, email, reason })

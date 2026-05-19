@@ -14,7 +14,7 @@ public sealed class MedicalApiClient
     private readonly HttpClient _httpClient = new()
     {
         // Pentru rulare locala: porneste si proiectul ChatMEDICAL.Api.
-        BaseAddress = new Uri("http://localhost:5221")
+        BaseAddress = new Uri("https://chatmedical-api.jollystone-9c72cad8.swedencentral.azurecontainerapps.io")
     };
 
     private MedicalApiClient()
