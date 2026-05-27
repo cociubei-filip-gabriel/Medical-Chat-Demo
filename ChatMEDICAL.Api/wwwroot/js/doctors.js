@@ -1,4 +1,4 @@
-﻿/* ========================= */
+/* ========================= */
 /* URL SPECIALITY FILTER */
 /* ========================= */
 
@@ -155,8 +155,7 @@ function filterDoctors() {
 
     const searchValue =
 
-        searchDoctor.value
-            .toLowerCase();
+        searchDoctor ? searchDoctor.value.toLowerCase() : "";
 
     const specialityValue =
 
@@ -283,13 +282,17 @@ function filterDoctors() {
 
 /* EVENTS */
 
-searchDoctor.addEventListener(
+if (searchDoctor) {
 
-    "input",
+    searchDoctor.addEventListener(
 
-    filterDoctors
+        "input",
 
-);
+        filterDoctors
+
+    );
+
+}
 
 specialityFilter.addEventListener(
 
