@@ -91,8 +91,9 @@ body {
 }
 
 [data-theme="dark"] .logo-icon {
-    background: rgba(74, 144, 226, 0.15) !important;
-    color: #3b82f6 !important;
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%) !important;
+    color: white !important;
+    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.4) !important;
 }
 
 /* TOPBAR / NAVBAR */

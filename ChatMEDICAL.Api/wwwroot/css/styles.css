@@ -72,13 +72,25 @@ body {
 .logo-icon {
     width: 60px;
     height: 60px;
-    background: #edf5ff;
+    background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
     border-radius: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #4A90E2;
-    font-size: 24px;
+    color: white;
+    font-size: 26px;
+    box-shadow: 0 4px 15px rgba(74, 144, 226, 0.25);
+    transition: all 0.3s ease;
+}
+
+.logo-icon:hover {
+    transform: scale(1.05) rotate(5deg);
+    box-shadow: 0 6px 20px rgba(74, 144, 226, 0.35);
+}
+
+.logo-icon:hover {
+    transform: scale(1.05) rotate(5deg);
+    box-shadow: 0 6px 20px rgba(74, 144, 226, 0.35);
 }
 
 .logo span {
