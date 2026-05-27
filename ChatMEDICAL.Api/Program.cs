@@ -2,8 +2,57 @@ using ChatMEDICAL.Api.Data;
 using ChatMEDICAL.Api.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Text.RegularExpressions;
+using OpenTelemetry.Logs;
+using OpenTelemetry.Metrics;
+using OpenTelemetry.Resources;
+using OpenTelemetry.Trace;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configure OpenTelemetry
+var serviceName = builder.Configuration["OTEL_SERVICE_NAME"] ?? "chatmedical-api";
+builder.Services.AddOpenTelemetry()
+    .ConfigureResource(resource => resource.AddService(serviceName))
+    .WithTracing(tracing =>
+    {
+        tracing
+            .AddAspNetCoreInstrumentation(options =>
+            {
+                options.Filter = httpContext =>
+                {
+                    var path = httpContext.Request.Path.Value;
+                    return path != null && !path.Contains("/swagger", StringComparison.OrdinalIgnoreCase) && !path.Contains("/health", StringComparison.OrdinalIgnoreCase);
+                };
+            })
+            .AddHttpClientInstrumentation()
+            .AddOtlpExporter();
+    })
+    .WithMetrics(metrics =>
+    {
+        metrics
+            .AddAspNetCoreInstrumentation()
+            .AddRuntimeInstrumentation()
+            .AddOtlpExporter();
+    });
+
+builder.Logging.ClearProviders();
+
+builder.Logging.AddOpenTelemetry(options =>
+{
+    options.SetResourceBuilder(
+        ResourceBuilder.CreateDefault()
+            .AddService(serviceName));
+
+    options.IncludeFormattedMessage = true;
+    options.IncludeScopes = true;
+    options.ParseStateValues = true;
+
+    options.AddOtlpExporter(otlpOptions =>
+    {
+        var endpoint = builder.Configuration["OTEL_EXPORTER_OTLP_ENDPOINT"] ?? "http://localhost:4317";
+        otlpOptions.Endpoint = new Uri(endpoint);
+    });
+});
 
 builder.Services.AddCors(options =>
 {

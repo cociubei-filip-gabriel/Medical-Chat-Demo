@@ -1,0 +1,15 @@
+server:
+  http:
+    host: 0.0.0.0
+    port: 3301
+
+query-service:
+  clickhouse:
+    datasource: tcp://clickhouse:9000/?database=signoz_spans
+
+alertmanager:
+  config:
+    route:
+      receiver: default
+    receivers:
+      - name: default
