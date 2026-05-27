@@ -1,0 +1,475 @@
+﻿<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Fișă pacient</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="css/patient-details.css">
+
+    <!-- ICONS -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <!-- LOGO -->
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+
+                <i class="fa-solid fa-plus"></i>
+
+            </div>
+
+            <h2>
+
+                Chat<span>Medical</span>
+
+            </h2>
+
+        </div>
+
+        <!-- LINKS -->
+
+        <div class="sidebar-links">
+
+            <a href="doctor.html">
+
+                <i class="fa-solid fa-house"></i>
+
+                Dashboard
+
+            </a>
+
+            <a href="patients.html"
+               class="active">
+
+                <i class="fa-solid fa-user-group"></i>
+
+                Pacienți
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-solid fa-calendar-check"></i>
+
+                Programări
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-solid fa-comments"></i>
+
+                Mesaje
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-solid fa-gear"></i>
+
+                Setări
+
+            </a>
+
+        </div>
+
+        <!-- LOGOUT -->
+
+        <button class="logout-btn"
+                id="logoutBtn">
+
+            <i class="fa-solid fa-right-from-bracket"></i>
+
+            Logout
+
+        </button>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main class="main-content">
+
+        <!-- TOPBAR -->
+
+        <div class="topbar">
+
+            <div>
+
+                <h1>
+
+                    Fișa pacientului 👨‍⚕️
+
+                </h1>
+
+                <p>
+
+                    Informații medicale complete
+
+                </p>
+
+            </div>
+
+            <!-- ACTIONS -->
+
+            <div class="topbar-actions">
+
+                <button class="home-btn"
+                        onclick="window.location.href='index.html'">
+
+                    <i class="fa-solid fa-house"></i>
+
+                    Acasă
+
+                </button>
+
+                <button class="back-btn"
+                        onclick="window.location.href='patients.html'">
+
+                    <i class="fa-solid fa-arrow-left"></i>
+
+                    Înapoi
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- PROFILE -->
+
+        <section class="profile-section">
+
+            <!-- IMAGE -->
+
+            <div class="profile-image">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                     alt="patient">
+
+            </div>
+
+            <!-- INFO -->
+
+            <div class="profile-info">
+
+                <h2>
+
+                    Maria Popescu
+
+                </h2>
+
+                <p>
+
+                    maria@gmail.com
+
+                </p>
+
+                <span>
+
+                    +40 745 123 456
+
+                </span>
+
+                <!-- STATUS -->
+
+                <div class="status-badge">
+
+                    Pacient activ
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- MEDICAL -->
+
+        <section class="medical-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Informații medicale
+
+                </h2>
+
+            </div>
+
+            <!-- GRID -->
+
+            <div class="medical-grid">
+
+                <!-- CARD -->
+
+                <div class="medical-card">
+
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+
+                    <h3>
+
+                        Alergii
+
+                    </h3>
+
+                    <p>
+
+                        Penicilină
+
+                    </p>
+
+                </div>
+
+                <!-- CARD -->
+
+                <div class="medical-card">
+
+                    <i class="fa-solid fa-heart-pulse"></i>
+
+                    <h3>
+
+                        Istoric medical
+
+                    </h3>
+
+                    <p>
+
+                        Astm, hipertensiune
+
+                    </p>
+
+                </div>
+
+                <!-- CARD -->
+
+                <div class="medical-card">
+
+                    <i class="fa-solid fa-pills"></i>
+
+                    <h3>
+
+                        Medicamente
+
+                    </h3>
+
+                    <p>
+
+                        Paracetamol
+
+                    </p>
+
+                </div>
+
+                <!-- CARD -->
+
+                <div class="medical-card">
+
+                    <i class="fa-solid fa-droplet"></i>
+
+                    <h3>
+
+                        Grupa sanguină
+
+                    </h3>
+
+                    <p>
+
+                        A+
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- APPOINTMENTS -->
+
+        <section class="appointments-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Istoric programări
+
+                </h2>
+
+            </div>
+
+            <!-- LIST -->
+
+            <div class="appointments-list">
+
+                <!-- CARD -->
+
+                <div class="appointment-card">
+
+                    <div>
+
+                        <h3>
+
+                            Cardiologie
+
+                        </h3>
+
+                        <p>
+
+                            Dr. Andrei Popescu
+
+                        </p>
+
+                    </div>
+
+                    <span>
+
+                        12 Mai 2025
+
+                    </span>
+
+                </div>
+
+                <!-- CARD -->
+
+                <div class="appointment-card">
+
+                    <div>
+
+                        <h3>
+
+                            Neurologie
+
+                        </h3>
+
+                        <p>
+
+                            Dr. Maria Ionescu
+
+                        </p>
+
+                    </div>
+
+                    <span>
+
+                        20 Mai 2025
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ANALYSES -->
+
+        <section class="analyses-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Analize medicale
+
+                </h2>
+
+            </div>
+
+            <!-- LIST -->
+
+            <div class="analysis-list">
+
+                <!-- CARD -->
+
+                <div class="analysis-card">
+
+                    <div>
+
+                        <h3>
+
+                            Analize sânge
+
+                        </h3>
+
+                        <p>
+
+                            10 Mai 2025
+
+                        </p>
+
+                    </div>
+
+                    <button>
+
+                        PDF
+
+                    </button>
+
+                </div>
+
+                <!-- CARD -->
+
+                <div class="analysis-card">
+
+                    <div>
+
+                        <h3>
+
+                            RMN cerebral
+
+                        </h3>
+
+                        <p>
+
+                            18 Mai 2025
+
+                        </p>
+
+                    </div>
+
+                    <button>
+
+                        PDF
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- JS -->
+
+    <script src="js/auth.js"></script>
+
+    <script src="js/patient-details.js"></script>
+
+</body>
+
+</html>

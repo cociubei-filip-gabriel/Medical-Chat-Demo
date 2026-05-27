@@ -1,0 +1,415 @@
+﻿<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Pacienți</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="css/patients.css">
+
+    <!-- ICONS -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <!-- LOGO -->
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+
+                <i class="fa-solid fa-plus"></i>
+
+            </div>
+
+            <h2>
+
+                Chat<span>Medical</span>
+
+            </h2>
+
+        </div>
+
+        <!-- LINKS -->
+
+        <div class="sidebar-links"
+             id="sideLinks">
+        </div>
+
+        <!-- LOGOUT -->
+
+        <button class="logout-btn"
+                id="logoutBtn">
+
+            <i class="fa-solid fa-right-from-bracket"></i>
+
+            Logout
+
+        </button>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main class="main-content">
+
+        <!-- TOPBAR -->
+
+        <div class="topbar">
+
+            <div>
+
+                <h1>
+
+                    Pacienții mei 👨‍⚕️
+
+                </h1>
+
+                <p>
+
+                    Gestionează istoricul și informațiile medicale
+
+                </p>
+
+            </div>
+
+            <!-- ACTIONS -->
+
+            <div class="topbar-actions">
+
+                <button class="home-btn"
+                        onclick="window.location.href='index.html'">
+
+                    <i class="fa-solid fa-house"></i>
+
+                    Acasă
+
+                </button>
+
+                <button class="icon-btn">
+
+                    <i class="fa-regular fa-bell"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- SEARCH -->
+
+        <section class="search-section">
+
+            <!-- SEARCH BOX -->
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input type="text"
+                       id="searchInput"
+                       placeholder="Caută pacient...">
+
+            </div>
+
+        </section>
+
+        <!-- FILTERS -->
+
+        <section class="filters-section">
+
+            <div class="filters">
+
+                <!-- STATUS -->
+
+                <select id="statusFilter">
+
+                    <option>
+
+                        Status
+
+                    </option>
+
+                    <option>
+
+                        Activ
+
+                    </option>
+
+                    <option>
+
+                        Inactiv
+
+                    </option>
+
+                </select>
+
+                <!-- ALLERGIES -->
+
+                <select id="allergyFilter">
+
+                    <option>
+
+                        Alergii
+
+                    </option>
+
+                    <option>
+
+                        Penicilină
+
+                    </option>
+
+                    <option>
+
+                        Polen
+
+                    </option>
+
+                    <option>
+
+                        Lactoză
+
+                    </option>
+
+                </select>
+
+                <!-- DATE -->
+
+                <select id="dateFilter">
+
+                    <option>
+
+                        Ultima programare
+
+                    </option>
+
+                    <option>
+
+                        Cele mai recente
+
+                    </option>
+
+                    <option>
+
+                        Cele mai vechi
+
+                    </option>
+
+                </select>
+
+            </div>
+
+        </section>
+
+        <!-- PATIENTS -->
+
+        <section class="patients-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Lista pacienților
+
+                </h2>
+
+            </div>
+
+            <!-- GRID -->
+
+            <div class="patients-grid">
+
+                <!-- CARD -->
+
+                <div class="patient-card">
+
+                    <!-- TOP -->
+
+                    <div class="patient-top">
+
+                        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                             alt="patient">
+
+                        <div>
+
+                            <h3>
+
+                                Maria Popescu
+
+                            </h3>
+
+                            <p>
+
+                                Pacient activ
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- INFO -->
+
+                    <div class="patient-info">
+
+                        <span>
+
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+
+                            Alergie: Penicilină
+
+                        </span>
+
+                        <span>
+
+                            <i class="fa-solid fa-heart-pulse"></i>
+
+                            Istoric: Astm
+
+                        </span>
+
+                        <span>
+
+                            <i class="fa-solid fa-calendar-check"></i>
+
+                            Ultima programare:
+                            12 Mai 2025
+
+                        </span>
+
+                    </div>
+
+                    <!-- BUTTON -->
+
+                    <button class="details-btn">
+
+                        Vezi detalii
+
+                    </button>
+
+                </div>
+
+                <!-- CARD -->
+
+                <div class="patient-card">
+
+                    <div class="patient-top">
+
+                        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                             alt="patient">
+
+                        <div>
+
+                            <h3>
+
+                                Andrei Ionescu
+
+                            </h3>
+
+                            <p>
+
+                                Pacient activ
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="patient-info">
+
+                        <span>
+
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+
+                            Alergie: Polen
+
+                        </span>
+
+                        <span>
+
+                            <i class="fa-solid fa-heart-pulse"></i>
+
+                            Istoric: Diabet
+
+                        </span>
+
+                        <span>
+
+                            <i class="fa-solid fa-calendar-check"></i>
+
+                            Ultima programare:
+                            20 Mai 2025
+
+                        </span>
+
+                    </div>
+
+                    <button class="details-btn">
+
+                        Vezi detalii
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- REQUESTS -->
+
+        <section class="requests-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Cereri programări
+
+                </h2>
+
+            </div>
+
+            <!-- LIST -->
+
+            <div class="requests-list"
+                 id="requestsList">
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- JS -->
+
+    <script src="js/auth.js"></script>
+
+    <script src="js/patients.js"></script>
+
+    <script type="module"
+            src="js/sidebar.js">
+    </script>
+
+
+</body>
+
+</html>

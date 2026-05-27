@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Specialități</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="css/specialities.css">
+
+    <!-- ICONS -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <!-- LOGO -->
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+
+                <i class="fa-solid fa-plus"></i>
+
+            </div>
+
+            <h2>
+
+                Chat<span>Medical</span>
+
+            </h2>
+
+        </div>
+
+        <!-- LINKS -->
+
+        <div class="sidebar-links"
+             id="sideLinks">
+        </div>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main class="main-content">
+
+        <!-- TOPBAR -->
+
+        <div class="topbar">
+
+            <div>
+
+                <h1>
+
+                    Specialități medicale 🩺
+
+                </h1>
+
+                <p>
+
+                    Descoperă toate specializările disponibile
+
+                </p>
+
+            </div>
+
+            <button class="home-btn"
+                    onclick="window.location.href='index.html'">
+
+                <i class="fa-solid fa-house"></i>
+
+                Acasă
+
+            </button>
+
+        </div>
+
+        <!-- SEARCH -->
+
+        <div class="search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="text"
+                   id="searchSpeciality"
+                   placeholder="Caută specialitate...">
+
+        </div>
+
+        <!-- GRID -->
+        <!-- SPECIALITIES GRID -->
+
+        <div class="specialities-grid">
+
+            <!-- CARD -->
+
+            <div class="speciality-card"
+                 data-name="cardiologie"
+                 onclick="
+window.location.href=
+'doctors.html?speciality=cardiologie'
+">
+
+                <div class="speciality-icon">
+
+                    <i class="fa-solid fa-heart-pulse"></i>
+
+                </div>
+
+                <h3>
+
+                    Cardiologie
+
+                </h3>
+
+                <p>
+
+                    Consult și monitorizare pentru afecțiuni cardiace.
+
+                </p>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="speciality-card"
+                 data-name="dermatologie"
+                 onclick="
+window.location.href=
+'doctors.html?speciality=dermatologie'
+">
+
+                <div class="speciality-icon">
+
+                    <i class="fa-solid fa-hand-dots"></i>
+
+                </div>
+
+                <h3>
+
+                    Dermatologie
+
+                </h3>
+
+                <p>
+
+                    Diagnostic și tratament pentru afecțiuni ale pielii.
+
+                </p>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="speciality-card"
+                 data-name="neurologie"
+                 onclick="
+window.location.href=
+'doctors.html?speciality=neurologie'
+">
+
+                <div class="speciality-icon">
+
+                    <i class="fa-solid fa-brain"></i>
+
+                </div>
+
+                <h3>
+
+                    Neurologie
+
+                </h3>
+
+                <p>
+
+                    Investigații și tratamente neurologice moderne.
+
+                </p>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="speciality-card"
+                 data-name="oftalmologie"
+                 onclick="
+window.location.href=
+'doctors.html?speciality=oftalmologie'
+">
+
+                <div class="speciality-icon">
+
+                    <i class="fa-solid fa-eye"></i>
+
+                </div>
+
+                <h3>
+
+                    Oftalmologie
+
+                </h3>
+
+                <p>
+
+                    Consultații și controale complete pentru vedere.
+
+                </p>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- JS -->
+    <script type="module"
+            src="js/sidebar.js">
+    </script>
+    <script src="js/specialities.js"></script>
+
+</body>
+
+</html>

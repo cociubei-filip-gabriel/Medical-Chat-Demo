@@ -1,0 +1,267 @@
+﻿<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Setări</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="css/settings.css">
+
+    <!-- ICONS -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <!-- LOGO -->
+
+        <div class="logo">
+
+            <div class="logo-icon">
+
+                <i class="fa-solid fa-plus"></i>
+
+            </div>
+
+            <h2>
+
+                Chat<span>Medical</span>
+
+            </h2>
+
+        </div>
+
+        <!-- MENU -->
+
+        <nav class="sidebar-menu"
+             id="sideLinks">
+        </nav>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main class="main-content">
+
+        <!-- HEADER -->
+
+        <div class="page-header">
+
+            <div>
+
+                <h1>
+
+                    Setări ⚙️
+
+                </h1>
+
+                <p>
+
+                    Controlează preferințele contului tău
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- SETTINGS GRID -->
+
+        <div class="settings-grid">
+
+            <!-- CARD -->
+
+            <div class="settings-card">
+
+                <div class="settings-top">
+
+                    <i class="fa-solid fa-bell"></i>
+
+                    <h3>
+
+                        Notificări
+
+                    </h3>
+
+                </div>
+
+                <div class="switch-row">
+
+                    <span>
+
+                        Activează notificările
+
+                    </span>
+
+                    <label class="switch">
+
+                        <input type="checkbox"
+                               id="notificationsToggle">
+
+                        <span class="slider"></span>
+
+                    </label>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="settings-card">
+
+                <div class="settings-top">
+
+                    <i class="fa-solid fa-moon"></i>
+
+                    <h3>
+
+                        Dark Mode
+
+                    </h3>
+
+                </div>
+
+                <div class="switch-row">
+
+                    <span>
+
+                        Activează dark mode
+
+                    </span>
+
+                    <label class="switch">
+
+                        <input type="checkbox"
+                               id="darkModeToggle">
+
+                        <span class="slider"></span>
+
+                    </label>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="settings-card">
+
+                <div class="settings-top">
+
+                    <i class="fa-solid fa-language"></i>
+
+                    <h3>
+
+                        Limbă
+
+                    </h3>
+
+                </div>
+
+                <select id="languageSelect">
+
+                    <option>
+
+                        Română
+
+                    </option>
+
+                    <option>
+
+                        English
+
+                    </option>
+
+                    <option>
+
+                        Français
+
+                    </option>
+
+                </select>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="settings-card">
+
+                <div class="settings-top">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    <h3>
+
+                        Schimbă parola
+
+                    </h3>
+
+                </div>
+
+                <input type="password"
+                       id="newPassword"
+                       placeholder="Noua parolă">
+
+                <button id="savePasswordBtn">
+
+                    Salvează parola
+
+                </button>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="settings-card logout-card">
+
+                <div class="settings-top">
+
+                    <i class="fa-solid fa-right-from-bracket"></i>
+
+                    <h3>
+
+                        Logout
+
+                    </h3>
+
+                </div>
+
+                <button id="logoutBtn">
+
+                    Delogare
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- JS -->
+
+    <script src="js/settings.js"></script>
+    <script type="module"
+            src="js/sidebar.js">
+    </script>
+
+</body>
+
+</html>

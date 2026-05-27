@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+
+        Consultație Video
+
+    </title>
+
+    <link rel="stylesheet"
+          href="css/video.css">
+
+</head>
+
+<body>
+
+    <div class="video-page">
+
+        <!-- BACK -->
+
+        <button id="backBtn"
+                class="video-btn back-btn">
+
+            ← Înapoi
+
+        </button>
+
+        <h1>
+
+            Consultație Video 👨‍⚕️
+
+        </h1>
+
+        <!-- VIDEOS -->
+
+        <div class="video-container">
+
+            <video id="localVideo"
+                   autoplay
+                   muted
+                   playsinline>
+            </video>
+
+            <video id="remoteVideo"
+                   autoplay
+                   playsinline>
+            </video>
+
+        </div>
+
+        <!-- CONTROLS -->
+
+        <div class="video-controls">
+
+            <button id="startCameraBtn"
+                    class="video-btn">
+
+                Pornește Camera
+
+            </button>
+
+            <button id="toggleMicBtn"
+                    class="video-btn">
+
+                Microfon ON/OFF
+
+            </button>
+
+            <button id="joinCallBtn"
+                    class="video-btn">
+
+                Intră în apel
+
+            </button>
+
+            <button id="recordBtn"
+                    class="video-btn">
+
+                Începe Recording
+
+            </button>
+
+            <button id="stopRecordBtn"
+                    class="video-btn">
+
+                Oprește Recording
+
+            </button>
+
+            <button id="endCallBtn"
+                    class="video-btn end-btn">
+
+                Închide apel
+
+            </button>
+
+        </div>
+
+        <!-- CHAT -->
+
+        <div class="video-chat">
+
+            <div id="messages"
+                 class="messages">
+
+            </div>
+
+            <div class="chat-input-area">
+
+                <input type="text"
+                       id="messageInput"
+                       placeholder="Scrie mesaj...">
+
+                <button id="sendMessageBtn">
+
+                    Trimite
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script type="module"
+            src="js/video.js">
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #f5f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.video-appointment-page {
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+    .video-appointment-page h1 {
+        font-size: 34px;
+        margin-bottom: 15px;
+        color: #1f2937;
+    }
+
+    .video-appointment-page p {
+        color: #6b7280;
+        margin-bottom: 35px;
+    }
+
+.form-group {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: 600;
+        color: #374151;
+    }
+
+    .form-group input {
+        width: 100%;
+        height: 60px;
+        border-radius: 18px;
+        border: 2px solid #dbeafe;
+        padding: 0 20px;
+        font-size: 16px;
+        outline: none;
+        transition: 0.3s;
+    }
+
+        .form-group input:focus {
+            border-color: #3b82f6;
+        }
+
+.video-btn {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 18px;
+    background: #3b82f6;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .video-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 15px 30px rgba(59,130,246,0.25);
+    }
+
+.back-btn {
+    margin-top: 20px;
+    background: #e5e7eb;
+    color: #111827;
+}
+
+.success-box {
+    margin-top: 25px;
+    padding: 18px;
+    border-radius: 18px;
+    background: #ecfdf5;
+    color: #065f46;
+    display: none;
+}
+
+    .success-box.active {
+        display: block;
+    }

@@ -1,0 +1,371 @@
+﻿<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Analize Medicale</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="css/analyses.css">
+
+    <!-- ICONS -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <!-- LOGO -->
+
+        <div class="logo">
+
+            <div class="logo-icon">
+
+                <i class="fa-solid fa-plus"></i>
+
+            </div>
+
+            <h2>
+
+                Chat<span>Medical</span>
+
+            </h2>
+
+        </div>
+
+        <!-- MENU -->
+
+        <nav class="sidebar-menu"
+             id="sideLinks">
+        </nav>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main class="main-content">
+
+        <!-- HEADER -->
+
+        <div class="page-header">
+
+            <div>
+
+                <h1>
+
+                    Analize medicale 🧪
+
+                </h1>
+
+                <p>
+
+                    Gestionează și filtrează analizele medicale
+
+                </p>
+
+            </div>
+
+            <!-- UPLOAD -->
+
+            <label class="upload-btn">
+
+                <i class="fa-solid fa-upload"></i>
+
+                Adaugă analiză
+
+                <input type="file"
+                       id="analysisUpload"
+                       hidden>
+
+            </label>
+
+        </div>
+
+        <!-- FILTERS -->
+
+        <div class="filters-container">
+
+            <!-- SEARCH -->
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input type="text"
+                       placeholder="Caută analiză...">
+
+            </div>
+
+            <!-- SPECIALIZATION -->
+
+            <select id="specializationFilter">
+
+                <option value="">
+
+                    Specializare
+
+                </option>
+
+                <option>
+
+                    Cardiologie
+
+                </option>
+
+                <option>
+
+                    Neurologie
+
+                </option>
+
+                <option>
+
+                    Dermatologie
+
+                </option>
+
+            </select>
+
+            <!-- DOCTOR -->
+
+            <select id="doctorFilter">
+
+                <option value="">
+
+                    Doctor
+
+                </option>
+
+                <option>
+
+                    Dr. Andrei Popescu
+
+                </option>
+
+                <option>
+
+                    Dr. Maria Ionescu
+
+                </option>
+
+            </select>
+
+            <!-- PERIOD -->
+
+            <select id="periodFilter">
+
+                <option value="">
+
+                    Perioadă
+
+                </option>
+
+                <option>
+
+                    Ultimele 6 luni
+
+                </option>
+
+                <option>
+
+                    Ultimul an
+
+                </option>
+
+                <option>
+
+                    Ultimii 5 ani
+
+                </option>
+
+                <option>
+
+                    Toate
+
+                </option>
+
+            </select>
+
+        </div>
+
+        <!-- ANALYSES GRID -->
+
+        <div class="analyses-grid">
+
+            <!-- CARD -->
+
+            <div class="analysis-card">
+
+                <!-- TOP -->
+
+                <div class="analysis-top">
+
+                    <div class="analysis-icon">
+
+                        <i class="fa-solid fa-file-pdf"></i>
+
+                    </div>
+
+                    <span class="analysis-type">
+
+                        PDF
+
+                    </span>
+
+                </div>
+
+                <!-- CONTENT -->
+
+                <h3>
+
+                    Hemoleucogramă completă
+
+                </h3>
+
+                <p>
+
+                    Cardiologie
+
+                </p>
+
+                <!-- INFO -->
+
+                <div class="analysis-info">
+
+                    <span>
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        Dr. Andrei Popescu
+
+                    </span>
+
+                    <span>
+
+                        <i class="fa-solid fa-calendar"></i>
+
+                        25 Mai 2026
+
+                    </span>
+
+                </div>
+
+                <!-- BUTTONS -->
+
+                <div class="analysis-buttons">
+
+                    <button class="view-btn">
+
+                        Vezi
+
+                    </button>
+
+                    <button class="download-btn">
+
+                        Download
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="analysis-card">
+
+                <div class="analysis-top">
+
+                    <div class="analysis-icon">
+
+                        <i class="fa-solid fa-image"></i>
+
+                    </div>
+
+                    <span class="analysis-type">
+
+                        Imagine
+
+                    </span>
+
+                </div>
+
+                <h3>
+
+                    Radiografie pulmonară
+
+                </h3>
+
+                <p>
+
+                    Pneumologie
+
+                </p>
+
+                <div class="analysis-info">
+
+                    <span>
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        Dr. Maria Ionescu
+
+                    </span>
+
+                    <span>
+
+                        <i class="fa-solid fa-calendar"></i>
+
+                        14 Martie 2025
+
+                    </span>
+
+                </div>
+
+                <div class="analysis-buttons">
+
+                    <button class="view-btn">
+
+                        Vezi
+
+                    </button>
+
+                    <button class="download-btn">
+
+                        Download
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- JS -->
+    <script type="module"
+            src="js/sidebar.js">
+    </script>
+
+    <script src="js/analyses.js"></script>
+    
+
+</body>
+
+</html>

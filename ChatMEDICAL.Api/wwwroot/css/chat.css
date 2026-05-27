@@ -1,0 +1,415 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: #f5f9ff;
+}
+
+/* SIDEBAR */
+
+.chat-sidebar {
+    width: 340px;
+    background: white;
+    border-right: 1px solid #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+/* TOP */
+
+.sidebar-top {
+    padding: 30px;
+}
+
+    .sidebar-top h2 {
+        color: #4A90E2;
+    }
+
+/* SEARCH */
+
+.search-box {
+    margin: 0 20px 20px;
+    height: 55px;
+    background: #f4f9ff;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    gap: 12px;
+}
+
+    .search-box input {
+        flex: 1;
+        border: none;
+        outline: none;
+        background: none;
+    }
+
+/* USERS */
+
+.chat-users {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* USER */
+
+.chat-user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 18px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    .chat-user:hover,
+    .active-user {
+        background: #edf5ff;
+    }
+
+    .chat-user img {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+    }
+
+    .chat-user p {
+        color: #22c55e;
+        font-size: 14px;
+    }
+
+/* MAIN */
+
+.chat-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* TOPBAR */
+
+.chat-topbar {
+    height: 90px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* USER INFO */
+
+.chat-user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+    .chat-user-info img {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+    }
+
+    .chat-user-info p {
+        color: #22c55e;
+        font-size: 14px;
+    }
+
+/* ========================= */
+/* CHAT BOX */
+/* ========================= */
+
+.chat-box {
+    flex: 1;
+    padding: 30px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    background: white;
+    scroll-behavior: smooth;
+}
+
+
+/* SENT */
+
+.sent {
+    align-self: flex-end;
+    background: #4A90E2;
+    color: white;
+    border-bottom-right-radius: 5px;
+}
+
+/* RECEIVED */
+
+.received {
+    align-self: flex-start;
+    background: white;
+    color: #1F2D3D;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+
+/* ========================= */
+/* CHAT INPUT */
+/* ========================= */
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 18px 22px;
+    background: white;
+    border-top: 1px solid #eee;
+}
+
+    /* INPUT FIELD */
+    .chat-input input {
+        flex: 1;
+        border: none;
+        background: #f0f2f5;
+        padding: 16px 20px;
+        border-radius: 30px;
+        outline: none;
+        font-size: 15px;
+    }
+
+    /* BUTTON */
+
+    .chat-input button {
+        width: 52px;
+        height: 52px;
+        border: none;
+        border-radius: 50%;
+        background: #4A90E2;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+        transition: 0.2s;
+    }
+
+        .chat-input button:hover {
+            transform: scale(1.05);
+        }
+
+        .chat-input button:hover {
+            transform: scale(1.05);
+        }
+
+/* RESPONSIVE */
+
+@media(max-width:900px) {
+
+    .chat-sidebar {
+        display: none;
+    }
+}
+/* ========================= */
+/* MESSAGE TIME */
+/* ========================= */
+
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/* TIME */
+
+.message-time {
+    font-size: 12px;
+    opacity: 0.7;
+    align-self: flex-end;
+}
+
+/* ========================= */
+/* WHATSAPP STYLE */
+/* ========================= */
+
+/* ========================= */
+/* MESSAGE */
+/* ========================= */
+
+.message {
+    max-width: 65%;
+    padding: 14px 18px;
+    border-radius: 20px;
+    position: relative;
+    animation: fadeIn 0.2s ease;
+    word-wrap: break-word;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* MY MESSAGE */
+
+/* ========================= */
+/* MY MESSAGE */
+/* ========================= */
+
+.my-message {
+    align-self: flex-end;
+    background: #4A90E2;
+    color: white;
+    border-bottom-right-radius: 6px;
+}
+
+/* ========================= */
+/* OTHER MESSAGE */
+/* ========================= */
+
+.other-message {
+    align-self: flex-start;
+    background: #f5f7fb;
+    border: 1px solid #eee;
+    border-bottom-left-radius: 6px;
+}
+
+/* TIME */
+
+.message-time {
+    font-size: 11px;
+    opacity: 0.8;
+    align-self: flex-end;
+}
+
+/* CHAT */
+
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* ANIMATION */
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.user-status {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.online-dot {
+    width: 10px;
+    height: 10px;
+    background: #22c55e;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* ========================= */
+/* MESSAGE TIME */
+/* ========================= */
+
+.message-time {
+    font-size: 11px;
+    opacity: 0.6;
+    text-align: right;
+    margin-top: 8px;
+}
+
+.chat-box {
+    scroll-behavior: smooth;
+}
+
+.message-name {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: #4A90E2;
+}
+
+/* ========================= */
+/* MESSAGE TEXT */
+/* ========================= */
+
+.message-text {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #111;
+}
+
+.my-message .message-text {
+    color: white;
+}
+
+/* ========================= */
+/* ANIMATION */
+/* ========================= */
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* ========================= */
+/* CHAT ICON BUTTONS */
+/* ========================= */
+
+.chat-icon-btn {
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background: #f0f2f5;
+    color: #4A90E2;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.2s;
+    flex-shrink: 0;
+}
+
+    .chat-icon-btn:hover {
+        transform: scale(1.08);
+        background: #e6eefc;
+    }
+
+.back-btn {
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: 0.3s;
+    margin-right: 15px;
+}

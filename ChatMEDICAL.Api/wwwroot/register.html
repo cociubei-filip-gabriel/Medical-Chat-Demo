@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Register</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="css/login.css">
+
+    <!-- ICONS -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <button class="back-btn"
+            onclick="window.location.href='index.html'">
+
+        <i class="fa-solid fa-arrow-left"></i>
+
+        <span>Înapoi</span>
+
+    </button>
+
+    <!-- BACKGROUND -->
+
+    <div class="background-overlay"></div>
+
+    <!-- REGISTER CARD -->
+
+    <div class="login-container">
+
+        <!-- LOGO -->
+
+        <div class="login-logo">
+
+            <div class="logo-icon">
+
+                <i class="fa-solid fa-plus"></i>
+
+            </div>
+
+            <h2>
+
+                Chat<span>Medical</span>
+
+            </h2>
+
+        </div>
+
+        <!-- TITLE -->
+
+        <h1>
+
+            Creează cont 💙
+
+        </h1>
+
+        <p>
+
+            Înregistrează-te în platformă
+
+        </p>
+
+        <!-- FORM -->
+
+        <form id="registerForm">
+
+            <!-- USERNAME -->
+
+            <div class="input-box">
+
+                <i class="fa-solid fa-user"></i>
+
+                <input type="text"
+                       id="username"
+                       placeholder="Nume utilizator">
+
+            </div>
+
+            <!-- EMAIL -->
+
+            <div class="input-box">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <input type="email"
+                       id="email"
+                       placeholder="Email">
+
+            </div>
+
+            <!-- PASSWORD -->
+
+            <div class="input-box">
+
+                <i class="fa-solid fa-lock"></i>
+
+                <input type="password"
+                       id="password"
+                       placeholder="Parolă">
+
+            </div>
+
+            <!-- CONFIRM -->
+
+            <div class="input-box">
+
+                <i class="fa-solid fa-lock"></i>
+
+                <input type="password"
+                       id="confirmPassword"
+                       placeholder="Confirmă parola">
+
+            </div>
+
+            <!-- ROLE -->
+
+            <div class="input-box">
+
+                <i class="fa-solid fa-user-doctor"></i>
+
+                <select id="role">
+
+                    <option value="patient">
+
+                        Pacient
+
+                    </option>
+
+                    <option value="doctor">
+
+                        Doctor
+
+                    </option>
+
+                </select>
+
+            </div>
+
+            <!-- BUTTON -->
+
+            <button type="submit"
+                    class="login-btn">
+
+                Register
+
+            </button>
+
+        </form>
+
+        <!-- LOGIN -->
+
+        <div class="bottom-text">
+
+            Ai deja cont?
+
+            <a href="login.html">
+
+                Login
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- JS -->
+
+    <script src="js/register.js"></script>
+
+</body>
+
+</html>

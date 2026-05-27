@@ -1,0 +1,608 @@
+﻿<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Doctor Dashboard</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="css/doctor.css">
+
+    <!-- ICONS -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <!-- LOGO -->
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+
+                <i class="fa-solid fa-plus"></i>
+
+            </div>
+
+            <h2>
+
+                Chat<span>Medical</span>
+
+            </h2>
+
+        </div>
+
+        <!-- MENU -->
+
+        <div class="sidebar-links"
+             id="sideLinks">
+        </div>
+
+        <!-- LOGOUT -->
+
+        <button class="logout-btn"
+                id="logoutBtn">
+
+            <i class="fa-solid fa-right-from-bracket"></i>
+
+            Logout
+
+        </button>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main class="main-content">
+
+        <!-- TOPBAR -->
+        <div class="notification-wrapper">
+
+            <i class="fa-solid fa-bell"></i>
+
+            <span id="notificationBadge">
+
+                0
+
+            </span>
+
+        </div>
+
+        <div class="topbar">
+
+            <div>
+
+                <h1>
+
+                    Bun venit, Dr. Popescu 👋
+
+                </h1>
+
+                <p>
+
+                    Ai 8 programări astăzi
+
+                </p>
+
+            </div>
+
+            <!-- ACTIONS -->
+            <button class="home-btn"
+                    onclick="window.location.href='index.html'">
+
+                <i class="fa-solid fa-house"></i>
+
+                Acasă
+
+            </button>
+
+            <div class="topbar-actions">
+
+                <button class="icon-btn"
+                        id="notificationBtn">
+
+                    <i class="fa-regular fa-bell"></i>
+
+                </button>
+
+                <button class="icon-btn">
+
+                    <i class="fa-regular fa-user"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- DOCTOR PROFILE -->
+        <!-- PROFILE -->
+
+        <section class="doctor-profile">
+
+            <!-- IMAGE -->
+
+            <div class="doctor-image">
+
+                <img id="doctorPreview"
+                     src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png"
+                     alt="doctor">
+
+            </div>
+
+            <!-- INFO -->
+
+            <div class="doctor-info">
+
+                <!-- GRID -->
+
+                <div class="doctor-grid">
+
+                    <!-- NUME -->
+
+                    <div class="input-box">
+
+                        <label>
+
+                            Nume
+
+                        </label>
+
+                        <input type="text"
+                               id="doctorName"
+                               placeholder="Dr. Popescu">
+
+                    </div>
+
+                    <!-- SPECIALIZARE -->
+
+                    <div class="input-box">
+
+                        <label>
+
+                            Specializare
+
+                        </label>
+
+                        <input type="text"
+                               id="doctorSpeciality"
+                               placeholder="Cardiologie">
+
+                    </div>
+
+                    <!-- EXPERIENȚĂ -->
+
+                    <div class="input-box">
+
+                        <label>
+
+                            Experiență
+
+                        </label>
+
+                        <input type="text"
+                               id="doctorExperience"
+                               placeholder="10 ani">
+
+                    </div>
+
+                    <!-- UNIVERSITATE -->
+
+                    <div class="input-box">
+
+                        <label>
+
+                            Universitate
+
+                        </label>
+
+                        <input type="text"
+                               id="doctorUniversity"
+                               placeholder="UMF Cluj">
+
+                    </div>
+
+                    <!-- TELEFON -->
+
+                    <div class="input-box">
+
+                        <label>
+
+                            Telefon
+
+                        </label>
+
+                        <input type="text"
+                               id="doctorPhone"
+                               placeholder="+40 745 123 456">
+
+                    </div>
+
+                    <!-- LIMBI -->
+
+                    <div class="input-box">
+
+                        <label>
+
+                            Limbi vorbite
+
+                        </label>
+
+                        <input type="text"
+                               id="doctorLanguages"
+                               placeholder="Română, Engleză">
+
+                    </div>
+
+                </div>
+
+                <!-- CERTIFICĂRI -->
+
+                <div class="textarea-box">
+
+                    <label>
+
+                        Certificări
+
+                    </label>
+
+                    <textarea id="doctorCertificates"
+                              placeholder="Certificat European Cardiologie">
+
+            </textarea>
+
+                </div>
+
+                <!-- BIO -->
+
+                <div class="textarea-box">
+
+                    <label>
+
+                        Descriere profesională
+
+                    </label>
+
+                    <textarea id="doctorBio"
+                              placeholder="Medic specialist cu experiență...">
+
+            </textarea>
+
+                </div>
+
+                <!-- BUTTONS -->
+
+                <div class="doctor-buttons">
+
+                    <!-- UPLOAD -->
+
+                    <label class="upload-btn">
+
+                        <i class="fa-solid fa-camera"></i>
+
+                        Schimbă poza
+
+                        <input type="file"
+                               id="doctorImageUpload"
+                               hidden>
+
+                    </label>
+
+                    <!-- SAVE -->
+
+                    <button class="save-btn"
+                            id="saveDoctorBtn">
+
+                        Salvează profilul
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- STATS -->
+
+        <section class="stats-grid">
+
+            <!-- CARD -->
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+
+                    <i class="fa-solid fa-user-group"></i>
+
+                </div>
+
+                <h2>128</h2>
+
+                <p>Pacienți</p>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+
+                    <i class="fa-solid fa-calendar-check"></i>
+
+                </div>
+
+                <h2>24</h2>
+
+                <p>Programări</p>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+
+                    <i class="fa-solid fa-video"></i>
+
+                </div>
+
+                <h2>4</h2>
+
+                <p>Consultații Live</p>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+
+                    <i class="fa-solid fa-star"></i>
+
+                </div>
+
+                <h2>4.9</h2>
+
+                <p>Rating</p>
+
+            </div>
+
+        </section>
+
+        <!-- APPOINTMENTS -->
+
+        <section class="appointments">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Programările de azi
+
+                </h2>
+
+            </div>
+
+            <div id="appointmentsList">
+
+            </div>
+
+            <!-- LIST -->
+
+           
+        </section>
+
+        <!-- QUICK ACTIONS -->
+        <!-- SCHEDULE -->
+
+        <section class="doctor-schedule">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Program disponibil
+
+                </h2>
+
+            </div>
+
+            <!-- GRID -->
+
+            <div class="schedule-grid">
+
+                <!-- MONDAY -->
+
+                <div class="schedule-card">
+
+                    <h3>
+
+                        Luni
+
+                    </h3>
+
+                    <input type="time"
+                           id="mondayStart">
+
+                    <input type="time"
+                           id="mondayEnd">
+
+                </div>
+
+                <!-- TUESDAY -->
+
+                <div class="schedule-card">
+
+                    <h3>
+
+                        Marți
+
+                    </h3>
+
+                    <input type="time"
+                           id="tuesdayStart">
+
+                    <input type="time"
+                           id="tuesdayEnd">
+
+                </div>
+
+                <!-- WEDNESDAY -->
+
+                <div class="schedule-card">
+
+                    <h3>
+
+                        Miercuri
+
+                    </h3>
+
+                    <input type="time"
+                           id="wednesdayStart">
+
+                    <input type="time"
+                           id="wednesdayEnd">
+
+                </div>
+
+                <!-- THURSDAY -->
+
+                <div class="schedule-card">
+
+                    <h3>
+
+                        Joi
+
+                    </h3>
+
+                    <input type="time"
+                           id="thursdayStart">
+
+                    <input type="time"
+                           id="thursdayEnd">
+
+                </div>
+
+                <!-- FRIDAY -->
+
+                <div class="schedule-card">
+
+                    <h3>
+
+                        Vineri
+
+                    </h3>
+
+                    <input type="time"
+                           id="fridayStart">
+
+                    <input type="time"
+                           id="fridayEnd">
+
+                </div>
+
+            </div>
+
+            <!-- BUTTON -->
+
+            <button class="save-schedule-btn"
+                    id="saveScheduleBtn">
+
+                Salvează programul
+
+            </button>
+
+        </section>
+        <section class="quick-actions">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Acțiuni rapide
+
+                </h2>
+
+            </div>
+
+            <div class="actions-grid">
+
+                <!-- VIDEO -->
+
+                <button onclick="window.location.href='video.html'">
+
+                    <i class="fa-solid fa-video"></i>
+
+                    Începe consultație
+
+                </button>
+
+                <!-- PACIENTI -->
+
+                <button onclick="window.location.href='patients.html'">
+
+                    <i class="fa-solid fa-user-group"></i>
+
+                    Vezi pacienți
+
+                </button>
+
+                <!-- RECOMANDARI -->
+
+                <button onclick="window.location.href='recommendations.html'">
+
+                    <i class="fa-solid fa-file-medical"></i>
+
+                    Recomandări
+
+                </button>
+
+                <!-- CHAT -->
+
+                <button onclick="window.location.href='chat.html'">
+
+                    <i class="fa-solid fa-comments"></i>
+
+                    Chat medical
+
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- JS -->
+
+    <script src="js/auth.js"></script>
+    <script type="module"
+            src="js/sidebar.js">
+    </script>
+
+    <script type="module"
+            src="js/doctor.js">
+    </script>
+
+</body>
+
+</html>

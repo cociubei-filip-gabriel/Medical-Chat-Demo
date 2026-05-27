@@ -1,0 +1,431 @@
+﻿<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Dashboard</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="css/admin.css">
+
+    <!-- ICONS -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <!-- LOGO -->
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+
+                <i class="fa-solid fa-plus"></i>
+
+            </div>
+
+            <h2>
+
+                Chat<span>Medical</span>
+
+            </h2>
+
+        </div>
+
+        <!-- LINKS -->
+
+        <div class="sidebar-links">
+
+            <a class="active" href="#">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+                Dashboard
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-solid fa-users"></i>
+
+                Utilizatori
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-solid fa-user-doctor"></i>
+
+                Doctori
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-solid fa-calendar-check"></i>
+
+                Programări
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-solid fa-chart-pie"></i>
+
+                Analytics
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-solid fa-gear"></i>
+
+                Setări
+
+            </a>
+
+        </div>
+
+        <!-- LOGOUT -->
+
+        <button class="logout-btn"
+                id="logoutBtn">
+
+            <i class="fa-solid fa-right-from-bracket"></i>
+
+            Logout
+
+        </button>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main class="main-content">
+
+        <!-- TOPBAR -->
+        <button class="home-btn"
+                onclick="window.location.href='index.html'">
+
+            <i class="fa-solid fa-house"></i>
+
+            Acasă
+
+        </button>
+
+        <div class="topbar">
+
+            <div>
+
+                <h1>
+
+                    Bun venit, Admin 👑
+
+                </h1>
+
+                <p>
+
+                    Monitorizează platforma ChatMedical
+
+                </p>
+
+            </div>
+
+            <!-- ACTIONS -->
+
+            <div class="topbar-actions">
+
+                <button class="icon-btn">
+
+                    <i class="fa-regular fa-bell"></i>
+
+                </button>
+
+                <button class="icon-btn">
+
+                    <i class="fa-regular fa-user"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- STATS -->
+
+        <section class="stats-grid">
+
+            <!-- CARD -->
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+
+                    <i class="fa-solid fa-users"></i>
+
+                </div>
+
+                <h2>542</h2>
+
+                <p>Utilizatori</p>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+
+                    <i class="fa-solid fa-user-doctor"></i>
+
+                </div>
+
+                <h2>38</h2>
+
+                <p>Doctori</p>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+
+                    <i class="fa-solid fa-calendar-check"></i>
+
+                </div>
+
+                <h2>124</h2>
+
+                <p>Programări</p>
+
+            </div>
+
+            <!-- CARD -->
+
+            <div class="stat-card">
+
+                <div class="stat-icon">
+
+                    <i class="fa-solid fa-euro-sign"></i>
+
+                </div>
+
+                <h2>€12K</h2>
+
+                <p>Venit lunar</p>
+
+            </div>
+
+        </section>
+
+        <!-- USERS TABLE -->
+
+        <section class="users-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Utilizatori activi
+
+                </h2>
+
+            </div>
+
+            <!-- TABLE -->
+
+            <div class="users-table">
+
+                <!-- ROW -->
+
+                <div class="table-row">
+
+                    <span>Maria Popescu</span>
+
+                    <span>Patient</span>
+
+                    <span class="active-status">
+
+                        Active
+
+                    </span>
+
+                </div>
+
+                <!-- ROW -->
+
+                <div class="table-row">
+
+                    <span>Dr. Andrei Popescu</span>
+
+                    <span>Doctor</span>
+
+                    <span class="active-status">
+
+                        Active
+
+                    </span>
+
+                </div>
+
+                <!-- ROW -->
+
+                <div class="table-row">
+
+                    <span>Ioana Pavel</span>
+
+                    <span>Patient</span>
+
+                    <span class="inactive-status">
+
+                        Offline
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- QUICK ACTIONS -->
+
+        <section class="quick-actions">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Acțiuni rapide
+
+                </h2>
+
+            </div>
+
+            <!-- ACTIONS -->
+
+            <div class="actions-grid">
+
+                <button>
+
+                    <i class="fa-solid fa-user-plus"></i>
+
+                    Adaugă doctor
+
+                </button>
+
+                <button>
+
+                    <i class="fa-solid fa-trash"></i>
+
+                    Șterge utilizator
+
+                </button>
+
+                <button>
+
+                    <i class="fa-solid fa-chart-column"></i>
+
+                    Vezi statistici
+
+                </button>
+
+                <button>
+
+                    <i class="fa-solid fa-file-export"></i>
+
+                    Export date
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- ACTIVITY -->
+
+        <section class="activity-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Activitate recentă
+
+                </h2>
+
+            </div>
+
+            <!-- LIST -->
+
+            <div class="activity-list">
+
+                <div class="activity-card">
+
+                    <i class="fa-solid fa-user-doctor"></i>
+
+                    <p>
+
+                        Doctor nou adăugat
+
+                    </p>
+
+                </div>
+
+                <div class="activity-card">
+
+                    <i class="fa-solid fa-calendar-check"></i>
+
+                    <p>
+
+                        Programare nouă creată
+
+                    </p>
+
+                </div>
+
+                <div class="activity-card">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    <p>
+
+                        Pacient nou înregistrat
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- JS -->
+
+    <script src="js/auth.js"></script>
+
+    <script src="js/admin.js"></script>
+
+</body>
+
+</html>

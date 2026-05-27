@@ -1,0 +1,401 @@
+﻿<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Programări</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="css/appointments.css">
+
+    <!-- ICONS -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <!-- LOGO -->
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+
+                <i class="fa-solid fa-plus"></i>
+
+            </div>
+
+            <h2>
+
+                Chat<span>Medical</span>
+
+            </h2>
+
+        </div>
+
+        <!-- LINKS -->
+
+        <div class="sidebar-links"
+             id="sideLinks">
+        </div>
+
+        <!-- LOGOUT -->
+
+        <button class="logout-btn"
+                id="logoutBtn">
+
+            <i class="fa-solid fa-right-from-bracket"></i>
+
+            Logout
+
+        </button>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main class="main-content">
+
+        <!-- TOPBAR -->
+
+        <div class="topbar">
+
+            <div>
+
+                <h1>
+
+                    Programări medicale 📅
+
+                </h1>
+
+                <p>
+
+                    Alege medicul și intervalul dorit
+
+                </p>
+
+            </div>
+
+            <!-- BUTTONS -->
+
+            <div class="topbar-actions">
+
+                <button class="home-btn"
+                        onclick="window.location.href='index.html'">
+
+                    <i class="fa-solid fa-house"></i>
+
+                    Acasă
+
+                </button>
+
+                <button class="icon-btn">
+
+                    <i class="fa-regular fa-bell"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- FILTERS -->
+
+        <section class="filters-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Filtrează
+
+                </h2>
+
+            </div>
+
+            <!-- FILTERS -->
+
+            <div class="filters">
+
+                <!-- SPECIALITY -->
+
+                <select id="specialityFilter">
+
+                    <option value="">
+                        Toate
+                    </option>
+
+                    <option value="cardiologie">
+                        Cardiologie
+                    </option>
+
+                    <option value="neurologie">
+                        Neurologie
+                    </option>
+
+                    <option value="pediatrie">
+                        Pediatrie
+                    </option>
+
+                    <option value="dermatologie">
+                        Dermatologie
+                    </option>
+
+                </select>
+
+                <!-- DOCTOR -->
+
+                <select id="doctorFilter">
+
+                    <option value="">
+                        Toți doctorii
+                    </option>
+
+                    <option value="andrei popescu">
+                        Dr. Andrei Popescu
+                    </option>
+
+                    <option value="maria ionescu">
+                        Dr. Maria Ionescu
+                    </option>
+
+                    <option value="pavel radu">
+                        Dr. Pavel Radu
+                    </option>
+
+                </select>
+                <!-- DATE -->
+
+                <input type="date"
+                       id="appointmentDate">
+
+            </div>
+
+        </section>
+
+        <!-- DOCTORS -->
+
+        <section class="doctors-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Doctori disponibili
+
+                </h2>
+
+            </div>
+
+            <!-- GRID -->
+
+            <div class="doctors-grid">
+
+                <!-- CARD -->
+
+                <div class="doctor-card"
+                     data-speciality="cardiologie"
+                     data-doctor="andrei popescu">
+
+                    <!-- TOP -->
+
+                    <div class="doctor-top">
+
+                        <img src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png"
+                             alt="doctor">
+
+                        <div>
+
+                            <h3>
+
+                                Dr. Andrei Popescu
+
+                            </h3>
+
+                            <p>
+
+                                Cardiologie
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- INFO -->
+
+                    <div class="doctor-info">
+
+                        <span>
+
+                            <i class="fa-solid fa-star"></i>
+
+                            4.9 rating
+
+                        </span>
+
+                        <span>
+
+                            <i class="fa-solid fa-award"></i>
+
+                            10 ani experiență
+
+                        </span>
+
+                    </div>
+
+                    <!-- BUTTON -->
+
+                    <button class="select-btn">
+
+                        Selectează
+
+                    </button>
+
+                </div>
+
+                <!-- CARD -->
+
+                <div class="doctor-card"
+                     data-speciality="neurologie"
+                     data-doctor="maria ionescu">
+
+                    <div class="doctor-top">
+
+                        <img src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png"
+                             alt="doctor">
+
+                        <div>
+
+                            <h3>
+
+                                Dr. Maria Ionescu
+
+                            </h3>
+
+                            <p>
+
+                                Neurologie
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="doctor-info">
+
+                        <span>
+
+                            <i class="fa-solid fa-star"></i>
+
+                            4.8 rating
+
+                        </span>
+
+                        <span>
+
+                            <i class="fa-solid fa-award"></i>
+
+                            8 ani experiență
+
+                        </span>
+
+                    </div>
+
+                    <button class="select-btn">
+
+                        Selectează
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- HOURS -->
+
+        <section class="hours-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Ore disponibile
+
+                </h2>
+
+            </div>
+
+            <!-- HOURS -->
+            <div class="hours-grid"
+                 id="hoursGrid">
+
+            </div>
+
+        </section>
+
+        <!-- CONFIRM -->
+
+        <section class="confirm-section">
+
+            <button class="confirm-btn">
+
+                Confirmă programarea
+
+            </button>
+
+        </section>
+        <!-- HISTORY -->
+
+        <section class="history-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Programările mele
+
+                </h2>
+
+            </div>
+
+            <!-- LIST -->
+
+            <div class="appointments-history"
+                 id="appointmentsHistory">
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- JS -->
+
+    <script src="js/auth.js"></script>
+    <script type="module"
+            src="js/sidebar.js">
+    </script>
+
+    <script src="js/appointments.js"></script>
+
+</body>
+
+</html>

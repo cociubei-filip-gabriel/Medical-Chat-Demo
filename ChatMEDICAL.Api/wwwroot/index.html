@@ -1,114 +1,1220 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ro">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Medical Chat - Web</title>
-  <link rel="stylesheet" href="styles.css" />
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>ChatMedical</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
+
+<!-- HERO -->
+
 <body>
-  <header class="hero">
-    <div>
-      <p class="eyebrow">Medical Chat</p>
-      <h1>Aplicație web pentru pacient, doctor și admin</h1>
-      <p>Varianta aceasta rulează direct în browser, din același backend ASP.NET Core.</p>
+
+    <!-- OVERLAY -->
+
+    <div class="overlay" id="overlay"></div>
+
+    <!-- SIDEMENU -->
+
+    <aside class="side-menu" id="sideMenu">
+
+        <div class="side-top">
+
+            <h2>ChatMedical</h2>
+
+            <button id="closeMenu">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+        <!-- LINKS -->
+
+        <div class="side-links"
+             id="sideLinks">
+        </div>
+
+        <!-- LOGOUT -->
+
+        <button class="logout-btn side-logout">
+
+            <i class="fa-solid fa-right-from-bracket"></i>
+
+            Logout
+
+        </button>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <div class="container">
+
+        <!-- NAVBAR -->
+
+        <header class="navbar">
+
+            <!-- LOGO -->
+
+            <div class="logo">
+
+                <div class="logo-icon">
+
+                    <i class="fa-solid fa-plus"></i>
+
+                </div>
+
+                <div>
+
+                    <h2>
+
+                        Chat<span>MEDICAL</span>
+
+                    </h2>
+
+                    <p>
+
+                        Sănătatea ta, prioritatea noastră
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- NAV -->
+
+            <nav class="nav-links">
+
+                <a class="active"
+                   href="index.html">
+
+                    Acasă
+
+                </a>
+
+                <a href="doctors.html">
+
+                    Doctori
+
+                </a>
+
+                <a href="appointments.html">
+
+                    Programări
+
+                </a>
+
+                <a href="chat.html">
+
+                    Chat
+
+                </a>
+
+                <a href="profile.html">
+
+                    Profil
+
+                </a>
+
+            </nav>
+
+            <!-- BUTTONS -->
+
+            <div class="nav-buttons">
+
+                <button class="icon-btn"
+                        id="searchBtn">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </button>
+
+                <button class="icon-btn"
+                        id="profileBtn">
+
+                    <i class="fa-regular fa-user"></i>
+
+                </button>
+
+                <div class="notification-wrapper">
+
+                    <button id="notificationBtn"
+                            class="icon-btn">
+
+                        <i class="fa-solid fa-bell"></i>
+
+                    </button>
+
+                    <span id="notificationCount"
+                          class="notification-count">
+
+                        0
+
+                    </span>
+
+                </div>
+
+
+
+                <div id="authButtons"></div>
+
+                <button class="menu-btn" id="menuBtn">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+        </header>
+
+
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <!-- LEFT -->
+
+            <div class="hero-left">
+
+                <div class="badge">
+
+                    <i class="fa-solid fa-heart"></i>
+
+                    Ai grijă de sănătatea ta
+
+                </div>
+
+                <h1>
+
+                    Consultații medicale
+
+                    <span>rapide și sigure</span>
+
+                </h1>
+
+                <p>
+
+                    Discută online cu medici specialiști
+                    și programează-te rapid
+                    direct din aplicație.
+
+                </p>
+
+                <!-- BUTTONS -->
+
+                <div class="hero-buttons">
+
+                    <button class="primary-btn"
+                            onclick="window.location.href='appointments.html'">
+
+                        Programează-te acum
+
+                    </button>
+
+                    <button class="secondary-btn"
+                            onclick="window.location.href='specialities.html'">
+
+                        Vezi specialități
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT -->
+
+            <div class="hero-right">
+
+                <div class="video-container">
+
+                    <video autoplay
+                           muted
+                           loop
+                           playsinline>
+
+                        <source src="uploads/video.mp4"
+                                type="video/mp4">
+
+                    </video>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- FEATURES -->
+        <!-- FEATURES -->
+
+        <section class="features-section">
+
+            <div class="features-wrapper">
+
+                <!-- LEFT BUTTON -->
+
+                <button class="feature-slider-btn feature-prev-btn"
+                        id="featurePrevBtn">
+
+                    <i class="fa-solid fa-chevron-left"></i>
+
+                </button>
+
+                <!-- FEATURES -->
+
+                <div class="features"
+                     id="featuresGrid">
+
+                    <!-- CHAT -->
+
+                    <div class="feature-card"
+                         id="chatCard">
+
+                        <div class="feature-icon">
+
+                            <i class="fa-solid fa-comments"></i>
+
+                        </div>
+
+                        <h3>
+
+                            Chat cu medicii
+
+                        </h3>
+
+                        <p>
+
+                            Conversații rapide și sigure
+                            cu specialiști.
+
+                        </p>
+
+                    </div>
+
+                    <!-- APPOINTMENTS -->
+
+                    <div class="feature-card"
+                         id="appointmentsCard">
+
+                        <div class="feature-icon">
+
+                            <i class="fa-solid fa-calendar-days"></i>
+
+                        </div>
+
+                        <h3>
+
+                            Programări online
+
+                        </h3>
+
+                        <p>
+
+                            Alege rapid data și ora
+                            consultației tale.
+
+                        </p>
+
+                    </div>
+
+                    <!-- ANALYSES -->
+
+                    <div class="feature-card"
+                         id="analysisCard">
+
+                        <div class="feature-icon">
+
+                            <i class="fa-solid fa-file-medical"></i>
+
+                        </div>
+
+                        <h3>
+
+                            Rezultate analize
+
+                        </h3>
+
+                        <p>
+
+                            Vezi rezultatele analizelor
+                            direct online.
+
+                        </p>
+
+                    </div>
+
+                    <!-- DOCTORS -->
+
+                    <div class="feature-card"
+                         id="doctorCard">
+
+                        <div class="feature-icon">
+
+                            <i class="fa-solid fa-user-doctor"></i>
+
+                        </div>
+
+                        <h3>
+
+                            Doctori verificați
+
+                        </h3>
+
+                        <p>
+
+                            Specialiști acreditați
+                            și verificați.
+
+                        </p>
+
+                    </div>
+
+                    <!-- VIDEO -->
+
+                    <div class="feature-card"
+                         id="videoCard">
+
+                        <div class="feature-icon">
+
+                            <i class="fa-solid fa-video"></i>
+
+                        </div>
+
+                        <h3>
+
+                            Consultații video
+
+                        </h3>
+
+                        <p>
+
+                            Discută online prin apel
+                            video securizat.
+
+                        </p>
+
+                    </div>
+
+                    <!-- SECURITY -->
+
+                    <div class="feature-card"
+                         id="securityCard">
+
+                        <div class="feature-icon">
+
+                            <i class="fa-solid fa-shield-heart"></i>
+
+                        </div>
+
+                        <h3>
+
+                            Securitate
+
+                        </h3>
+
+                        <p>
+
+                            Datele tale sunt complet
+                            protejate și criptate.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- RIGHT BUTTON -->
+
+                <button class="feature-slider-btn feature-next-btn"
+                        id="featureNextBtn">
+
+                    <i class="fa-solid fa-chevron-right"></i>
+
+                </button>
+
+            </div>
+
+        </section>
+        <!-- SPECIALITIES -->
+
+        <section class="specialities">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Specialități medicale
+
+                </h2>
+
+                <p>
+
+                    Descoperă toate specializările disponibile
+
+                </p>
+
+            </div>
+
+            <!-- WRAPPER -->
+
+            <div class="specialities-wrapper">
+
+                <!-- LEFT -->
+
+                <button class="slider-btn prev-btn" id="prevBtn">
+
+                    <i class="fa-solid fa-chevron-left"></i>
+
+                </button>
+
+                <!-- GRID -->
+
+                <div class="specialities-grid"
+                     id="specialitiesGrid">
+
+                    <div class="speciality-card"
+                         data-speciality="cardiologie">
+
+                        <i class="fa-solid fa-heart-pulse"></i>
+
+                        <p>Cardiologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="neurologie">
+
+                        <i class="fa-solid fa-brain"></i>
+
+                        <p>Neurologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="pneumologie">
+
+                        <i class="fa-solid fa-lungs"></i>
+
+                        <p>Pneumologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="oftalmologie">
+
+                        <i class="fa-solid fa-eye"></i>
+
+                        <p>Oftalmologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="orl">
+
+                        <i class="fa-solid fa-ear-listen"></i>
+
+                        <p>ORL</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="stomatologie">
+
+                        <i class="fa-solid fa-tooth"></i>
+
+                        <p>Stomatologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="ortopedie">
+
+                        <i class="fa-solid fa-bone"></i>
+
+                        <p>Ortopedie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="medicina-generala">
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        <p>Medicină Generală</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="medicina-interna">
+
+                        <i class="fa-solid fa-notes-medical"></i>
+
+                        <p>Medicină Internă</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="genetica-medicala">
+
+                        <i class="fa-solid fa-dna"></i>
+
+                        <p>Genetică Medicală</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="ginecologie">
+
+                        <i class="fa-solid fa-person-pregnant"></i>
+
+                        <p>Ginecologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="pediatrie">
+
+                        <i class="fa-solid fa-child"></i>
+
+                        <p>Pediatrie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="neonatologie">
+
+                        <i class="fa-solid fa-baby"></i>
+
+                        <p>Neonatologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="psihiatrie">
+
+                        <i class="fa-solid fa-user-nurse"></i>
+
+                        <p>Psihiatrie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="ati">
+
+                        <i class="fa-solid fa-bed-pulse"></i>
+
+                        <p>ATI</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="oncologie">
+
+                        <i class="fa-solid fa-ribbon"></i>
+
+                        <p>Oncologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="hematologie">
+
+                        <i class="fa-solid fa-vial"></i>
+
+                        <p>Hematologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="imunologie">
+
+                        <i class="fa-solid fa-virus"></i>
+
+                        <p>Imunologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="radiologie">
+
+                        <i class="fa-solid fa-x-ray"></i>
+
+                        <p>Radiologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="analize-medicale">
+
+                        <i class="fa-solid fa-flask"></i>
+
+                        <p>Analize Medicale</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="diabet-si-nutritie">
+
+                        <i class="fa-solid fa-syringe"></i>
+
+                        <p>Diabet și Nutriție</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="nefrologie">
+
+                        <i class="fa-solid fa-droplet"></i>
+
+                        <p>Nefrologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="gastroenterologie">
+
+                        <i class="fa-solid fa-prescription-bottle-medical"></i>
+
+                        <p>Gastroenterologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="boli-infectioase">
+
+                        <i class="fa-solid fa-bacteria"></i>
+
+                        <p>Boli Infecțioase</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="dermatologie">
+
+                        <i class="fa-solid fa-hand-dots"></i>
+
+                        <p>Dermatologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="reumatologie">
+
+                        <i class="fa-solid fa-wheelchair"></i>
+
+                        <p>Reumatologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="chirurgie-cardiovasculara">
+
+                        <i class="fa-solid fa-heart-circle-bolt"></i>
+
+                        <p>Chirurgie Cardiovasculară</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="chirurgie-plastica">
+
+                        <i class="fa-solid fa-scissors"></i>
+
+                        <p>Chirurgie Plastică</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="neurochirurgie">
+
+                        <i class="fa-solid fa-brain"></i>
+
+                        <p>Neurochirurgie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="recuperare-medicala">
+
+                        <i class="fa-solid fa-person-walking"></i>
+
+                        <p>Recuperare Medicală</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="urologie">
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        <p>Urologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="endocrinologie">
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        <p>Endocrinologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="alergologie">
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        <p>Alergologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="medicina-sportiva">
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        <p>Medicină Sportivă</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="chirurgie-generala">
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        <p>Chirurgie Generală</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="chirurgie-pediatrica">
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        <p>Chirurgie Pediatrică</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="medicina-de-urgenta">
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        <p>Medicină de Urgență</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="farmacologie">
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        <p>Farmacologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="epidemiologie">
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        <p>Epidemiologie</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="obstetrica">
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        <p>Obstetrică</p>
+
+                    </div>
+
+                    <div class="speciality-card"
+                         data-speciality="fizioterapie">
+
+                        <i class="fa-solid fa-user-doctor"></i>
+
+                        <p>Fizioterapie</p>
+
+                    </div>
+
+                </div>
+
+                <!-- RIGHT -->
+
+                <button class="slider-btn next-btn"
+                        id="nextBtn">
+
+                    <i class="fa-solid fa-chevron-right"></i>
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+
+        <section class="contact-section">
+
+            <div class="contact-card">
+
+                <h1>
+
+                    021 9268
+
+                </h1>
+
+                <p>
+
+                    Contact rapid pentru programări
+                    și suport medical.
+
+                </p>
+
+                <!-- SOCIALS -->
+
+                <div class="socials">
+
+                    <div class="social-card">
+
+                        <i class="fa-brands fa-facebook-f"></i>
+
+                        <span>Facebook</span>
+
+                    </div>
+
+                    <div class="social-card">
+
+                        <i class="fa-brands fa-youtube"></i>
+
+                        <span>Youtube</span>
+
+                    </div>
+
+                    <div class="social-card">
+
+                        <i class="fa-brands fa-linkedin-in"></i>
+
+                        <span>LinkedIn</span>
+
+                    </div>
+
+                    <div class="social-card">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                        <span>Instagram</span>
+
+                    </div>
+
+                </div>
+
+                <!-- FOOTER LINKS -->
+
+                <div class="footer-links">
+
+                    <!-- BOX -->
+
+                    <div class="footer-box">
+
+                        <div class="footer-item">
+
+                            <span>UTILE</span>
+
+                            <i class="fa-solid fa-chevron-down"></i>
+
+                        </div>
+
+                        <div class="footer-submenu">
+
+                            <div class="footer-info">
+
+                                <strong>Termeni și condiții</strong>
+
+                                <p>
+                                    Prin utilizarea platformei ChatMedical accepți regulile și politica noastră.
+                                </p>
+
+                            </div>
+
+                            <div class="footer-info">
+
+                                <strong>Politica GDPR</strong>
+
+                                <p>
+                                    Datele utilizatorilor sunt protejate conform regulamentului GDPR.
+                                </p>
+
+                            </div>
+
+                            <div class="footer-info">
+
+                                <strong>FAQ</strong>
+
+                                <p>
+                                    Întrebări frecvente despre programări, analize și consultații online.
+                                </p>
+
+                            </div>
+
+                            <div class="footer-info">
+
+                                <strong>Suport</strong>
+
+                                <p>
+                                    Contact suport: support@chatmedical.ro
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- BOX -->
+
+                    <div class="footer-box">
+
+                        <div class="footer-item">
+
+                            <span>CONTACT</span>
+
+                            <i class="fa-solid fa-chevron-down"></i>
+
+                        </div>
+
+                        <div class="footer-submenu">
+
+                            <div class="footer-info">
+
+                                <strong>Email</strong>
+
+                                <p>contact@chatmedical.ro</p>
+
+                            </div>
+
+                            <div class="footer-info">
+
+                                <strong>Telefon</strong>
+
+                                <p>021 9268</p>
+
+                            </div>
+
+                            <div class="footer-info">
+
+                                <strong>Locație</strong>
+
+                                <p>București, România</p>
+
+                            </div>
+
+                            <div class="footer-info">
+
+                                <strong>Program</strong>
+
+                                <p>Luni - Vineri | 08:00 - 18:00</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- BOX -->
+
+                    <div class="footer-box">
+
+                        <div class="footer-item">
+
+                            <span>CHATMEDICAL</span>
+
+                            <i class="fa-solid fa-chevron-down"></i>
+
+                        </div>
+                        <div class="footer-submenu">
+
+                            <div class="footer-info">
+
+                                <strong>Despre noi</strong>
+
+                                <p>
+                                    Platformă modernă pentru consultații și servicii medicale online.
+                                </p>
+
+                            </div>
+
+                            <div class="footer-info">
+
+                                <strong>Cariere</strong>
+
+                                <p>
+                                    Alătură-te echipei ChatMedical.
+                                </p>
+
+                            </div>
+
+                            <div class="footer-info">
+
+                                <strong>Parteneri</strong>
+
+                                <p>
+                                    Colaborăm cu clinici și spitale din România.
+                                </p>
+
+                            </div>
+
+                            <div class="footer-info">
+
+                                <strong>Blog medical</strong>
+
+                                <p>
+                                    Articole și informații medicale utile pentru pacienți.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- COPYRIGHT -->
+
+                <div class="copyright">
+
+                    <p>
+
+                        Protecția consumatorilor - ANPC
+
+                    </p>
+
+                    <p>
+
+                        © 2026 ChatMedical.
+                        Toate drepturile rezervate.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- TOP -->
+
+            <button class="back-top" id="backTop">
+
+                <i class="fa-solid fa-chevron-up"></i>
+
+            </button>
+
+        </section>
+
     </div>
-    <a class="swagger-link" href="/swagger" target="_blank">Deschide Swagger</a>
-  </header>
 
-  <main class="shell">
-    <section id="authSection" class="grid two-cols">
-      <div class="card">
-        <h2>Login</h2>
-        <p class="muted">Conturi demo: <b>admin@admin</b>, <b>demo.patient@pacient</b>, <b>andrei.popescu@doctor</b>. Parola este <b>1234</b>.</p>
-        <label>Email</label>
-        <input id="loginEmail" value="demo.patient@pacient" placeholder="nume.prenume@pacient / nume.prenume@doctor / admin@admin" />
-        <label>Parolă</label>
-        <input id="loginPassword" type="password" value="1234" />
-        <button id="loginBtn">Login</button>
-      </div>
+    <!-- JS -->
+    <!-- INFO MODAL -->
 
-      <div class="card">
-        <h2>Înregistrare pacient</h2>
-        <p class="muted">Emailul pacientului trebuie să fie de forma <b>nume.prenume@pacient</b>.</p>
-        <label>Nume complet</label>
-        <input id="registerFullName" value="Ion Test" />
-        <label>CNP</label>
-        <input id="registerCnp" value="5050101123456" />
-        <label>Email pacient</label>
-        <input id="registerEmail" value="ion.test@pacient" />
-        <label>Telefon</label>
-        <input id="registerPhone" value="0722333444" />
-        <label>Parolă</label>
-        <input id="registerPassword" type="password" value="1234" />
-        <button id="registerBtn" class="secondary">Creează pacient</button>
-      </div>
-    </section>
+    <div class="info-modal"
+         id="infoModal">
 
-    <section id="dashboardSection" class="hidden">
-      <div class="topbar card">
-        <div>
-          <h2 id="welcomeTitle">Dashboard</h2>
-          <p id="roleInfo" class="muted"></p>
+        <div class="info-box">
+
+            <button class="close-info"
+                    id="closeInfo">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+            <h2 id="infoTitle">
+
+                ChatMedical
+
+            </h2>
+
+            <p id="infoText">
+
+                Informații
+
+            </p>
+
+            <button class="info-btn"
+                    id="backInfoBtn">
+
+                Înapoi
+
+            </button>
+
         </div>
-        <button id="logoutBtn" class="danger">Logout</button>
-      </div>
 
-      <div id="patientPanel" class="card hidden">
-        <h3>Fă o programare</h3>
-        <div class="grid form-grid">
-          <div>
-            <label>Specialitate</label>
-            <select id="specialtySelect"></select>
-          </div>
-          <div>
-            <label>Doctor</label>
-            <select id="doctorSelect"></select>
-          </div>
-          <div>
-            <label>Data</label>
-            <input id="appointmentDate" type="date" />
-          </div>
-          <div>
-            <label>Ora</label>
-            <input id="appointmentTime" type="time" value="10:30" />
-          </div>
-          <div class="wide">
-            <label>Motiv</label>
-            <input id="appointmentReason" value="Consultație de test" />
-          </div>
+    </div>
+
+    <div class="search-modal"
+         id="searchModal">
+
+        <div class="search-content">
+
+            <button id="closeSearch"
+                    class="close-search">
+
+                ✕
+
+            </button>
+
+            <h2>
+
+                Caută doctori sau specialități
+
+            </h2>
+
+            <input type="text"
+                   id="searchInput"
+                   placeholder="Ex: cardiologie">
+
         </div>
-        <button id="bookBtn">Trimite programarea</button>
-      </div>
 
-      <div class="card">
-        <div class="table-head">
-          <h3 id="tableTitle">Programări</h3>
-          <button id="refreshBtn" class="secondary">Refresh</button>
-        </div>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Pacient</th>
-                <th>Email pacient</th>
-                <th>Doctor</th>
-                <th>Specialitate</th>
-                <th>Data</th>
-                <th>Ora</th>
-                <th>Status</th>
-                <th>Acțiuni</th>
-              </tr>
-            </thead>
-            <tbody id="appointmentsBody"></tbody>
-          </table>
-        </div>
-      </div>
-    </section>
+    </div>
 
-    <div id="message" class="message hidden"></div>
-  </main>
 
-  <script src="app.js"></script>
+    <audio id="notificationSound">
+
+        <source src="uploads/notification.mp3"
+                type="audio/mpeg">
+
+    </audio>
+    <script type="module"
+            src="js/sidebar.js">
+    </script>
+    <script src="js/app.js"></script>
+
+
+
 </body>
+
 </html>

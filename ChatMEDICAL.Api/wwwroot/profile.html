@@ -1,0 +1,745 @@
+﻿<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Patient Profile</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="css/profile.css">
+
+    <!-- ICONS -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <!-- LOGO -->
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+
+                <i class="fa-solid fa-plus"></i>
+
+            </div>
+
+            <h2>
+
+                Chat<span>Medical</span>
+
+            </h2>
+
+        </div>
+
+        <!-- LINKS -->
+
+        <div class="sidebar-links">
+
+            <a class="active" href="#">
+
+                <i class="fa-solid fa-user"></i>
+
+                Profil
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-solid fa-calendar-check"></i>
+
+                Programări
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-solid fa-file-waveform"></i>
+
+                Analize
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-solid fa-heart-pulse"></i>
+
+                Preferințe
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-solid fa-comments"></i>
+
+                Chat
+
+            </a>
+
+            <a href="#">
+
+                <i class="fa-solid fa-gear"></i>
+
+                Setări
+
+            </a>
+
+        </div>
+
+        <!-- LOGOUT -->
+
+        <button class="logout-btn"
+                id="logoutBtn">
+
+            <i class="fa-solid fa-right-from-bracket"></i>
+
+            Logout
+
+        </button>
+
+    </aside>
+
+    <!-- MAIN -->
+
+    <main class="main-content">
+
+        <!-- TOPBAR -->
+        <button class="home-btn"
+                onclick="window.location.href='index.html'">
+
+            <i class="fa-solid fa-house"></i>
+
+            Acasă
+
+        </button>
+
+        <div class="topbar">
+
+            <div>
+
+                <h1>
+
+                    Profil pacient 👋
+
+                </h1>
+
+                <p>
+
+                    Gestionează datele tale medicale
+
+                </p>
+
+            </div>
+
+            <!-- ACTIONS -->
+
+            <div class="topbar-actions">
+
+                <button class="icon-btn">
+
+                    <i class="fa-regular fa-bell"></i>
+
+                </button>
+
+                <button class="icon-btn">
+
+                    <i class="fa-regular fa-user"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- PROFILE -->
+
+        <section class="profile-section">
+
+            <!-- IMAGE -->
+
+            <div class="profile-image">
+
+                <img id="profilePreview"
+                     src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                     alt="profile">
+
+            </div>
+
+            <!-- INFO -->
+
+            <div class="profile-info">
+
+                <!-- INPUTS -->
+
+                <div class="profile-inputs">
+
+                    <!-- NUME -->
+
+                    <div class="input-box">
+
+                        <label>
+
+                            Nume
+
+                        </label>
+
+                        <input type="text"
+                               id="lastName"
+                               value="Popescu">
+
+                    </div>
+
+                    <!-- PRENUME -->
+
+                    <div class="input-box">
+
+                        <label>
+
+                            Prenume
+
+                        </label>
+
+                        <input type="text"
+                               id="firstName"
+                               value="Maria">
+
+                    </div>
+
+                    <!-- EMAIL -->
+
+                    <div class="input-box">
+
+                        <label>
+
+                            Email
+
+                        </label>
+
+                        <input type="email"
+                               id="profileEmail"
+                               value="maria@gmail.com">
+
+                    </div>
+
+                    <!-- PHONE -->
+
+                    <div class="input-box">
+
+                        <label>
+
+                            Telefon
+
+                        </label>
+
+                        <input type="text"
+                               id="phone"
+                               value="+40 745 123 456">
+
+                    </div>
+
+                </div>
+
+                <!-- BUTTONS -->
+
+                <div class="profile-buttons">
+
+                    <!-- UPLOAD -->
+
+                    <label class="upload-btn">
+
+                        <i class="fa-solid fa-camera"></i>
+
+                        Schimbă poza
+
+                        <input type="file"
+                               id="imageUpload"
+                               hidden>
+
+                    </label>
+
+                    <!-- SAVE -->
+
+                    <button class="save-btn"
+                            id="saveProfileBtn">
+
+                        Salvează modificările
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- MEDICAL INFO -->
+
+        <section class="medical-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Preferințe medicale
+
+                </h2>
+
+            </div>
+
+            <!-- GRID -->
+
+            <div class="medical-grid">
+
+                <!-- ALERGII -->
+
+                <div class="medical-card">
+
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+
+                    <h3>
+
+                        Alergii
+
+                    </h3>
+
+                    <textarea id="allergies"
+                              placeholder="Ex: Penicilină">
+
+            </textarea>
+
+                </div>
+
+                <!-- ISTORIC -->
+
+                <div class="medical-card">
+
+                    <i class="fa-solid fa-heart-pulse"></i>
+
+                    <h3>
+
+                        Istoric medical
+
+                    </h3>
+
+                    <textarea id="history"
+                              placeholder="Ex: Astm, hipertensiune">
+
+            </textarea>
+
+                </div>
+
+                <!-- MEDICAMENTE -->
+
+                <div class="medical-card">
+
+                    <i class="fa-solid fa-pills"></i>
+
+                    <h3>
+
+                        Medicamente
+
+                    </h3>
+
+                    <textarea id="medications"
+                              placeholder="Ex: Ibuprofen">
+
+            </textarea>
+
+                </div>
+
+                <!-- GRUPA -->
+
+                <div class="medical-card">
+
+                    <i class="fa-solid fa-droplet"></i>
+
+                    <h3>
+
+                        Grupa sanguină
+
+                    </h3>
+
+                    <input type="text"
+                           id="bloodType"
+                           placeholder="Ex: A+">
+
+                </div>
+
+                <!-- INTERVENTII -->
+
+                <div class="medical-card">
+
+                    <i class="fa-solid fa-user-doctor"></i>
+
+                    <h3>
+
+                        Intervenții
+
+                    </h3>
+
+                    <textarea id="interventions"
+                              placeholder="Ex: Operație apendicită">
+
+            </textarea>
+
+                </div>
+
+                <!-- OBSERVATII -->
+
+                <div class="medical-card">
+
+                    <i class="fa-solid fa-notes-medical"></i>
+
+                    <h3>
+
+                        Observații
+
+                    </h3>
+
+                    <textarea id="notes"
+                              placeholder="Detalii suplimentare">
+
+            </textarea>
+
+                </div>
+
+            </div>
+
+            <!-- SAVE -->
+
+            <button class="medical-save-btn"
+                    id="saveMedicalBtn">
+
+                Salvează preferințele
+
+            </button>
+
+        </section>
+
+        <!-- FILTERS -->
+
+        <section class="filters-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Filtrează programările
+
+                </h2>
+
+            </div>
+
+            <!-- FILTERS -->
+
+            <div class="filters">
+
+                <select>
+
+                    <option>
+
+                        Sortează după dată
+
+                    </option>
+
+                    <option>
+
+                        Cele mai recente
+
+                    </option>
+
+                    <option>
+
+                        Cele mai vechi
+
+                    </option>
+
+                </select>
+
+                <select>
+
+                    <option>
+
+                        Specializare
+
+                    </option>
+
+                    <option>
+
+                        Cardiologie
+
+                    </option>
+
+                    <option>
+
+                        Neurologie
+
+                    </option>
+
+                    <option>
+
+                        Pediatrie
+
+                    </option>
+
+                </select>
+
+                <select>
+
+                    <option>
+
+                        Doctor
+
+                    </option>
+
+                    <option>
+
+                        Dr. Popescu
+
+                    </option>
+
+                    <option>
+
+                        Dr. Ionescu
+
+                    </option>
+
+                </select>
+
+            </div>
+
+        </section>
+
+        <!-- APPOINTMENTS -->
+
+        <section class="appointments-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Programările mele
+
+                </h2>
+
+            </div>
+
+            <!-- LIST -->
+
+            <div class="appointments-list">
+
+                <!-- CARD -->
+
+                <div class="appointment-card">
+
+                    <div>
+
+                        <h3>
+
+                            Dr. Andrei Popescu
+
+                        </h3>
+
+                        <p>
+
+                            Cardiologie
+
+                        </p>
+
+                    </div>
+
+                    <div class="appointment-actions">
+
+                        <span>
+
+                            12 Mai 2025
+
+                        </span>
+
+                        <button class="details-btn"
+                                data-doctor="Dr. Andrei Popescu"
+                                data-speciality="Cardiologie"
+                                data-date="12 Mai 2025"
+                                data-hour="14:00">
+
+                            Vezi detalii
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD -->
+
+                <div class="appointment-card">
+
+                    <div>
+
+                        <h3>
+
+                            Dr. Maria Ionescu
+
+                        </h3>
+
+                        <p>
+
+                            Neurologie
+
+                        </p>
+
+                    </div>
+
+                    <div class="appointment-actions">
+
+                        <span>
+
+                            20 Mai 2025
+
+                        </span>
+
+                        <button class="details-btn"
+                                data-doctor="Dr. Maria Ionescu"
+                                data-speciality="Neurologie"
+                                data-date="20 Mai 2025"
+                                data-hour="11:30">
+
+                            Vezi detalii
+
+                        </button>
+
+                    </div>
+
+                </div>
+                </div>
+
+        </section>
+
+        <!-- ANALYSES -->
+
+        <section class="analyses-section">
+
+            <div class="section-title">
+
+                <h2>
+
+                    Analize medicale
+
+                </h2>
+
+            </div>
+
+            <!-- LIST -->
+
+            <div class="analysis-list">
+
+                <div class="analysis-card">
+
+                    <div>
+
+                        <h3>
+
+                            Analize sânge
+
+                        </h3>
+
+                        <p>
+
+                            Dr. Popescu
+
+                        </p>
+
+                    </div>
+                    <button class="pdf-btn"
+                            data-analysis="Analize sânge"
+                            data-doctor="Dr. Popescu">
+
+                        Vezi analiza
+
+                    </button>
+
+                </div>
+
+                <div class="analysis-card">
+
+                    <div>
+
+                        <h3>
+
+                            RMN cerebral
+
+                        </h3>
+
+                        <p>
+
+                            Dr. Ionescu
+
+                        </p>
+
+                    </div>
+
+                    <button class="pdf-btn"
+                            data-analysis="RMN cerebral"
+                            data-doctor="Dr. Ionescu">
+
+                        Vezi analiza
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- JS -->
+    <!-- MODAL -->
+
+    <div class="modal"
+         id="detailsModal">
+
+        <div class="modal-content">
+
+            <span class="close-modal"
+                  id="closeModal">
+
+                &times;
+
+            </span>
+
+            <h2>
+
+                Detalii programare
+
+            </h2>
+
+            <div id="modalBody">
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="js/auth.js"></script>
+
+    <script src="js/profile.js"></script>
+
+</body>
+
+</html>
