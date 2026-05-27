@@ -422,6 +422,20 @@ if (
 
     );
 
+    let featureAutoScroll = setInterval(() => {
+        featureNextBtn.click();
+    }, 4000);
+
+    featuresGrid.addEventListener("mouseenter", () => {
+        clearInterval(featureAutoScroll);
+    });
+
+    featuresGrid.addEventListener("mouseleave", () => {
+        featureAutoScroll = setInterval(() => {
+            featureNextBtn.click();
+        }, 4000);
+    });
+
 }
 
 /* ========================= */
@@ -539,6 +553,20 @@ if (
         }
 
     );
+
+    let specialityAutoScroll = setInterval(() => {
+        nextBtn.click();
+    }, 4000);
+
+    specialitiesGrid.addEventListener("mouseenter", () => {
+        clearInterval(specialityAutoScroll);
+    });
+
+    specialitiesGrid.addEventListener("mouseleave", () => {
+        specialityAutoScroll = setInterval(() => {
+            nextBtn.click();
+        }, 4000);
+    });
 
 }
 
