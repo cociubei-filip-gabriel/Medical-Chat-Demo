@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
@@ -6,3 +6,5 @@
 /.vs/ChatMEDICAL.slnx/FileContentIndex/14213ce3-d62e-491c-a098-58535a0a897e.vsidx
 /.vs/ChatMEDICAL.slnx/FileContentIndex/6c62d79b-9638-4d3f-a4a0-439aea1d1f5d.vsidx
 /.vs/ChatMEDICAL.slnx/FileContentIndex
+target/
+
