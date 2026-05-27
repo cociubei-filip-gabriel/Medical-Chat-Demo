@@ -302,561 +302,147 @@ else {
 /* FEATURES LOOP */
 /* ========================= */
 
-const featuresGrid =
-    document.getElementById(
-        "featuresGrid"
-    );
+/* ========================= */
+/* INFINITE MARQUEE SCROLL FUNCTION */
+/* ========================= */
 
-const featureNextBtn =
-    document.getElementById(
-        "featureNextBtn"
-    );
+function initInfiniteScroll(grid, prevBtn, nextBtn, scrollAmount, speed = 0.5) {
+    if (!grid) return;
 
-const featurePrevBtn =
-    document.getElementById(
-        "featurePrevBtn"
-    );
-
-if (
-
-    featuresGrid &&
-
-    featureNextBtn &&
-
-    featurePrevBtn
-
-) {
-
-    const scrollAmount = 350;
-
-    /* NEXT */
-
-    featureNextBtn.addEventListener(
-
-        "click",
-
-        () => {
-
-            /* LAST */
-
-            if (
-
-                featuresGrid.scrollLeft +
-
-                featuresGrid.clientWidth >=
-
-                featuresGrid.scrollWidth - 10
-
-            ) {
-
-                /* LOOP START */
-
-                featuresGrid.scrollTo({
-
-                    left: 0,
-
-                    behavior: "smooth"
-
-                });
-
-            }
-
-            else {
-
-                featuresGrid.scrollBy({
-
-                    left: scrollAmount,
-
-                    behavior: "smooth"
-
-                });
-
-            }
-
-        }
-
-    );
-
-    /* PREV */
-
-    featurePrevBtn.addEventListener(
-
-        "click",
-
-        () => {
-
-            /* FIRST */
-
-            if (
-
-                featuresGrid.scrollLeft <= 0
-
-            ) {
-
-                /* LOOP END */
-
-                featuresGrid.scrollTo({
-
-                    left:
-                        featuresGrid.scrollWidth,
-
-                    behavior: "smooth"
-
-                });
-
-            }
-
-            else {
-
-                featuresGrid.scrollBy({
-
-                    left: -scrollAmount,
-
-                    behavior: "smooth"
-
-                });
-
-            }
-
-        }
-
-    );
-
-    let featureAutoScroll = setInterval(() => {
-        featureNextBtn.click();
-    }, 4000);
-
-    featuresGrid.addEventListener("mouseenter", () => {
-        clearInterval(featureAutoScroll);
+    // Clone all children for seamless wrapping
+    const originalChildren = Array.from(grid.children);
+    originalChildren.forEach(child => {
+        grid.appendChild(child.cloneNode(true));
     });
 
-    featuresGrid.addEventListener("mouseleave", () => {
-        featureAutoScroll = setInterval(() => {
-            featureNextBtn.click();
-        }, 4000);
+    let originalWidth = grid.scrollWidth / 2;
+
+    // Recalculate original width on load and resize
+    window.addEventListener("load", () => {
+        originalWidth = grid.scrollWidth / 2;
     });
 
-}
-
-/* ========================= */
-/* SPECIALITIES LOOP */
-/* ========================= */
-
-const specialitiesGrid =
-    document.getElementById(
-        "specialitiesGrid"
-    );
-
-const nextBtn =
-    document.getElementById(
-        "nextBtn"
-    );
-
-const prevBtn =
-    document.getElementById(
-        "prevBtn"
-    );
-
-if (
-
-    specialitiesGrid &&
-
-    nextBtn &&
-
-    prevBtn
-
-) {
-
-    const specialityScroll = 300;
-
-    /* NEXT */
-
-    nextBtn.addEventListener(
-
-        "click",
-
-        () => {
-
-            if (
-
-                specialitiesGrid.scrollLeft +
-
-                specialitiesGrid.clientWidth >=
-
-                specialitiesGrid.scrollWidth - 10
-
-            ) {
-
-                specialitiesGrid.scrollTo({
-
-                    left: 0,
-
-                    behavior: "smooth"
-
-                });
-
-            }
-
-            else {
-
-                specialitiesGrid.scrollBy({
-
-                    left: specialityScroll,
-
-                    behavior: "smooth"
-
-                });
-
-            }
-
-        }
-
-    );
-
-    /* PREV */
-
-    prevBtn.addEventListener(
-
-        "click",
-
-        () => {
-
-            if (
-
-                specialitiesGrid.scrollLeft <= 0
-
-            ) {
-
-                specialitiesGrid.scrollTo({
-
-                    left:
-                        specialitiesGrid.scrollWidth,
-
-                    behavior: "smooth"
-
-                });
-
-            }
-
-            else {
-
-                specialitiesGrid.scrollBy({
-
-                    left: -specialityScroll,
-
-                    behavior: "smooth"
-
-                });
-
-            }
-
-        }
-
-    );
-
-    let specialityAutoScroll = setInterval(() => {
-        nextBtn.click();
-    }, 4000);
-
-    specialitiesGrid.addEventListener("mouseenter", () => {
-        clearInterval(specialityAutoScroll);
-    });
-
-    specialitiesGrid.addEventListener("mouseleave", () => {
-        specialityAutoScroll = setInterval(() => {
-            nextBtn.click();
-        }, 4000);
-    });
-
-}
-
-/* ========================= */
-/* FEATURE ACCESS */
-/* ========================= */
-
-const chatCard =
-    document.getElementById(
-        "chatCard"
-    );
-
-const appointmentsCard =
-    document.getElementById(
-        "appointmentsCard"
-    );
-
-const analysisCard =
-    document.getElementById(
-        "analysisCard"
-    );
-
-const videoCard =
-    document.getElementById(
-        "videoCard"
-    );
-
-const doctorCard =
-    document.getElementById(
-        "doctorCard"
-    );
-
-const securityCard =
-    document.getElementById(
-        "securityCard"
-    );
-
-/* LOGIN STATUS */
-
-const userLogged =
-
-    localStorage.getItem(
-        "isLoggedIn"
-    );
-
-/* ========================= */
-/* CHAT */
-/* ========================= */
-
-if (chatCard) {
-
-    chatCard.addEventListener(
-
-        "click",
-
-        () => {
-
-            if (
-
-                userLogged === "true"
-
-            ) {
-
-                window.location.href =
-                    "chat.html";
-
-            }
-
-            else {
-
-                openInfoModal(
-
-                    "Chat medical",
-
-                    "Discută rapid și sigur cu medicii specialiști direct din aplicație."
-
-                );
-
-            }
-
-        }
-
-    );
-
-}
-
-/* ========================= */
-/* APPOINTMENTS */
-/* ========================= */
-
-if (appointmentsCard) {
-
-    appointmentsCard.addEventListener(
-
-        "click",
-
-        () => {
-
-            if (
-
-                userLogged === "true"
-
-            ) {
-
-                window.location.href =
-                    "appointments.html";
-
-            }
-
-            else {
-
-                openInfoModal(
-
-                    "Programări online",
-
-                    "Programează rapid consultații medicale direct din aplicație. Conectează-te pentru acces complet."
-
-                );
-
-            }
-
-        }
-
-    );
-
-}
-
-/* ========================= */
-/* ANALYSES */
-/* ========================= */
-
-if (analysisCard) {
-
-    analysisCard.addEventListener(
-
-        "click",
-
-        () => {
-
-            if (
-
-                userLogged === "true"
-
-            ) {
-
-                window.location.href =
-                    "analyses.html";
-
-            }
-
-            else {
-
-                openInfoModal(
-
-                    "Rezultate analize",
-
-                    "Vizualizează online rezultatele analizelor medicale în siguranță."
-
-                );
-
-            }
-
-        }
-
-    );
-
-}
-
-/* ========================= */
-/* VIDEO */
-/* ========================= */
-
-if (videoCard) {
-
-    videoCard.addEventListener(
-
-        "click",
-
-        () => {
-
-            if (
-
-                userLogged === "true"
-
-            ) {
-
-                window.location.href =
-                    "video.html";
-
-            }
-
-            else {
-
-                openInfoModal(
-
-                    "Consultații video",
-
-                    "Intră în apel video în timp real cu medicii direct din browser."
-
-                );
-
-            }
-
-        }
-
-    );
-
-}
-
-/* ========================= */
-/* DOCTORS */
-/* ========================= */
-
-if (doctorCard) {
-
-    doctorCard.addEventListener(
-
-        "click",
-
-        () => {
-
-            window.location.href =
-                "doctors.html";
-
-        }
-
-    );
-
-}
-
-/* ========================= */
-/* SECURITY */
-/* ========================= */
-
-if (securityCard) {
-
-    securityCard.addEventListener(
-
-        "click",
-
-        () => {
-
-            openInfoModal(
-
-                "Securitate",
-
-                "Datele medicale sunt criptate și protejate conform standardelor moderne GDPR."
-
-            );
-
-        }
-
-    );
-
-}
-
-/* ========================= */
-/* SPECIALITY REDIRECT */
-/* ========================= */
-
-const specialityCards =
-    document.querySelectorAll(
-        ".speciality-card"
-    );
-
-specialityCards.forEach(
-
-    (card) => {
-
-        card.addEventListener(
-
-            "click",
-
-            () => {
-
-                const speciality =
-
-                    card.dataset.speciality;
-
-                /* REDIRECT */
-
-                window.location.href =
-
-                    `doctors.html?speciality=${speciality}`;
-
-            }
-
-        );
-
+    if (window.ResizeObserver) {
+        const ro = new ResizeObserver(() => {
+            originalWidth = grid.scrollWidth / 2;
+        });
+        ro.observe(grid);
     }
 
-);
+    let isHovered = false;
+    let scrollTimeout = null;
+
+    function pauseTemporarily() {
+        isHovered = true;
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+            isHovered = false;
+        }, 1200); // Pause for 1.2s after interaction
+    }
+
+    function animate() {
+        if (!isHovered) {
+            grid.scrollLeft += speed;
+            if (grid.scrollLeft >= originalWidth) {
+                grid.scrollLeft -= originalWidth;
+            }
+        }
+        requestAnimationFrame(animate);
+    }
+
+    // Start linear loop
+    animate();
+
+    // Hover / Touch states
+    grid.addEventListener("mouseenter", () => { isHovered = true; });
+    grid.addEventListener("mouseleave", () => { isHovered = false; });
+    grid.addEventListener("touchstart", () => { isHovered = true; });
+    grid.addEventListener("touchend", () => { isHovered = false; });
+
+    if (nextBtn) {
+        nextBtn.addEventListener("click", () => {
+            pauseTemporarily();
+            if (grid.scrollLeft >= originalWidth) {
+                grid.scrollLeft -= originalWidth;
+            }
+            grid.scrollBy({ left: scrollAmount, behavior: "smooth" });
+        });
+    }
+
+    if (prevBtn) {
+        prevBtn.addEventListener("click", () => {
+            pauseTemporarily();
+            if (grid.scrollLeft <= 0) {
+                grid.scrollLeft += originalWidth;
+            }
+            grid.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+        });
+    }
+}
+
+// Initialize Loop 1: Features
+const featuresGrid = document.getElementById("featuresGrid");
+const featureNextBtn = document.getElementById("featureNextBtn");
+const featurePrevBtn = document.getElementById("featurePrevBtn");
+if (featuresGrid && featureNextBtn && featurePrevBtn) {
+    initInfiniteScroll(featuresGrid, featurePrevBtn, featureNextBtn, 350, 0.4); // speed 0.4px per frame (slow & smooth)
+}
+
+// Initialize Loop 2: Specialties
+const specialitiesGrid = document.getElementById("specialitiesGrid");
+const nextBtn = document.getElementById("nextBtn");
+const prevBtn = document.getElementById("prevBtn");
+if (specialitiesGrid && nextBtn && prevBtn) {
+    initInfiniteScroll(specialitiesGrid, prevBtn, nextBtn, 300, 0.4); // speed 0.4px per frame (slow & smooth)
+}
+
+/* ========================= */
+/* FEATURE ACCESS (EVENT DELEGATION) */
+/* ========================= */
+const userLogged = localStorage.getItem("isLoggedIn");
+
+if (featuresGrid) {
+    featuresGrid.addEventListener("click", (e) => {
+        const card = e.target.closest(".feature-card");
+        if (!card) return;
+
+        if (card.id === "chatCard") {
+            if (userLogged === "true") window.location.href = "chat.html";
+            else openInfoModal("Chat medical", "Discută rapid și sigur cu medicii specialiști direct din aplicație.");
+        }
+        else if (card.id === "appointmentsCard") {
+            if (userLogged === "true") window.location.href = "appointments.html";
+            else openInfoModal("Programări online", "Programează rapid consultații medicale direct din aplicație. Conectează-te pentru acces complet.");
+        }
+        else if (card.id === "analysisCard") {
+            if (userLogged === "true") window.location.href = "analyses.html";
+            else openInfoModal("Rezultate analize", "Vizualizează online rezultatele analizelor medicale în siguranță.");
+        }
+        else if (card.id === "videoCard") {
+            if (userLogged === "true") window.location.href = "video.html";
+            else openInfoModal("Consultații video", "Intră în apel video în timp real cu medicii direct din browser.");
+        }
+        else if (card.id === "doctorCard") {
+            window.location.href = "doctors.html";
+        }
+        else if (card.id === "securityCard") {
+            openInfoModal("Securitate", "Datele medicale sunt criptate și protejate conform standardelor moderne GDPR.");
+        }
+    });
+}
+
+/* ========================= */
+/* SPECIALITY REDIRECT (EVENT DELEGATION) */
+/* ========================= */
+if (specialitiesGrid) {
+    specialitiesGrid.addEventListener("click", (e) => {
+        const card = e.target.closest(".speciality-card");
+        if (!card) return;
+
+        const speciality = card.dataset.speciality;
+        if (speciality) {
+            window.location.href = `doctors.html?speciality=${speciality}`;
+        }
+    });
+}
 
