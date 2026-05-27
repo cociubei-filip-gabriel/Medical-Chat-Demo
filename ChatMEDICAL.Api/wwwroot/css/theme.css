@@ -240,3 +240,61 @@ input::placeholder, textarea::placeholder {
     border-color: var(--bg-secondary) !important;
 }
 
+/* CONTACT & FOOTER SECTION OVERRIDES */
+.contact-card {
+    background: var(--bg-secondary) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: var(--card-shadow) !important;
+}
+
+.contact-card h1 {
+    color: #4A90E2 !important;
+}
+
+[data-theme="dark"] .contact-card h1 {
+    color: #3b82f6 !important;
+}
+
+.social-card {
+    background: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+    transition: all 0.3s ease;
+}
+
+.social-card i {
+    color: #4A90E2 !important;
+}
+
+[data-theme="dark"] .social-card i {
+    color: #3b82f6 !important;
+}
+
+.social-card:hover {
+    background: #4A90E2 !important;
+    color: white !important;
+}
+
+.social-card:hover i {
+    color: white !important;
+}
+
+.footer-item {
+    color: var(--text-primary) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.footer-item:hover {
+    color: #4A90E2 !important;
+}
+
+.footer-submenu a {
+    color: var(--text-secondary) !important;
+    transition: all 0.3s ease;
+}
+
+.footer-submenu a:hover {
+    color: #4A90E2 !important;
+}
+
