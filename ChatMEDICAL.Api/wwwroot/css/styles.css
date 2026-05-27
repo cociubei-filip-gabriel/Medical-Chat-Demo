@@ -674,15 +674,15 @@ body {
 
 .social-card {
     width: 120px;
-    height: 95px;
+    height: 110px;
     background: #f4f9ff;
-    border-radius: 22px;
+    border-radius: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    transition: 0.3s;
+    gap: 12px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
     border: 2px solid transparent;
 }
@@ -697,6 +697,7 @@ body {
 
         .social-card:hover i {
             color: white;
+            transform: scale(1.1);
         }
 
 /* ACTIVE */
@@ -713,15 +714,16 @@ body {
 /* ICON */
 
 .social-card i {
-    font-size: 40px;
+    font-size: 32px;
     color: #4A90E2;
+    transition: transform 0.3s ease;
 }
 
 /* TEXT */
 
 .social-card span {
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 /* FOOTER */
