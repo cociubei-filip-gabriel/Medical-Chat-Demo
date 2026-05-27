@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="ro">
 
@@ -15,6 +15,17 @@
 
     <link rel="stylesheet"
           href="css/doctors.css">
+    <link rel="stylesheet"
+          href="css/theme.css">
+
+    <!-- THEME INITIALIZER -->
+    <script>
+        (function() {
+            const savedTheme = localStorage.getItem("theme") || 
+                (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+            document.documentElement.setAttribute("data-theme", savedTheme);
+        })();
+    </script>
 
     <!-- ICONS -->
 
@@ -99,7 +110,14 @@
                    id="searchDoctor"
                    placeholder="Caută doctor...">
 
-            <select id="specialityFilter">
+            <div class="chips-container" id="specialityChips">
+                <button class="chip active" data-value="">Toate Specialitățile</button>
+                <button class="chip" data-value="cardiologie">Cardiologie</button>
+                <button class="chip" data-value="dermatologie">Dermatologie</button>
+                <button class="chip" data-value="neurologie">Neurologie</button>
+            </div>
+
+            <select id="specialityFilter" style="display: none;">
 
                 <option value="">
 
@@ -163,8 +181,11 @@
 
                 <div class="doctor-top">
 
-                    <img src="https://cdn-icons-png.flaticon.com/512/3304/3304567.png"
-                         alt="doctor">
+                    <div class="avatar-container">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3304/3304567.png"
+                             alt="doctor">
+                        <span class="status-badge online"></span>
+                    </div>
 
                     <div>
 
@@ -238,8 +259,11 @@
 
                 <div class="doctor-top">
 
-                    <img src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png"
-                         alt="doctor">
+                    <div class="avatar-container">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png"
+                             alt="doctor">
+                        <span class="status-badge online"></span>
+                    </div>
 
                     <div>
 

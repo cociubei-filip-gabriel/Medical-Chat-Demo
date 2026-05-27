@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -234,5 +234,88 @@ body {
 
     .filters {
         flex-direction: column;
+    }
+}
+
+/* DOCTOR CARD HOVER */
+.doctor-card {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+}
+.doctor-card:hover {
+    transform: translateY(-8px) !important;
+    box-shadow: 0 20px 35px rgba(74, 144, 226, 0.15) !important;
+}
+
+/* CHIPS */
+.chips-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.chip {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.25s ease;
+}
+
+.chip:hover {
+    background: var(--sidebar-link-hover-bg);
+    border-color: #4A90E2;
+}
+
+.chip.active {
+    background: #4A90E2 !important;
+    color: white !important;
+    border-color: #4A90E2 !important;
+    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.25);
+}
+
+/* AVATAR CONTAINER & STATUS BADGE */
+.avatar-container {
+    position: relative;
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+}
+
+.avatar-container img {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+}
+
+.status-badge {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 3px solid var(--bg-secondary);
+}
+
+.status-badge.online {
+    background-color: #10b981;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
     }
 }

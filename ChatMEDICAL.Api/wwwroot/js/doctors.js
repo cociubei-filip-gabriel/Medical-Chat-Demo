@@ -1,4 +1,4 @@
-﻿/* ========================= */
+/* ========================= */
 /* URL SPECIALITY FILTER */
 /* ========================= */
 
@@ -306,5 +306,31 @@ ratingFilter.addEventListener(
     filterDoctors
 
 );
+
+// Specialty chips dynamic filtering integration
+const specialityChips = document.getElementById("specialityChips");
+if (specialityChips && specialityFilter) {
+    const chips = specialityChips.querySelectorAll(".chip");
+    chips.forEach(chip => {
+        chip.addEventListener("click", () => {
+            chips.forEach(c => c.classList.remove("active"));
+            chip.classList.add("active");
+            
+            const value = chip.getAttribute("data-value");
+            if (value === "") {
+                specialityFilter.value = "";
+            } else {
+                const options = specialityFilter.options;
+                for (let i = 0; i < options.length; i++) {
+                    if (options[i].text.toLowerCase() === value.toLowerCase()) {
+                        specialityFilter.selectedIndex = i;
+                        break;
+                    }
+                }
+            }
+            filterDoctors();
+        });
+    });
+}
 
 

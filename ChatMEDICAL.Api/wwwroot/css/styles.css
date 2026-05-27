@@ -36,14 +36,19 @@ body {
 /* ========================= */
 
 .navbar {
-    background: white;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border-color);
+    position: sticky;
+    top: 20px;
     border-radius: 25px;
     padding: 16px 28px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    transition: 0.3s;
+    box-shadow: var(--card-shadow);
+    transition: all 0.3s ease;
     z-index: 100;
 }
 
@@ -300,7 +305,34 @@ body {
     margin: auto;
 }
 
-    .video-container video {
+/* STATS */
+
+.hero-stats {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-number {
+    font-size: 36px;
+    font-weight: 700;
+    color: #4A90E2;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.stat-item p {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.video-container video {
         width: 100%;
         height: 100%;
         object-fit: cover;

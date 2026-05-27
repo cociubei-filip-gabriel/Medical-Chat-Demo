@@ -1,4 +1,4 @@
-﻿/* ========================= */
+/* ========================= */
 /* LOGOUT */
 /* ========================= */
 
@@ -157,3 +157,51 @@ console.log(
     "Admin dashboard loaded successfully 💙"
 
 );
+
+// Append theme button to admin sidebar links
+const sidebarContainer = document.querySelector(".sidebar-links");
+if (sidebarContainer) {
+    const adminThemeLink = document.createElement("a");
+    adminThemeLink.href = "#";
+    adminThemeLink.id = "sidebarThemeToggleBtn";
+    adminThemeLink.style.marginTop = "20px";
+    adminThemeLink.style.borderTop = "1px solid var(--border-color)";
+    adminThemeLink.style.paddingTop = "15px";
+    adminThemeLink.style.borderRadius = "0";
+    adminThemeLink.innerHTML = `<i class="fa-regular fa-moon"></i><span>Mod Întunecat</span>`;
+    sidebarContainer.appendChild(adminThemeLink);
+}
+
+// Add the standard theme toggling logic
+window.updateThemeToggleButton = function() {
+    const sidebarThemeBtn = document.getElementById("sidebarThemeToggleBtn");
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    
+    const iconClass = currentTheme === "dark" ? "fa-sun" : "fa-moon";
+    const textLabel = currentTheme === "dark" ? "Mod Luminos" : "Mod Întunecat";
+    
+    if (sidebarThemeBtn) {
+        sidebarThemeBtn.innerHTML = `<i class="fa-regular ${iconClass}"></i><span>${textLabel}</span>`;
+    }
+}
+
+window.toggleTheme = function() {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    
+    document.documentElement.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme);
+    window.updateThemeToggleButton();
+}
+
+if (sidebarContainer) {
+    const sidebarThemeBtn = document.getElementById("sidebarThemeToggleBtn");
+    if (sidebarThemeBtn) {
+        sidebarThemeBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            window.toggleTheme();
+        });
+    }
+}
+
+window.updateThemeToggleButton();

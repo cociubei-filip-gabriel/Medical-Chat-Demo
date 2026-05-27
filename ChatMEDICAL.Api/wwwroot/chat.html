@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="ro">
 
@@ -15,6 +15,17 @@
 
     <link rel="stylesheet"
           href="css/chat.css">
+    <link rel="stylesheet"
+          href="css/theme.css">
+
+    <!-- THEME INITIALIZER -->
+    <script>
+        (function() {
+            const savedTheme = localStorage.getItem("theme") || 
+                (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+            document.documentElement.setAttribute("data-theme", savedTheme);
+        })();
+    </script>
 
     <!-- ICONS -->
 

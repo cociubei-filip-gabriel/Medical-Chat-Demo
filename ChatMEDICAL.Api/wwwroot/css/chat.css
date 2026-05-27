@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* RESET */
 
@@ -19,10 +19,16 @@ body {
 
 .chat-sidebar {
     width: 340px;
-    background: white;
-    border-right: 1px solid #e5e7eb;
+    background: rgba(255, 255, 255, 0.75) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-right: 1px solid var(--border-color) !important;
     display: flex;
     flex-direction: column;
+}
+
+[data-theme="dark"] .chat-sidebar {
+    background: rgba(30, 41, 59, 0.75) !important;
 }
 
 /* TOP */
@@ -398,6 +404,7 @@ body {
         background: #e6eefc;
     }
 
+/* BUTTON */
 .back-btn {
     width: 45px;
     height: 45px;
@@ -412,4 +419,48 @@ body {
     font-size: 18px;
     transition: 0.3s;
     margin-right: 15px;
+}
+
+/* TYPING INDICATOR BUBBLE */
+.typing-indicator-bubble {
+    padding: 12px 16px !important;
+    border-radius: 20px !important;
+    border-bottom-left-radius: 6px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    max-width: 80px !important;
+    height: 38px !important;
+}
+
+.typing-dots {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 10px;
+}
+
+.typing-dots span {
+    width: 8px;
+    height: 8px;
+    background: #4A90E2;
+    border-radius: 50%;
+    display: inline-block;
+    animation: typing-bounce 1.4s infinite ease-in-out both;
+}
+
+.typing-dots span:nth-child(1) {
+    animation-delay: -0.32s;
+}
+
+.typing-dots span:nth-child(2) {
+    animation-delay: -0.16s;
+}
+
+@keyframes typing-bounce {
+    0%, 80%, 100% {
+        transform: scale(0);
+    }
+    40% {
+        transform: scale(1);
+    }
 }

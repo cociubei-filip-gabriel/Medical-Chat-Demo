@@ -1,0 +1,119 @@
+:root {
+    --bg-primary: #f5f9ff;
+    --bg-secondary: #ffffff;
+    --text-primary: #1F2D3D;
+    --text-secondary: #7b8794;
+    --border-color: #e2e8f0;
+    --card-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    --sidebar-link-color: #1F2D3D;
+    --sidebar-link-hover-bg: #edf5ff;
+    --sidebar-link-active-bg: #4A90E2;
+}
+
+[data-theme="dark"] {
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --border-color: #334155;
+    --card-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    --sidebar-link-color: #94a3b8;
+    --sidebar-link-hover-bg: #334155;
+    --sidebar-link-active-bg: #3b82f6;
+}
+
+/* GLOBAL THEME OVERRIDES */
+body {
+    background: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* SIDEBAR & SIDEMENU */
+.sidebar, .side-menu, aside {
+    background: var(--bg-secondary) !important;
+    border-right: 1px solid var(--border-color) !important;
+    color: var(--text-primary) !important;
+    transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.sidebar-links a, .side-links a {
+    color: var(--sidebar-link-color) !important;
+}
+
+.sidebar-links a:hover, .side-links a:hover {
+    background: var(--sidebar-link-hover-bg) !important;
+    color: #4A90E2 !important;
+}
+
+.sidebar-links .active, .side-links a.active {
+    background: var(--sidebar-link-active-bg) !important;
+    color: white !important;
+}
+
+/* TOPBAR / NAVBAR */
+.topbar, .navbar {
+    background: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    box-shadow: var(--card-shadow) !important;
+    transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* CARDS */
+.doctor-card, .appointment-card, .info-card, .speciality-card, .history-card, .details-card, .card {
+    background: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    box-shadow: var(--card-shadow) !important;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doctor-top h3, .doctor-top p, .doctor-info span, .speciality-card h3, .speciality-card p {
+    color: var(--text-primary) !important;
+}
+
+/* TEXT */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary) !important;
+}
+
+p, span, label, th, td {
+    color: var(--text-primary);
+}
+
+.topbar p, .sidebar-logo h2, .section-title p {
+    color: var(--text-secondary) !important;
+}
+
+/* FORMS / INPUTS */
+input, select, textarea {
+    background: var(--bg-secondary) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--border-color) !important;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+input::placeholder {
+    color: var(--text-secondary) !important;
+}
+
+/* THEME TOGGLE BUTTON STYLING */
+.theme-btn {
+    border: none;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: var(--card-shadow);
+    transition: all 0.3s ease;
+}
+
+.theme-btn:hover {
+    background: var(--border-color);
+    transform: scale(1.05);
+}

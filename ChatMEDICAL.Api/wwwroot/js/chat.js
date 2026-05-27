@@ -1,4 +1,4 @@
-﻿import {
+import {
 
     db,
     collection,
@@ -356,6 +356,42 @@ const q = query(
 );
 
 /* ========================= */
+/* TYPING INDICATOR */
+/* ========================= */
+
+function showTypingIndicator() {
+    if (document.getElementById("typingIndicator")) return;
+    
+    const typingIndicator = document.createElement("div");
+    typingIndicator.id = "typingIndicator";
+    typingIndicator.className = "message other-message typing-indicator-bubble";
+    typingIndicator.innerHTML = `
+        <div class="typing-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    `;
+    chatBox.appendChild(typingIndicator);
+    chatBox.scrollTop = chatBox.scrollHeight;
+}
+
+function hideTypingIndicator() {
+    const el = document.getElementById("typingIndicator");
+    if (el) {
+        el.remove();
+    }
+}
+
+// Simulate initial typing on load
+setTimeout(() => {
+    showTypingIndicator();
+    setTimeout(() => {
+        hideTypingIndicator();
+    }, 2500);
+}, 1200);
+
+/* ========================= */
 /* LOAD */
 /* ========================= */
 
@@ -477,6 +513,14 @@ chatForm.addEventListener(
         );
 
         messageInput.value = "";
+
+        // Simulate reply typing
+        setTimeout(() => {
+            showTypingIndicator();
+            setTimeout(() => {
+                hideTypingIndicator();
+            }, 2000);
+        }, 1000);
 
     }
 

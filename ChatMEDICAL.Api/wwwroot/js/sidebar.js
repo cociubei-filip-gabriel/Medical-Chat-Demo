@@ -16,6 +16,49 @@ import {
 
 
 /* ========================= */
+/* THEME SYSTEM (DARK/LIGHT) */
+/* ========================= */
+
+// Dynamically inject theme.css if not already present
+if (!document.querySelector('link[href*="theme.css"]')) {
+    const themeLink = document.createElement("link");
+    themeLink.rel = "stylesheet";
+    themeLink.href = "css/theme.css";
+    document.head.appendChild(themeLink);
+}
+
+// Load theme from localStorage or system preference
+const savedTheme = localStorage.getItem("theme") || 
+    (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+
+document.documentElement.setAttribute("data-theme", savedTheme);
+
+window.updateThemeToggleButton = function() {
+    const themeBtn = document.getElementById("themeToggleBtn");
+    const sidebarThemeBtn = document.getElementById("sidebarThemeToggleBtn");
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    
+    const iconClass = currentTheme === "dark" ? "fa-sun" : "fa-moon";
+    const textLabel = currentTheme === "dark" ? "Mod Luminos" : "Mod Întunecat";
+    
+    if (themeBtn) {
+        themeBtn.innerHTML = `<i class="fa-regular ${iconClass}"></i>`;
+    }
+    if (sidebarThemeBtn) {
+        sidebarThemeBtn.innerHTML = `<i class="fa-regular ${iconClass}"></i><span>${textLabel}</span>`;
+    }
+}
+
+window.toggleTheme = function() {
+    const currentTheme = document.documentElement.getAttribute("data-theme");
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
+    
+    document.documentElement.setAttribute("data-theme", newTheme);
+    localStorage.setItem("theme", newTheme);
+    window.updateThemeToggleButton();
+}
+
+/* ========================= */
 /* CURRENT USER */
 /* ========================= */
 
@@ -164,6 +207,44 @@ links.forEach(link => {
     }
 
 });
+
+// Append theme button to sidebar if sideLinks exists
+if (sideLinks) {
+    const sidebarThemeLink = document.createElement("a");
+    sidebarThemeLink.href = "#";
+    sidebarThemeLink.id = "sidebarThemeToggleBtn";
+    sidebarThemeLink.style.marginTop = "20px";
+    sidebarThemeLink.style.borderTop = "1px solid var(--border-color)";
+    sidebarThemeLink.style.paddingTop = "15px";
+    sidebarThemeLink.style.borderRadius = "0";
+    sidebarThemeLink.innerHTML = `<i class="fa-regular fa-moon"></i><span>Mod Întunecat</span>`;
+    sideLinks.appendChild(sidebarThemeLink);
+}
+
+// Bind theme toggle events
+document.addEventListener("DOMContentLoaded", () => {
+    window.updateThemeToggleButton();
+    
+    const themeBtn = document.getElementById("themeToggleBtn");
+    const sidebarThemeBtn = document.getElementById("sidebarThemeToggleBtn");
+    
+    if (themeBtn) {
+        themeBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            window.toggleTheme();
+        });
+    }
+    
+    if (sidebarThemeBtn) {
+        sidebarThemeBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            window.toggleTheme();
+        });
+    }
+});
+
+// Run immediate update
+window.updateThemeToggleButton();
 /* ========================= */
 /* MENU OPEN/CLOSE */
 /* ========================= */
