@@ -998,43 +998,94 @@ body {
 
 .search-modal {
     position: fixed;
-    top: 110px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 500px;
-    background: white;
-    padding: 20px;
-    border-radius: 24px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.12);
+    inset: 0;
+    background: rgba(15, 23, 42, 0.4);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 1000;
     display: none;
-    z-index: 999;
-    animation: fadeIn 0.25s ease;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
     .search-modal.active {
-        display: block;
+        display: flex;
     }
 
-    .search-modal input {
+.search-content {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
+    animation: slideUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+    .search-content h2 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #0f172a;
+        margin-bottom: 20px;
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .search-content input {
         width: 100%;
-        padding: 18px 22px;
-        border: none;
+        padding: 16px 20px;
+        border: 2px solid #e2e8f0;
         border-radius: 16px;
-        background: #f5f7fb;
+        background: #f8fafc;
         font-size: 16px;
         outline: none;
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+        color: #0f172a;
     }
 
-@keyframes fadeIn {
+        .search-content input:focus {
+            border-color: #4A90E2;
+            box-shadow: 0 0 0 4px rgba(74, 144, 226, 0.15);
+            background: white;
+        }
 
+.close-search {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    border: none;
+    background: #f1f5f9;
+    color: #64748b;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+    .close-search:hover {
+        background: #e2e8f0;
+        color: #0f172a;
+        transform: rotate(90deg);
+    }
+
+@keyframes slideUp {
     from {
         opacity: 0;
-        transform: translateX(-50%) translateY(-10px);
+        transform: translateY(20px) scale(0.95);
     }
-
     to {
         opacity: 1;
-        transform: translateX(-50%) translateY(0);
+        transform: translateY(0) scale(1);
     }
 }
 

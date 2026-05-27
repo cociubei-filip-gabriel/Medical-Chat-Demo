@@ -453,6 +453,27 @@ if (
         );
 
     }
+
+    if (
+        searchModal
+    ) {
+
+        searchModal.addEventListener(
+            "click",
+            (e) => {
+
+                if (e.target === searchModal) {
+
+                    searchModal.classList.remove(
+                        "active"
+                    );
+
+                }
+
+            }
+        );
+
+    }
     /* SEARCH */
 
 
