@@ -778,15 +778,18 @@ body {
 .side-links {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
     .side-links a {
         text-decoration: none;
         color: #1F2D3D;
-        padding: 15px;
-        border-radius: 15px;
+        padding: 12px 15px;
+        border-radius: 12px;
         transition: 0.3s;
+        display: flex;
+        align-items: center;
+        gap: 12px;
     }
 
         /* HOVER */
@@ -794,6 +797,14 @@ body {
         .side-links a:hover {
             background: #edf5ff;
             color: #4A90E2;
+        }
+
+        /* ACTIVE */
+
+        .side-links a.active {
+            background: #4A90E2;
+            color: white;
+            font-weight: 600;
         }
 
 /* OVERLAY */

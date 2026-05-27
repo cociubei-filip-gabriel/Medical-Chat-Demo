@@ -1,4 +1,4 @@
-﻿/* ========================= */
+/* ========================= */
 /* REALTIME NOTIFICATIONS */
 /* ========================= */
 
@@ -50,48 +50,12 @@ if (!sideLinks) {
 
 else if (!currentUser) {
 
-    sideLinks.innerHTML =
-
-        `
-    <a href="index.html">
-
-        <i class="fa-solid fa-house"></i>
-
-        Acasă
-
-    </a>
-
-    <a href="doctors.html">
-
-        <i class="fa-solid fa-user-doctor"></i>
-
-        Doctori
-
-    </a>
-
-    <a href="specialities.html">
-
-        <i class="fa-solid fa-stethoscope"></i>
-
-        Specialități
-
-    </a>
-
-    <a href="login.html">
-
-        <i class="fa-solid fa-right-to-bracket"></i>
-
-        Login
-
-    </a>
-
-    <a href="register.html">
-
-        <i class="fa-solid fa-user-plus"></i>
-
-        Register
-
-    </a>
+    sideLinks.innerHTML = `
+    <a href="index.html"><i class="fa-solid fa-house"></i>Acasă</a>
+    <a href="doctors.html"><i class="fa-solid fa-user-doctor"></i>Doctori</a>
+    <a href="specialities.html"><i class="fa-solid fa-stethoscope"></i>Specialități</a>
+    <a href="login.html"><i class="fa-solid fa-right-to-bracket"></i>Login</a>
+    <a href="register.html"><i class="fa-solid fa-user-plus"></i>Register</a>
     `;
 
 }
@@ -110,64 +74,14 @@ else if (
 
 ) {
 
-    sideLinks.innerHTML =
-
-        `
-    <a href="index.html">
-
-        <i class="fa-solid fa-house"></i>
-
-        Acasă
-
-    </a>
-
-    <a href="doctors.html">
-
-        <i class="fa-solid fa-user-doctor"></i>
-
-        Doctori
-
-    </a>
-
-    <a href="specialities.html">
-
-        <i class="fa-solid fa-stethoscope"></i>
-
-        Specialități
-
-    </a>
-
-    <a href="appointments.html">
-
-        <i class="fa-solid fa-calendar-check"></i>
-
-        Programări
-
-    </a>
-
-    <a href="analyses.html">
-
-        <i class="fa-solid fa-file-waveform"></i>
-
-        Analize
-
-    </a>
-
-    <a href="chat.html">
-
-        <i class="fa-solid fa-comments"></i>
-
-        Chat
-
-    </a>
-
-    <a href="settings.html">
-
-        <i class="fa-solid fa-gear"></i>
-
-        Setări
-
-    </a>
+    sideLinks.innerHTML = `
+    <a href="index.html"><i class="fa-solid fa-house"></i>Acasă</a>
+    <a href="doctors.html"><i class="fa-solid fa-user-doctor"></i>Doctori</a>
+    <a href="specialities.html"><i class="fa-solid fa-stethoscope"></i>Specialități</a>
+    <a href="appointments.html"><i class="fa-solid fa-calendar-check"></i>Programări</a>
+    <a href="analyses.html"><i class="fa-solid fa-file-waveform"></i>Analize</a>
+    <a href="chat.html"><i class="fa-solid fa-comments"></i>Chat</a>
+    <a href="settings.html"><i class="fa-solid fa-gear"></i>Setări</a>
     `;
 
 }
@@ -183,47 +97,31 @@ else if (
 
 ) {
 
-    sideLinks.innerHTML =
+    sideLinks.innerHTML = `
+    <a href="doctor.html"><i class="fa-solid fa-chart-line"></i>Dashboard</a>
+    <a href="patients.html"><i class="fa-solid fa-user-group"></i>Pacienți</a>
+    <a href="appointments.html"><i class="fa-solid fa-calendar-check"></i>Programări</a>
+    <a href="#" id="sidebarChatBtn"><i class="fa-solid fa-comments"></i>Mesaje</a>
+    <a href="settings.html"><i class="fa-solid fa-gear"></i>Setări</a>
+    `;
 
-        `
-    <a href="doctor.html">
+}
 
-        <i class="fa-solid fa-chart-line"></i>
+/* ========================= */
+/* ADMIN */
+/* ========================= */
 
-        Dashboard
+else if (
 
-    </a>
+    currentUser.role ===
+    "admin"
 
-    <a href="patients.html">
+) {
 
-        <i class="fa-solid fa-user-group"></i>
-
-        Pacienți
-
-    </a>
-<a href="appointments.html">
-
-    <i class="fa-solid fa-calendar-check"></i>
-
-    Programări
-
-</a>
-
-<a href="#"
-id="sidebarChatBtn">
-
-    <i class="fa-solid fa-comments"></i>
-
-    Mesaje
-
-</a>
-    <a href="settings.html">
-
-        <i class="fa-solid fa-gear"></i>
-
-        Setări
-
-    </a>
+    sideLinks.innerHTML = `
+    <a href="index.html"><i class="fa-solid fa-house"></i>Acasă</a>
+    <a href="admin.html"><i class="fa-solid fa-chart-line"></i>Admin Panel</a>
+    <a href="settings.html"><i class="fa-solid fa-gear"></i>Setări</a>
     `;
 
 }
@@ -398,201 +296,7 @@ if (notificationBtn) {
 
 }
 
-/* ========================= */
-/* SEARCH SYSTEM */
-/* ========================= */
 
-const searchBtn =
-    document.getElementById(
-        "searchBtn"
-    );
-
-const searchInput =
-    document.getElementById(
-        "searchInput"
-    );
-
-if (
-    searchBtn &&
-    searchInput
-) {
-
-
-
-    /* ========================= */
-    /* SEARCH MODAL */
-    /* ========================= */
-
-
-    const searchModal =
-        document.getElementById(
-            "searchModal"
-        );
-
-    const closeSearch =
-        document.getElementById(
-            "closeSearch"
-        );
-
-    /* OPEN */
-
-    if (
-        searchBtn &&
-        searchModal
-    ) {
-
-        searchBtn.addEventListener(
-            "click",
-            () => {
-
-                searchModal.classList.add(
-                    "active"
-                );
-
-                searchInput.focus();
-
-            }
-        );
-
-    }
-
-    /* CLOSE */
-
-    if (
-        closeSearch
-    ) {
-
-        closeSearch.addEventListener(
-            "click",
-            () => {
-
-                searchModal.classList.remove(
-                    "active"
-                );
-
-            }
-        );
-
-    }
-    /* SEARCH */
-
-
-    /* SEARCH */
-
-    searchInput.addEventListener(
-
-        "keydown",
-
-        (e) => {
-
-            if (
-
-                e.key === "Enter"
-
-            ) {
-
-                const value =
-
-                    searchInput.value
-                        .toLowerCase();
-
-                /* CARDIO */
-
-                if (
-
-                    value.includes(
-                        "cardio"
-                    )
-
-                ) {
-
-                    window.location.href =
-
-                        "doctors.html?speciality=cardiologie";
-
-                }
-
-                /* NEURO */
-
-                else if (
-
-                    value.includes(
-                        "neuro"
-                    )
-
-                ) {
-
-                    window.location.href =
-
-                        "doctors.html?speciality=neurologie";
-
-                }
-
-                /* ORL */
-
-                else if (
-
-                    value.includes(
-                        "orl"
-                    )
-
-                ) {
-
-                    window.location.href =
-
-                        "doctors.html?speciality=orl";
-
-                }
-
-                /* DERMATO */
-
-                else if (
-
-                    value.includes(
-                        "derma"
-                    )
-
-                ) {
-
-                    window.location.href =
-
-                        "doctors.html?speciality=dermatologie";
-
-                }
-
-                /* DOCTOR */
-
-                else if (
-
-                    value.includes(
-                        "doctor"
-                    )
-
-                ) {
-
-                    window.location.href =
-
-                        "doctors.html";
-
-                }
-
-                else {
-
-                    alert(
-
-                        "Nu s-au găsit rezultate."
-
-                    );
-
-                }
-
-            }
-
-        }
-
-    );
-
-}   
 
 /* ELEMENTS */
 
