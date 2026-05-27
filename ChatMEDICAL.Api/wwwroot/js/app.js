@@ -309,6 +309,9 @@ else {
 function initInfiniteScroll(grid, prevBtn, nextBtn, scrollAmount, speed = 0.5) {
     if (!grid) return;
 
+    // Force instant scroll behavior for continuous linear animation loop
+    grid.style.scrollBehavior = "auto";
+
     // Clone all children for seamless wrapping
     const originalChildren = Array.from(grid.children);
     originalChildren.forEach(child => {
@@ -316,16 +319,17 @@ function initInfiniteScroll(grid, prevBtn, nextBtn, scrollAmount, speed = 0.5) {
     });
 
     let originalWidth = grid.scrollWidth / 2;
+    let currentScroll = grid.scrollLeft;
+
+    const updateWidth = () => {
+        originalWidth = grid.scrollWidth / 2;
+    };
 
     // Recalculate original width on load and resize
-    window.addEventListener("load", () => {
-        originalWidth = grid.scrollWidth / 2;
-    });
+    window.addEventListener("load", updateWidth);
 
     if (window.ResizeObserver) {
-        const ro = new ResizeObserver(() => {
-            originalWidth = grid.scrollWidth / 2;
-        });
+        const ro = new ResizeObserver(updateWidth);
         ro.observe(grid);
     }
 
@@ -337,15 +341,27 @@ function initInfiniteScroll(grid, prevBtn, nextBtn, scrollAmount, speed = 0.5) {
         clearTimeout(scrollTimeout);
         scrollTimeout = setTimeout(() => {
             isHovered = false;
+            // Sync currentScroll with actual scrollLeft when resuming auto scroll
+            currentScroll = grid.scrollLeft;
         }, 1200); // Pause for 1.2s after interaction
     }
 
     function animate() {
-        if (!isHovered) {
-            grid.scrollLeft += speed;
-            if (grid.scrollLeft >= originalWidth) {
-                grid.scrollLeft -= originalWidth;
+        if (originalWidth <= 100) {
+            originalWidth = grid.scrollWidth / 2;
+        }
+        if (!isHovered && originalWidth > 100) {
+            currentScroll += speed;
+            if (speed > 0) {
+                if (currentScroll >= originalWidth) {
+                    currentScroll -= originalWidth;
+                }
+            } else {
+                if (currentScroll <= 0) {
+                    currentScroll += originalWidth;
+                }
             }
+            grid.scrollLeft = currentScroll;
         }
         requestAnimationFrame(animate);
     }
@@ -355,32 +371,52 @@ function initInfiniteScroll(grid, prevBtn, nextBtn, scrollAmount, speed = 0.5) {
 
     // Hover / Touch states
     grid.addEventListener("mouseenter", () => { isHovered = true; });
-    grid.addEventListener("mouseleave", () => { isHovered = false; });
+    grid.addEventListener("mouseleave", () => {
+        isHovered = false;
+        currentScroll = grid.scrollLeft; // Sync on leave
+    });
     grid.addEventListener("touchstart", () => { isHovered = true; });
-    grid.addEventListener("touchend", () => { isHovered = false; });
+    grid.addEventListener("touchend", () => {
+        isHovered = false;
+        currentScroll = grid.scrollLeft; // Sync on touch end
+    });
 
     if (nextBtn) {
         nextBtn.addEventListener("click", () => {
             pauseTemporarily();
-            if (grid.scrollLeft >= originalWidth) {
-                grid.scrollLeft -= originalWidth;
+            let targetScroll = grid.scrollLeft;
+            if (targetScroll >= originalWidth) {
+                targetScroll -= originalWidth;
+                grid.scrollLeft = targetScroll;
             }
-            grid.scrollBy({ left: scrollAmount, behavior: "smooth" });
+            grid.style.scrollBehavior = "smooth";
+            grid.scrollBy({ left: scrollAmount });
+            setTimeout(() => {
+                grid.style.scrollBehavior = "auto";
+                currentScroll = grid.scrollLeft;
+            }, 800);
         });
     }
 
     if (prevBtn) {
         prevBtn.addEventListener("click", () => {
             pauseTemporarily();
-            if (grid.scrollLeft <= 0) {
-                grid.scrollLeft += originalWidth;
+            let targetScroll = grid.scrollLeft;
+            if (targetScroll <= 0) {
+                targetScroll += originalWidth;
+                grid.scrollLeft = targetScroll;
             }
-            grid.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+            grid.style.scrollBehavior = "smooth";
+            grid.scrollBy({ left: -scrollAmount });
+            setTimeout(() => {
+                grid.style.scrollBehavior = "auto";
+                currentScroll = grid.scrollLeft;
+            }, 800);
         });
     }
 }
 
-// Initialize Loop 1: Features
+// Initialize Loop 1: Features (scrolls left-to-right content, elements move left)
 const featuresGrid = document.getElementById("featuresGrid");
 const featureNextBtn = document.getElementById("featureNextBtn");
 const featurePrevBtn = document.getElementById("featurePrevBtn");
@@ -388,12 +424,12 @@ if (featuresGrid && featureNextBtn && featurePrevBtn) {
     initInfiniteScroll(featuresGrid, featurePrevBtn, featureNextBtn, 350, 0.4); // speed 0.4px per frame (slow & smooth)
 }
 
-// Initialize Loop 2: Specialties
+// Initialize Loop 2: Specialties (scrolls right-to-left content, elements move right - cascade pattern)
 const specialitiesGrid = document.getElementById("specialitiesGrid");
 const nextBtn = document.getElementById("nextBtn");
 const prevBtn = document.getElementById("prevBtn");
 if (specialitiesGrid && nextBtn && prevBtn) {
-    initInfiniteScroll(specialitiesGrid, prevBtn, nextBtn, 300, 0.4); // speed 0.4px per frame (slow & smooth)
+    initInfiniteScroll(specialitiesGrid, prevBtn, nextBtn, 300, -0.4); // negative speed for opposite scrolling direction (cascade effect)
 }
 
 /* ========================= */
