@@ -375,3 +375,201 @@ if (
     );
 
 }
+
+
+/* ========================= */
+/* SEARCH SYSTEM */
+/* ========================= */
+
+const searchBtn =
+    document.getElementById(
+        "searchBtn"
+    );
+
+const searchInput =
+    document.getElementById(
+        "searchInput"
+    );
+
+if (
+    searchBtn &&
+    searchInput
+) {
+
+
+
+    /* ========================= */
+    /* SEARCH MODAL */
+    /* ========================= */
+
+
+    const searchModal =
+        document.getElementById(
+            "searchModal"
+        );
+
+    const closeSearch =
+        document.getElementById(
+            "closeSearch"
+        );
+
+    /* OPEN */
+
+    if (
+        searchBtn &&
+        searchModal
+    ) {
+
+        searchBtn.addEventListener(
+            "click",
+            () => {
+
+                searchModal.classList.add(
+                    "active"
+                );
+
+                searchInput.focus();
+
+            }
+        );
+
+    }
+
+    /* CLOSE */
+
+    if (
+        closeSearch
+    ) {
+
+        closeSearch.addEventListener(
+            "click",
+            () => {
+
+                searchModal.classList.remove(
+                    "active"
+                );
+
+            }
+        );
+
+    }
+    /* SEARCH */
+
+
+    /* SEARCH */
+
+    searchInput.addEventListener(
+
+        "keydown",
+
+        (e) => {
+
+            if (
+
+                e.key === "Enter"
+
+            ) {
+
+                const value =
+
+                    searchInput.value
+                        .toLowerCase();
+
+                /* CARDIO */
+
+                if (
+
+                    value.includes(
+                        "cardio"
+                    )
+
+                ) {
+
+                    window.location.href =
+
+                        "doctors.html?speciality=cardiologie";
+
+                }
+
+                /* NEURO */
+
+                else if (
+
+                    value.includes(
+                        "neuro"
+                    )
+
+                ) {
+
+                    window.location.href =
+
+                        "doctors.html?speciality=neurologie";
+
+                }
+
+                /* ORL */
+
+                else if (
+
+                    value.includes(
+                        "orl"
+                    )
+
+                ) {
+
+                    window.location.href =
+
+                        "doctors.html?speciality=orl";
+
+                }
+
+                /* DERMATO */
+
+                else if (
+
+                    value.includes(
+                        "derma"
+                    )
+
+                ) {
+
+                    window.location.href =
+
+                        "doctors.html?speciality=dermatologie";
+
+                }
+
+                /* DOCTOR */
+
+                else if (
+
+                    value.includes(
+                        "doctor"
+                    )
+
+                ) {
+
+                    window.location.href =
+
+                        "doctors.html";
+
+                }
+
+                else {
+
+                    alert(
+
+                        "Nu s-au găsit rezultate."
+
+                    );
+
+                }
+
+            }
+
+        }
+
+    );
+
+}
+
